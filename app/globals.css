@@ -1,26 +1,101 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --ink: #2f3032;
+  --ink-soft: #4a4b4d;
+  --ink-faint: #9a9285;
+
+  --paper: #f4ecd8;
+
+  --brand: #9c3d2e; /* product name emphasis, echoes the wax seal */
+  --wax: #b3322c;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-serif);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* fallback canvas behind the fixed landscape; body stays transparent so the
+   `-z-10` background isn't hidden by an opaque body box */
+html {
+  background: #0e1a12;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--ink);
+  font-family: var(--font-serif), Georgia, "Times New Roman", serif;
+}
+
+.letter {
+  position: relative;
+  isolation: isolate;
+  width: min(92vw, 768px);
+  /* extra top/bottom keeps text inside the parchment's printable area
+     (the sheet has a soft margin + rounded/torn edges) */
+  padding: clamp(5.5rem, 3.5rem + 5vw, 8rem) clamp(4rem, 2.2rem + 8vw, 7rem)
+    clamp(8rem, 5rem + 8vw, 13rem);
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+/* the parchment sheet, painted behind the text; drop-shadow follows the
+   image's irregular alpha edge for a real cut-paper feel */
+.paper {
+  z-index: 0;
+  filter: drop-shadow(0 26px 50px rgba(18, 38, 20, 0.5))
+    drop-shadow(0 10px 22px rgba(18, 38, 20, 0.4));
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  letter-spacing: 0.03em;
+  /* engraved/letterpress effect pulled from Figma ("Hi there himanshu"):
+     white highlight below + dark shadow above (both normal blend) */
+  text-shadow:
+    0 0.75px 0.5px rgba(255, 255, 255, 1),
+    0 -0.5px 0.5px rgba(0, 0, 0, 0.45);
+}
+
+.signature {
+  margin-top: 0.6em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.signature-img {
+  width: clamp(190px, 30vw, 280px);
+  height: auto;
+  /* the PNG has wide transparent margins — trim the gap above/below the ink */
+  margin: -1rem 0 -2.25rem -0.5rem;
+}
+.signature-name {
+  font-size: 0.95em;
+  color: var(--ink-soft);
+}
+
+.thread-emoji {
+  margin-right: 0.12em;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji",
+    sans-serif;
+  font-size: 0.92em;
+}
+
+.seal {
+  position: absolute;
+  z-index: 2;
+  right: calc(clamp(1.6rem, 4vw, 2.75rem) + 30px);
+  bottom: calc(clamp(3.5rem, 5.5vw, 5rem) + 30px);
+  width: clamp(72px, 10.5vw, 105px);
+  aspect-ratio: 1;
+  filter: drop-shadow(0 6px 8px rgba(80, 18, 14, 0.4));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }

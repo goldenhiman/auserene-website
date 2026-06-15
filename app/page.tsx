@@ -1,65 +1,220 @@
+"use client";
+
 import Image from "next/image";
+import { motion, useReducedMotion } from "motion/react";
+
+// reveal timing — each sentence fades in one after another
+const BASE_DELAY = 0.45;
+const PER_SENTENCE = 0.12;
+const REVEAL_DURATION = 0.65;
+
+// --- Copy lives here. Edit freely. ---------------------------------------
+// A paragraph is a list of "runs"; a run is plain text, or text marked `em`
+// (emphasis, e.g. the product name).
+type Run = { t: string; em?: boolean };
+type Para = { runs: Run[]; tone?: "soft" | "faint"; italic?: boolean };
+
+const STORY: Para[] = [
+  { runs: [{ t: "Thank you for being here." }], tone: "soft" },
+  {
+    runs: [
+      {
+        t: "Somewhere around my mid-twenties, during COVID, I used to get up in the middle of the night to check whether my parents had a fever. They never did, thankfully. But I couldn’t stop checking, and it kept me awake.",
+      },
+    ],
+  },
+  {
+    runs: [
+      {
+        t: "I’d always thought of stress and anxiety as tools — the push you call on to perform in the moments that matter. That year they took the wheel, and I couldn’t do anything about it.",
+      },
+    ],
+  },
+  {
+    runs: [
+      {
+        t: "I got desperate enough to research how people actually cope, and one night I tried a twenty-minute guided meditation. For the first time in those days, my head went quiet. The hard things didn’t disappear — but they stopped having power over me. It was like I could see them through glass. Still there, just no longer holding me.",
+      },
+    ],
+  },
+  {
+    runs: [
+      {
+        t: "Later I took up therapy, and one of the most useful things I learned there was how to journal. But the journal itself was never the magic. It only worked because someone skilled was helping me make sense of what I’d written — how to write it, what to look for, the patterns I couldn’t see myself. When the sessions ended, the journaling continued, but that guiding hand was gone.",
+      },
+    ],
+  },
+  {
+    runs: [
+      {
+        t: "The strange part is that it isn’t complicated. It’s a muscle you build. A caring friend who’s wise in the ways of talking to yourself — kindly — can hand you those skills, and with practice you start to see it work. And these days, that kind of attention doesn’t have to depend on anyone’s schedule.",
+      },
+    ],
+  },
+  {
+    runs: [
+      { t: "So I built " },
+      { t: "Auserene", em: true },
+      {
+        t: ". It listens, and it remembers, and over time it comes to know you. It’s there in the evening to set the day down, and during the day for a quick note, a hard moment, or just to talk to someone who sees you. It won’t diagnose you, and it isn’t therapy. It’s the guiding hand I wish I’d had on the nights in between.",
+      },
+    ],
+  },
+  {
+    runs: [
+      {
+        t: "I use it every day myself. It’s still small, and it’s mostly just me — but I can see what it could become. If any of this resonates, or sounds like something you’ve been missing too, I’d love for you to try it.",
+      },
+    ],
+  },
+];
+// -------------------------------------------------------------------------
+
+const toneClass: Record<NonNullable<Para["tone"]>, string> = {
+  soft: "text-[var(--ink-soft)]",
+  faint: "text-[var(--ink-faint)]",
+};
+
+// Split a paragraph's runs into sentences (each a list of run fragments) so we
+// can fade them in one at a time. An `em` run stays inside its sentence.
+function toSentences(runs: Run[]): Run[][] {
+  const sentences: Run[][] = [];
+  let cur: Run[] = [];
+  const endsSentence = (s: string) => /[.!?]["'”’)\]]?\s*$/.test(s);
+  for (const run of runs) {
+    if (run.em) {
+      cur.push(run);
+      continue;
+    }
+    const pieces = run.t.match(/[^.!?]*[.!?]+["'”’)\]]?\s*|[^.!?]+$/g) ?? [run.t];
+    for (const piece of pieces) {
+      cur.push({ t: piece });
+      if (endsSentence(piece)) {
+        sentences.push(cur);
+        cur = [];
+      }
+    }
+  }
+  if (cur.length) sentences.push(cur);
+  return sentences;
+}
 
 export default function Home() {
+  const reduce = useReducedMotion();
+
+  const paras = STORY.map((p) => ({ ...p, sentences: toSentences(p.runs) }));
+  const totalSentences = paras.reduce((n, p) => n + p.sentences.length, 0);
+  let sentenceIndex = 0;
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+    <div className="relative flex min-h-dvh items-center justify-center px-6 py-12 sm:px-10 sm:py-16">
+      {/* fixed to the viewport so it stays put while the letter scrolls */}
+      <div aria-hidden className="fixed inset-0 -z-10">
         <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+          src="/background-image.png"
+          alt=""
+          fill
+          preload
+          sizes="100vw"
+          className="object-cover"
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+      </div>
+
+      <motion.article
+        initial={reduce ? false : { opacity: 0, y: 26, scale: 0.97 }}
+        animate={{ opacity: 1, y: 0, scale: 1 }}
+        transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+        className="letter"
+      >
+        <Image
+          src="/parchment.png"
+          alt=""
+          fill
+          preload
+          sizes="(max-width: 840px) 92vw, 768px"
+          className="paper object-fill"
+        />
+
+        <div className="content flex flex-col gap-[1.05em] text-[clamp(0.95rem,0.88rem+0.5vw,1.1rem)] leading-[1.62] text-[var(--ink)]">
+          {paras.map((p, i) => (
+            <p
+              key={i}
+              className={`${p.tone ? toneClass[p.tone] : ""} ${
+                p.italic ? "italic" : ""
+              }`}
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+              {p.sentences.map((sentence, si) => {
+                const idx = sentenceIndex++;
+                return (
+                  <motion.span
+                    key={si}
+                    initial={reduce ? false : { opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{
+                      delay: reduce ? 0 : BASE_DELAY + idx * PER_SENTENCE,
+                      duration: REVEAL_DURATION,
+                      ease: "easeOut",
+                    }}
+                  >
+                    {sentence.map((r, ri) =>
+                      r.em ? (
+                        <em
+                          key={ri}
+                          className="not-italic font-medium text-[var(--brand)]"
+                        >
+                          {r.t}
+                        </em>
+                      ) : (
+                        <span key={ri}>{r.t}</span>
+                      )
+                    )}
+                  </motion.span>
+                );
+              })}
+            </p>
+          ))}
+
+          <motion.div
+            className="signature"
+            initial={reduce ? false : { opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              delay: reduce ? 0 : BASE_DELAY + totalSentences * PER_SENTENCE,
+              duration: 0.9,
+              ease: "easeOut",
+            }}
           >
             <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+              src="/himanshu-signatures.png"
+              alt="Himanshu's signature"
+              width={280}
+              height={187}
+              className="signature-img"
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            <span className="signature-name">Himanshu</span>
+          </motion.div>
         </div>
-      </main>
+
+        <motion.div
+          aria-hidden
+          className="seal"
+          initial={reduce ? false : { opacity: 0, filter: "blur(8px)", scale: 1.04 }}
+          animate={{ opacity: 1, filter: "blur(0px)", scale: 1 }}
+          transition={{
+            delay: reduce ? 0 : BASE_DELAY + totalSentences * PER_SENTENCE + 0.6,
+            duration: 0.9,
+            ease: [0.22, 0.61, 0.36, 1],
+          }}
+        >
+          <Image
+            src="/wax-seal-monogram.png"
+            alt=""
+            width={160}
+            height={160}
+            className="h-full w-full object-contain"
+          />
+        </motion.div>
+      </motion.article>
     </div>
   );
 }
