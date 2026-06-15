@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Hedvig_Letters_Serif } from "next/font/google";
 import { Agentation } from "agentation";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const hedvig = Hedvig_Letters_Serif({
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body className="min-h-full">
         {children}
         {process.env.NODE_ENV !== "production" && <Agentation />}
+        <Analytics />
       </body>
     </html>
   );
