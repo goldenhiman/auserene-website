@@ -14,6 +14,12 @@ export const metadata: Metadata = {
   title: "Auserene — the guiding hand for the nights in between",
   description:
     "A caring companion that listens, remembers, and helps you make sense of what's on your mind. Not therapy — the guiding hand I wish I'd had.",
+  icons: {
+    icon: [
+      { url: "/auserene-favicon-light.png", media: "(prefers-color-scheme: light)" },
+      { url: "/auserene-favicon-dark.png", media: "(prefers-color-scheme: dark)" },
+    ],
+  },
 };
 
 export default function RootLayout({
