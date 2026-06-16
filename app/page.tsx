@@ -3,8 +3,14 @@
 import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
 
-// reveal timing — each sentence fades in one after another
-const BASE_DELAY = 0.45;
+// entrance choreography:
+//   1. the background video plays alone for a beat
+//   2. the paper slides up from below and settles — fast in (~95% of the way by
+//      ~1.5s) with a long, quiet tail over PAPER_DURATION
+//   3. once the paper is essentially in place, the text reveals sentence-by-sentence
+const PAPER_DELAY = 1.0; // let the video establish first
+const PAPER_DURATION = 5; // total slide-in length; most of the motion is up front
+const BASE_DELAY = PAPER_DELAY + 1.6; // text starts once the paper has all but landed
 const PER_SENTENCE = 0.12;
 const REVEAL_DURATION = 0.65;
 
@@ -108,22 +114,39 @@ export default function Home() {
 
   return (
     <div className="relative flex min-h-dvh items-center justify-center px-6 py-12 sm:px-10 sm:py-16">
-      {/* fixed to the viewport so it stays put while the letter scrolls */}
+      {/* fixed to the viewport so it stays put while the letter scrolls;
+          the still PNG is the poster for instant first paint + fallback */}
       <div aria-hidden className="fixed inset-0 -z-10">
-        <Image
-          src="/background-image.png"
-          alt=""
-          fill
-          preload
-          sizes="100vw"
-          className="object-cover"
-        />
+        <video
+          className="h-full w-full object-cover"
+          poster="/background-image.png"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+        >
+          <source src="/background-video.mp4" type="video/mp4" />
+        </video>
       </div>
 
       <motion.article
-        initial={reduce ? false : { opacity: 0, y: 26, scale: 0.97 }}
-        animate={{ opacity: 1, y: 0, scale: 1 }}
-        transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+        initial={reduce ? false : { opacity: 0, y: 120 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={
+          reduce
+            ? { duration: 0 }
+            : {
+                // fast in, long settling tail
+                y: {
+                  delay: PAPER_DELAY,
+                  duration: PAPER_DURATION,
+                  ease: [0.16, 1, 0.3, 1],
+                },
+                // fade in a touch quicker so the paper reads as solid early
+                opacity: { delay: PAPER_DELAY, duration: 1.4, ease: "easeOut" },
+              }
+        }
         className="letter"
       >
         <Image
@@ -131,8 +154,8 @@ export default function Home() {
           alt=""
           fill
           preload
-          sizes="(max-width: 840px) 92vw, 768px"
-          className="paper object-fill"
+          sizes="(max-width: 840px) 100vw, 768px"
+          className="paper"
         />
 
         <div className="content flex flex-col gap-[1.05em] text-[clamp(0.95rem,0.88rem+0.5vw,1.1rem)] leading-[1.62] text-[var(--ink)]">
@@ -209,8 +232,8 @@ export default function Home() {
           <Image
             src="/wax-seal-monogram.png"
             alt=""
-            width={160}
-            height={160}
+            width={220}
+            height={220}
             className="h-full w-full object-contain"
           />
         </motion.div>

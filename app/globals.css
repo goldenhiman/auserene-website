@@ -29,11 +29,14 @@ body {
 .letter {
   position: relative;
   isolation: isolate;
-  width: min(92vw, 768px);
-  /* extra top/bottom keeps text inside the parchment's printable area
-     (the sheet has a soft margin + rounded/torn edges) */
-  padding: clamp(5.5rem, 3.5rem + 5vw, 8rem) clamp(4rem, 2.2rem + 8vw, 7rem)
-    clamp(8rem, 5rem + 8vw, 13rem);
+  /* 100% (not 92vw) so the card stays inside the page's outer gutter instead
+     of overflowing it on narrow screens */
+  width: min(100%, 768px);
+  /* padding scales with the viewport: small insets on a phone, the original
+     generous margins on desktop. extra bottom keeps text/seal inside the
+     parchment's printable area (soft margin + torn edges) */
+  padding: clamp(3rem, 9vw, 8rem) clamp(1.75rem, 7vw, 7rem)
+    clamp(4.5rem, 12vw, 13rem);
   font-family: var(--font-serif), Georgia, serif;
 }
 
@@ -41,8 +44,34 @@ body {
    image's irregular alpha edge for a real cut-paper feel */
 .paper {
   z-index: 0;
+  /* desktop: stretch to the card so the torn edges sit at the card border */
+  object-fit: fill;
   filter: drop-shadow(0 26px 50px rgba(18, 38, 20, 0.5))
     drop-shadow(0 10px 22px rgba(18, 38, 20, 0.4));
+}
+
+/* on a phone the card is much taller than wide (~1:6). the parchment PNG (1:1.5)
+   can't cover it without either stretching badly or exposing its transparent
+   torn-edge margins (sky shows through). so on mobile the card itself becomes a
+   solid paper rectangle (color sampled from the parchment) with the texture laid
+   on top and clipped to rounded corners — text always sits on paper. */
+@media (max-width: 640px) {
+  .letter {
+    background: #fbecda;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow:
+      0 18px 40px rgba(18, 38, 20, 0.45),
+      0 6px 16px rgba(18, 38, 20, 0.35);
+    /* a touch more breathing room above/below the text on phones
+       (horizontal padding stays as set in the base rule) */
+    padding-top: 4.5rem;
+    padding-bottom: 6rem;
+  }
+  .paper {
+    object-fit: cover;
+    filter: none;
+  }
 }
 
 .content {
@@ -83,9 +112,10 @@ body {
 .seal {
   position: absolute;
   z-index: 2;
-  right: calc(clamp(1.6rem, 4vw, 2.75rem) + 30px);
-  bottom: calc(clamp(3.5rem, 5.5vw, 5rem) + 30px);
-  width: clamp(72px, 10.5vw, 105px);
+  /* 125% of the original size; nudged a little further left + up */
+  right: calc(clamp(1.6rem, 4vw, 2.75rem) + clamp(16px, 5vw, 56px));
+  bottom: calc(clamp(3.5rem, 5.5vw, 5rem) + clamp(16px, 5vw, 56px));
+  width: clamp(90px, 13.125vw, 131px);
   aspect-ratio: 1;
   filter: drop-shadow(0 6px 8px rgba(80, 18, 14, 0.4));
 }
