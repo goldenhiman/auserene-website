@@ -131,3 +131,180 @@ body {
     transition-duration: 0.001ms !important;
   }
 }
+
+/* ---- /privacy-policy ------------------------------------------------------ */
+
+.policy-page {
+  min-height: 100dvh;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+/* the still painterly image as a 25vh top cover, softly fading into the page */
+.policy-cover {
+  position: relative;
+  height: 25vh;
+  min-height: 160px;
+  overflow: hidden;
+}
+.policy-cover img,
+.policy-cover video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.policy-cover::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: 45%;
+  background: linear-gradient(to bottom, transparent, var(--paper));
+  pointer-events: none;
+}
+
+.policy-prose {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: clamp(2rem, 6vw, 3.5rem) clamp(1.25rem, 5vw, 2rem) 5rem;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(1rem, 0.96rem + 0.2vw, 1.075rem);
+  line-height: 1.72;
+}
+
+.policy-prose h1 {
+  font-size: clamp(2rem, 1.6rem + 2vw, 2.75rem);
+  line-height: 1.1;
+  margin: 0 0 0.4rem;
+}
+.policy-meta {
+  color: var(--ink-faint);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+.policy-prose h2 {
+  font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  line-height: 1.25;
+  margin: 0 0 0.85rem;
+  color: var(--brand);
+}
+.policy-prose h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 1.6rem 0 0.55rem;
+}
+.policy-prose p {
+  margin: 0 0 1.1rem;
+}
+.policy-prose ul {
+  margin: 0 0 1.1rem;
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+.policy-prose li {
+  margin: 0 0 0.6rem;
+}
+.policy-prose strong {
+  font-weight: 600;
+}
+.policy-prose a {
+  color: var(--brand);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.policy-prose hr {
+  border: none;
+  border-top: 1px solid rgba(47, 48, 50, 0.12);
+  margin: 2.25rem 0;
+}
+
+/* tables read as a bordered card; scroll horizontally on narrow screens */
+.policy-table-wrap {
+  margin: 0.25rem 0 1.6rem;
+  overflow-x: auto;
+  border: 1px solid rgba(47, 48, 50, 0.2);
+  border-radius: 10px;
+}
+.policy-prose table {
+  width: 100%;
+  min-width: 34rem;
+  border-collapse: collapse;
+  background: #fbf6ec; /* a touch lighter than the page so it reads as a panel */
+  font-size: 0.93rem;
+  line-height: 1.5;
+}
+.policy-prose th,
+.policy-prose td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.7rem 0.95rem;
+  border-bottom: 1px solid rgba(47, 48, 50, 0.12);
+  border-right: 1px solid rgba(47, 48, 50, 0.09);
+}
+.policy-prose th:last-child,
+.policy-prose td:last-child {
+  border-right: none;
+}
+.policy-prose thead th {
+  font-weight: 600;
+  color: var(--ink);
+  background: rgba(156, 61, 46, 0.1); /* warm brand tint */
+  border-bottom: 1px solid rgba(47, 48, 50, 0.22);
+  white-space: nowrap;
+}
+/* the Provider column stays on one line; the wide columns wrap */
+.policy-prose tbody td:first-child {
+  white-space: nowrap;
+}
+.policy-prose tbody tr:nth-child(even) td {
+  background: rgba(47, 48, 50, 0.025);
+}
+.policy-prose tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ---- night mode (set by PolicyShell when the local time is night) -------- */
+
+.policy-night {
+  background: #14120f;
+  color: #e7e0d2;
+}
+.policy-night .policy-cover::after {
+  background: linear-gradient(to bottom, transparent, #14120f);
+}
+.policy-night .policy-meta {
+  color: #9a9285;
+}
+.policy-night .policy-prose h1,
+.policy-night .policy-prose h3,
+.policy-night .policy-prose strong {
+  color: #f2ecdf;
+}
+.policy-night .policy-prose h2 {
+  color: #df9b74; /* lighter terracotta reads on the dark ground */
+}
+.policy-night .policy-prose a {
+  color: #e6a982;
+}
+.policy-night .policy-prose hr {
+  border-top-color: rgba(255, 255, 255, 0.12);
+}
+.policy-night .policy-table-wrap {
+  border-color: rgba(255, 255, 255, 0.16);
+}
+.policy-night .policy-prose table {
+  background: rgba(255, 255, 255, 0.03);
+}
+.policy-night .policy-prose th,
+.policy-night .policy-prose td {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  border-right-color: rgba(255, 255, 255, 0.07);
+}
+.policy-night .policy-prose thead th {
+  color: #f2ecdf;
+  background: rgba(223, 155, 116, 0.14);
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+.policy-night .policy-prose tbody tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.025);
+}

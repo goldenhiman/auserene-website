@@ -248,11 +248,11 @@ export default function Home() {
               ease: "easeOut",
             }}
           >
-            <a href="#" className="hover:text-[var(--ink-soft)] transition-colors underline underline-offset-2">Sign up for beta</a>
+            <a href="https://forms.gle/qU4BdVrRQWmihnLg8" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--ink-soft)] transition-colors underline underline-offset-2">Sign up for beta</a>
             <span aria-hidden>·</span>
-            <a href="#" className="hover:text-[var(--ink-soft)] transition-colors underline underline-offset-2">Privacy policy</a>
+            <a href="/privacy-policy" className="hover:text-[var(--ink-soft)] transition-colors underline underline-offset-2">Privacy policy</a>
             <span aria-hidden>·</span>
-            <a href="#" className="hover:text-[var(--ink-soft)] transition-colors underline underline-offset-2">Terms of service</a>
+            <a href="/terms-of-service" className="hover:text-[var(--ink-soft)] transition-colors underline underline-offset-2">Terms of service</a>
           </motion.div>
         </div>
 
