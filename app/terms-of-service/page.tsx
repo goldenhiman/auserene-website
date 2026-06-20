@@ -110,7 +110,11 @@ export default function TermsOfService() {
         </strong>{" "}
         In the US, call or text <strong>988</strong> (Suicide &amp; Crisis
         Lifeline). If you are outside the US, contact your local emergency number
-        or a crisis hotline in your country.
+        or a crisis hotline in your country &mdash; you can find one at{" "}
+        <a href="https://findahelpline.com" target="_blank" rel="noopener noreferrer">
+          findahelpline.com
+        </a>
+        .
       </p>
 
       <hr />
@@ -228,7 +232,8 @@ export default function TermsOfService() {
         liability for any claim relating to the app is limited to{" "}
         <strong>
           the greater of the amount you paid us in the past twelve months (which,
-          during the free beta, is zero) or USD $50.
+          during the free beta, is zero) or USD $50 (or its equivalent in your
+          local currency).
         </strong>
       </p>
       <p>

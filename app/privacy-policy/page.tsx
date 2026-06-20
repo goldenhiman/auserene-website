@@ -338,6 +338,22 @@ export default function PrivacyPolicy() {
           <a href="mailto:hpatsvnit@gmail.com">hpatsvnit@gmail.com</a>; we will not
           deny you service for doing so.
         </p>
+        <p>
+          <strong>For users in the EU, EEA, and UK:</strong> You have the right to
+          access, correct, delete, and receive a copy of your personal information,
+          to ask us to restrict or stop certain processing, and to withdraw any
+          consent you have given. You can use the in-app controls or email{" "}
+          <a href="mailto:hpatsvnit@gmail.com">hpatsvnit@gmail.com</a>. You also have
+          the right to lodge a complaint with your local data protection authority.
+        </p>
+        <p>
+          <strong>For users in India:</strong> Under India&rsquo;s Digital Personal
+          Data Protection Act, 2023, you have the right to access and correct your
+          personal data, to have it erased, and to grievance redressal. You can use
+          the in-app controls or email{" "}
+          <a href="mailto:hpatsvnit@gmail.com">hpatsvnit@gmail.com</a>, which is also
+          our contact for any grievance.
+        </p>
         <p>We honor these requests regardless of where you live.</p>
 
         <hr />
@@ -355,11 +371,12 @@ export default function PrivacyPolicy() {
 
         <h2>International users and data location</h2>
         <p>
-          Auserene is operated from India and launched for users in the United
-          States. Your data is stored and processed on infrastructure operated by
-          our providers, which may be located in the United States and elsewhere.
-          By using Auserene, you understand your information may be processed in
-          these locations.
+          Auserene is operated from India and is available to users in multiple
+          countries. Your data is stored and processed on infrastructure operated
+          by our providers, which may be located in the United States, India, and
+          elsewhere. Wherever you use Auserene from, your information may be
+          transferred to and processed in these locations. By using Auserene, you
+          understand and agree to this processing.
         </p>
 
         <hr />
@@ -373,7 +390,15 @@ export default function PrivacyPolicy() {
           your local emergency services or a crisis line immediately. In the US,
           you can call or text <strong>988</strong> (Suicide &amp; Crisis
           Lifeline). If you are outside the US, contact your local emergency number
-          or a crisis hotline in your country.
+          or a crisis hotline in your country &mdash; you can find one at{" "}
+          <a
+            href="https://findahelpline.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            findahelpline.com
+          </a>
+          .
         </p>
 
         <hr />
