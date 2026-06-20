@@ -372,7 +372,8 @@ export default function PrivacyPolicy() {
           diagnosis or treatment. If you are in crisis or may be in danger, contact
           your local emergency services or a crisis line immediately. In the US,
           you can call or text <strong>988</strong> (Suicide &amp; Crisis
-          Lifeline).
+          Lifeline). If you are outside the US, contact your local emergency number
+          or a crisis hotline in your country.
         </p>
 
         <hr />
