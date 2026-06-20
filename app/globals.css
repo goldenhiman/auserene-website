@@ -96,8 +96,8 @@ body {
 .signature-img {
   width: clamp(190px, 30vw, 280px);
   height: auto;
-  /* the PNG has wide transparent margins — trim the gap above/below the ink */
-  margin: -1rem 0 -2.25rem -0.5rem;
+  /* the PNG has transparent margins — trim the gap above/below the ink */
+  margin: -1rem 0 0.25rem -0.5rem;
 }
 .signature-name {
   font-size: 0.95em;

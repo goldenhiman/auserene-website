@@ -231,8 +231,8 @@ export default function Home() {
             <Image
               src="/himanshu-signatures.png"
               alt="Himanshu's signature"
-              width={280}
-              height={187}
+              width={1228}
+              height={498}
               className="signature-img"
             />
             <span className="signature-name">Himanshu</span>
