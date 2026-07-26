@@ -11,9 +11,9 @@ const hedvig = Hedvig_Letters_Serif({
   weight: "400",
 });
 
-const title = "Auserene — the guiding hand for the nights in between";
+const title = "Auserene — AI Journaling and Personalized Meditation";
 const description =
-  "A caring companion that listens, remembers, and helps you make sense of what's on your mind. Not therapy — the guiding hand I wish I'd had.";
+  "An AI journaling app that listens, remembers what matters, and turns your evening reflections into personalized guided meditations. Private by design, for iOS.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -46,10 +46,14 @@ export const metadata: Metadata = {
     ? { google: process.env.GOOGLE_SITE_VERIFICATION }
     : undefined,
   icons: {
+    // the first entry is unconditional: search crawlers don't evaluate
+    // prefers-color-scheme, so they need a media-free icon to pick up
     icon: [
-      { url: "/auserene-favicon-light.png", media: "(prefers-color-scheme: light)" },
-      { url: "/auserene-favicon-dark.png", media: "(prefers-color-scheme: dark)" },
+      { url: "/auserene-icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/auserene-favicon-light.png", sizes: "64x64", type: "image/png", media: "(prefers-color-scheme: light)" },
+      { url: "/auserene-favicon-dark.png", sizes: "64x64", type: "image/png", media: "(prefers-color-scheme: dark)" },
     ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
   },
 };
 
@@ -64,6 +68,22 @@ export default function RootLayout({
       className={`${hedvig.variable} h-full antialiased`}
     >
       <body className="min-h-full">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              name: "Auserene",
+              url: SITE_URL,
+              description,
+              applicationCategory: "HealthApplication",
+              operatingSystem: "iOS",
+              author: { "@type": "Person", name: "Himanshu Pathak" },
+              offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+            }),
+          }}
+        />
         {children}
         {process.env.NODE_ENV !== "production" && <Agentation />}
         <Analytics />
