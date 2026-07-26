@@ -11,7 +11,7 @@ const hedvig = Hedvig_Letters_Serif({
   weight: "400",
 });
 
-const title = "Auserene — AI Journaling and Meditation That Remember You";
+const title = "Auserene — AI Journaling With Memory and Personalized Meditation";
 const description =
   "An AI journaling app that listens and remembers what helps you, then gives it back when you need it — in a friendly chat or a personalized meditation.";
 
