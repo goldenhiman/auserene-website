@@ -11,9 +11,9 @@ const hedvig = Hedvig_Letters_Serif({
   weight: "400",
 });
 
-const title = "Auserene — AI Journaling That Remembers, Personalized Meditation";
+const title = "Auserene — AI Journaling and Meditation That Remember You";
 const description =
-  "An AI journaling app that listens and remembers what matters — and what helps you. There in a friendly chat when you need it. Personalized meditations, on iOS.";
+  "An AI journaling app that listens and remembers what helps you, then gives it back when you need it — in a friendly chat or a personalized meditation.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
