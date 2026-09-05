@@ -1,18 +1,21 @@
 import type { Metadata } from "next";
 import { PolicyShell } from "../policy-shell";
+import { SUPPORT_EMAIL } from "../site";
 
 export const metadata: Metadata = {
   title: "Terms of Service — Auserene",
   description:
-    "The terms that govern your use of Auserene, including the beta nature of the app, disclaimers, and your rights.",
+    "The terms that govern your use of Auserene, including subscriptions, disclaimers, and your rights.",
 };
+
+const Mail = () => <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a>;
 
 export default function TermsOfService() {
   return (
     <PolicyShell>
       <h1>Terms of Service</h1>
       <p className="policy-meta">
-        Last updated: 19 June 2026 &middot; Effective: 19 June 2026
+        Last updated: 6 September 2026 &middot; Effective: 6 September 2026
       </p>
 
       <h2>1. Who these terms are between</h2>
@@ -20,8 +23,7 @@ export default function TermsOfService() {
         These Terms of Service (&ldquo;Terms&rdquo;) are an agreement between you
         and <strong>Himanshu Pathak</strong>, an individual developer based in
         India, operating the Auserene app (&ldquo;Auserene,&rdquo;
-        &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;). Auserene is not
-        yet incorporated as a company.
+        &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;).
       </p>
       <p>
         By creating an account or using Auserene, you agree to these Terms and to
@@ -31,33 +33,90 @@ export default function TermsOfService() {
 
       <hr />
 
-      <h2>2. Beta / pre-release software</h2>
+      <h2>2. Subscriptions and payment</h2>
       <p>
-        Auserene is currently offered as a <strong>pre-release beta</strong>{" "}
-        (including via Apple&rsquo;s TestFlight). That means:
+        Parts of Auserene are free to use. Other features are part of{" "}
+        <strong>Auserene Premium</strong>, a paid auto-renewing subscription
+        purchased through Apple&rsquo;s App Store.
       </p>
+      <h3>What Premium includes</h3>
+      <p>Today, Premium includes:</p>
       <ul>
+        <li>unlimited chat with the companion;</li>
         <li>
-          The app is a work in progress and may contain bugs, may change
-          significantly, and may be unavailable or interrupted at times.
+          memory &mdash; the companion keeps continuity across your sessions and
+          notes;
         </li>
-        <li>Features may be added, changed, or removed without notice.</li>
-        <li>
-          We may reset, migrate, or delete data during the beta if needed, though
-          we try hard to avoid it and to protect your content.
-        </li>
-        <li>
-          We provide the app <strong>&ldquo;as is&rdquo;</strong> &mdash; see the
-          disclaimers in &sect;11.
-        </li>
+        <li>meditations generated from your day;</li>
+        <li>personalised guided journaling.</li>
       </ul>
       <p>
-        We appreciate beta feedback; by sending it, you allow us to use it to
-        improve Auserene without obligation to you.
+        We may improve, add, or change Premium features over time. The features
+        included at the time you subscribe are shown in the app before you
+        purchase.
+      </p>
+      <h3>Plans and prices</h3>
+      <p>
+        Premium is offered as a <strong>weekly</strong>, <strong>monthly</strong>,
+        or <strong>yearly</strong> subscription. Current prices are shown in the
+        app and on the App Store listing before you subscribe. Prices may vary by
+        country and currency, and are set in the App Store in your local currency.
+        Payment is charged to your Apple ID account at confirmation of purchase.
+      </p>
+      <h3>Free trials</h3>
+      <p>
+        Where a plan includes a free trial, the length of the trial is shown in
+        the app before you start it. A trial{" "}
+        <strong>
+          converts to a paid subscription automatically at the end of the trial
+          period unless you cancel at least 24 hours before it ends.
+        </strong>{" "}
+        Any unused portion of a free trial is forfeited when you purchase a
+        subscription. Apple decides eligibility for introductory offers; a trial
+        is generally available once per Apple ID.
+      </p>
+      <h3>Auto-renewal</h3>
+      <p>
+        Subscriptions{" "}
+        <strong>
+          renew automatically at the end of each period at the then-current price
+          unless cancelled at least 24 hours before the end of the current period.
+        </strong>{" "}
+        Your Apple ID account is charged for the renewal within 24 hours before the
+        end of the current period.
+      </p>
+      <h3>Cancellation</h3>
+      <p>
+        You can cancel at any time in your device&rsquo;s App Store subscription
+        settings (Settings &rarr; your name &rarr; Subscriptions on iOS). Cancelling
+        stops future renewals; you keep access to Premium until the end of the
+        period you have already paid for. Deleting the app or your Auserene
+        account does not cancel a subscription, so cancel first if you do not want
+        to be charged again.
+      </p>
+      <h3>Refunds</h3>
+      <p>
+        Purchases are made through Apple and are subject to Apple&rsquo;s App
+        Store terms. Refunds are handled by Apple, not by us, and{" "}
+        <strong>we cannot issue refunds directly</strong>. To request one, go to{" "}
+        <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener noreferrer">
+          reportaproblem.apple.com
+        </a>{" "}
+        or contact Apple Support. Where local consumer law gives you a right to a
+        refund that Apple does not honour, contact us at <Mail /> and we will help.
+      </p>
+      <h3>Price changes</h3>
+      <p>
+        If we change the price of a subscription, we will give you notice in
+        advance in line with App Store rules. Depending on the change and your
+        country, Apple will either notify you and apply the new price at your next
+        renewal, or ask you to agree to the new price before it takes effect; if
+        you do not agree, your subscription will end at the close of the current
+        period.
       </p>
       <p>
-        If we introduce paid features later, separate terms or updates will explain
-        pricing, billing, cancellation, and refunds before any charge applies.
+        If you send us feedback, you allow us to use it to improve Auserene
+        without obligation to you.
       </p>
 
       <hr />
@@ -73,8 +132,7 @@ export default function TermsOfService() {
         under 17 to create an account or knowingly collect their information. If we
         learn that someone under 17 has registered, we may terminate that account
         and delete the associated data. If you are a parent or guardian and believe
-        a minor has used Auserene, contact us at{" "}
-        <a href="mailto:hpatsvnit@gmail.com">hpatsvnit@gmail.com</a>.
+        a minor has used Auserene, contact us at <Mail />.
       </p>
 
       <hr />
@@ -82,9 +140,9 @@ export default function TermsOfService() {
       <h2>4. Your account</h2>
       <p>
         You&rsquo;re responsible for your account credentials and for activity
-        under your account. You can sign in with email and password or with Sign
-        in with Apple. Keep your credentials secure and let us know at{" "}
-        <a href="mailto:hpatsvnit@gmail.com">hpatsvnit@gmail.com</a> if you suspect
+        under your account. You can sign in with email and password, with your
+        phone number, with Sign in with Apple, or with Google Sign-In. Keep your
+        credentials secure and let us know at <Mail /> if you suspect
         unauthorized use.
       </p>
 
@@ -105,12 +163,12 @@ export default function TermsOfService() {
       </p>
       <p>
         <strong>
-          If you are in crisis or may be in danger, contact emergency services or
-          a crisis line immediately.
+          If you are in immediate danger, call your local emergency number.
         </strong>{" "}
-        In the US, call or text <strong>988</strong> (Suicide &amp; Crisis
-        Lifeline). If you are outside the US, contact your local emergency number
-        or a crisis hotline in your country &mdash; you can find one at{" "}
+        If you are in crisis, contact a crisis line: in India, call{" "}
+        <strong>Tele-MANAS on 14416</strong> (free, 24 hours); in other countries,
+        see our <a href="/crisis-resources">crisis resources page</a> for free
+        helplines by country, or{" "}
         <a href="https://findahelpline.com" target="_blank" rel="noopener noreferrer">
           findahelpline.com
         </a>
@@ -121,22 +179,25 @@ export default function TermsOfService() {
 
       <h2>6. AI-generated content</h2>
       <p>
-        Auserene uses third-party AI models to generate text and audio. AI output
-        can be inaccurate, unexpected, or inappropriate, and it does not represent
-        professional advice or our views. You use AI-generated content at your own
-        discretion. Our use of AI providers, and what we send them, is described
-        in our <a href="/privacy-policy">Privacy Policy</a>.
+        Auserene uses third-party AI models to generate text and audio and to
+        transcribe voice notes. AI output can be inaccurate, unexpected, or
+        inappropriate, and it does not represent professional advice or our
+        views. You use AI-generated content at your own discretion. Our use of AI
+        providers, and what we send them, is described in our{" "}
+        <a href="/privacy-policy">Privacy Policy</a>.
       </p>
 
       <hr />
 
       <h2>7. Dependence on third-party providers</h2>
       <p>
-        Auserene relies on third-party providers for AI generation, voice, and
-        infrastructure &mdash; including Anthropic, OpenAI, and Fireworks AI
-        (language and embedding processing), ElevenLabs and Inworld AI (voice), and
-        Google Firebase and Google Cloud (hosting and security). Their terms and
-        policies may also apply to your use of Auserene.
+        Auserene relies on third-party providers for AI generation, transcription,
+        voice, payments, analytics, and infrastructure &mdash; including Anthropic,
+        OpenAI, and Fireworks AI (language and embedding processing), Groq and
+        Together AI (speech-to-text), ElevenLabs and Inworld AI (voice), Apple and
+        Superwall (subscriptions), PostHog (product analytics), and Google Firebase
+        and Google Cloud (hosting and security). Their terms and policies may also
+        apply to your use of Auserene.
       </p>
       <p>
         We do not control these providers and cannot guarantee their availability,
@@ -153,9 +214,9 @@ export default function TermsOfService() {
         Content&rdquo;). You grant us a limited license to store, process, and
         transmit Your Content <strong>solely to operate the app for you</strong>{" "}
         &mdash; including sending the minimum necessary content to the AI providers
-        described in our <a href="/privacy-policy">Privacy Policy</a> to generate
-        and voice your sessions. We do not use Your Content to train our own
-        models, and we do not sell it.
+        described in our <a href="/privacy-policy">Privacy Policy</a> to generate,
+        transcribe, and voice your sessions. We do not use Your Content to train
+        our own models, and we do not sell it.
       </p>
       <p>
         You&rsquo;re responsible for Your Content and for not uploading anything
@@ -190,8 +251,8 @@ export default function TermsOfService() {
         You can delete your account and all of your data at any time from within
         the app. When you do, we permanently delete Your Content from our active
         systems, including the encryption key that protects it, which makes that
-        content unrecoverable. Deleted content may persist briefly in routine
-        backups before it is purged in the normal backup rotation. We may retain
+        content unrecoverable. Encrypted copies may persist briefly in routine
+        backups before they are purged in the normal backup rotation. We may retain
         limited records that do not identify you (such as aggregate usage
         statistics) and anything we are required to keep by law.
       </p>
@@ -213,7 +274,7 @@ export default function TermsOfService() {
         , express or implied, including merchantability, fitness for a particular
         purpose, and non-infringement. We do not warrant that the app will be
         uninterrupted, error-free, secure, or that AI output will be accurate or
-        suitable. This is especially true during the beta.
+        suitable.
       </p>
       <p>
         We use reasonable technical and organizational measures to protect Your
@@ -228,12 +289,11 @@ export default function TermsOfService() {
         To the fullest extent permitted by law, <strong>Himanshu Pathak</strong>{" "}
         will not be liable for any indirect, incidental, special, consequential, or
         punitive damages, or for any loss of data, arising from your use of
-        Auserene. Because Auserene is currently provided free of charge, our total
-        liability for any claim relating to the app is limited to{" "}
+        Auserene. Our total liability for any claim relating to the app is limited
+        to{" "}
         <strong>
-          the greater of the amount you paid us in the past twelve months (which,
-          during the free beta, is zero) or USD $50 (or its equivalent in your
-          local currency).
+          the greater of the amount you paid us for Auserene in the twelve months
+          before the claim or USD $50 (or its equivalent in your local currency).
         </strong>
       </p>
       <p>
@@ -268,11 +328,13 @@ export default function TermsOfService() {
       <h2>15. Termination</h2>
       <p>
         You may stop using Auserene and delete your account at any time from within
-        the app. We may suspend or end the service, or your access, at any time
-        &mdash; particularly given the beta nature of the app. If we discontinue the
-        service entirely, we will make reasonable efforts to give you advance notice
-        and an opportunity to request a copy of Your Content before access ends,
-        except where immediate action is required.
+        the app. We may suspend or end the service, or your access, at any time.
+        If we discontinue the service entirely, we will make reasonable efforts to
+        give you advance notice and an opportunity to request a copy of Your
+        Content before access ends, except where immediate action is required. If
+        we end the service or your access other than for your breach of these
+        Terms while you have a paid period remaining, you may be entitled to a
+        refund for the unused portion through Apple.
       </p>
       <p>
         Sections that by their nature should survive termination (ownership,
@@ -356,7 +418,9 @@ export default function TermsOfService() {
       <p>
         <strong>Himanshu Pathak</strong>, operating as Auserene
         <br />
-        <a href="mailto:hpatsvnit@gmail.com">hpatsvnit@gmail.com</a>
+        <Mail />
+        <br />
+        <a href="/support">www.auserene.com/support</a>
       </p>
     </PolicyShell>
   );

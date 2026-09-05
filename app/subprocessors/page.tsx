@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PolicyShell } from "../policy-shell";
+import { SUPPORT_EMAIL } from "../site";
 
 export const metadata: Metadata = {
   title: "Subprocessors — Auserene",
@@ -11,7 +12,7 @@ export default function Subprocessors() {
   return (
     <PolicyShell>
         <h1>Subprocessors</h1>
-        <p className="policy-meta">Last updated: 19 June 2026</p>
+        <p className="policy-meta">Last updated: 6 September 2026</p>
 
         <p>
           This page lists the third-party companies (&ldquo;subprocessors&rdquo;)
@@ -29,7 +30,9 @@ export default function Subprocessors() {
           <strong>
             text-to-speech providers receive only the short generated meditation
             script &mdash; never your raw journal text.
-          </strong>
+          </strong>{" "}
+          Our analytics, subscription, and sign-in providers never receive any
+          note, voice note, mood entry, or conversation content.
         </p>
 
         <hr />
@@ -76,8 +79,48 @@ export default function Subprocessors() {
                 <td>
                   <strong>Fireworks AI</strong>
                 </td>
-                <td>Fallback and batch text generation</td>
-                <td>Same content as above, when this route is used</td>
+                <td>Conversational and batch text generation</td>
+                <td>
+                  Same content as above, when this route is used &mdash; under
+                  zero-data-retention terms: not stored after the response is
+                  generated
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>Speech-to-text providers</h2>
+        <p>
+          These receive the audio of a voice note, return the transcript, and
+          keep nothing. Both process audio under{" "}
+          <strong>zero-data-retention</strong> terms, and we do not store the
+          audio either. They never receive your written journal or conversation
+          history.
+        </p>
+        <div className="policy-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Provider</th>
+                <th>Purpose</th>
+                <th>Data received</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <strong>Groq</strong>
+                </td>
+                <td>Transcribes voice notes</td>
+                <td>Voice-note audio, transiently; zero data retention</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Together AI</strong>
+                </td>
+                <td>Transcribes voice notes</td>
+                <td>Voice-note audio, transiently; zero data retention</td>
               </tr>
             </tbody>
           </table>
@@ -119,6 +162,70 @@ export default function Subprocessors() {
           </table>
         </div>
 
+        <h2>Analytics, subscriptions &amp; sign-in providers</h2>
+        <p>
+          These receive an internal user identifier and event or device data.{" "}
+          <strong>None of them receives any note, mood, or conversation content.</strong>
+        </p>
+        <div className="policy-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Provider</th>
+                <th>Purpose</th>
+                <th>Data received</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <strong>PostHog</strong>
+                </td>
+                <td>
+                  Product analytics &mdash; optional, off via Settings &rarr;
+                  Share anonymous usage
+                </td>
+                <td>
+                  Action events only (note saved, session started, meditation
+                  completed), internal user id, app version, device type. No
+                  advertising identifier, no cross-app tracking
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Superwall</strong>
+                </td>
+                <td>Subscription and paywall service</td>
+                <td>
+                  Internal user id, purchase and subscription events from the App
+                  Store, device attributes for paywall display (model, OS and app
+                  version, locale, screen size)
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Apple</strong>
+                </td>
+                <td>App Store, StoreKit, Sign in with Apple</td>
+                <td>
+                  Purchases and subscriptions under Apple&rsquo;s terms; sign-in
+                  identifier if you use Sign in with Apple
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Google</strong> (Google LLC)
+                </td>
+                <td>Google Sign-In</td>
+                <td>
+                  Sign-in identifier and Google account email, if you use Google
+                  Sign-In
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
         <h2>Infrastructure &amp; security providers</h2>
         <div className="policy-table-wrap">
           <table>
@@ -135,8 +242,8 @@ export default function Subprocessors() {
                   <strong>Google Firebase</strong> (Google LLC)
                 </td>
                 <td>
-                  Authentication, database, file storage, and server functions
-                  &mdash; our core hosting
+                  Authentication (email, phone, Apple, Google), database, file
+                  storage, and server functions &mdash; our core hosting
                 </td>
                 <td>All stored app data (encrypted at rest where sensitive)</td>
               </tr>
@@ -164,8 +271,8 @@ export default function Subprocessors() {
         </p>
         <p>
           Questions:{" "}
-          <a href="mailto:hpatsvnit@gmail.com">
-            <strong>hpatsvnit@gmail.com</strong>
+          <a href={`mailto:${SUPPORT_EMAIL}`}>
+            <strong>{SUPPORT_EMAIL}</strong>
           </a>
         </p>
     </PolicyShell>
