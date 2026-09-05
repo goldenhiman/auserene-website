@@ -308,3 +308,82 @@ body {
 .policy-night .policy-prose tbody tr:nth-child(even) td {
   background: rgba(255, 255, 255, 0.025);
 }
+
+/* ---- /crisis-resources ---------------------------------------------------- */
+
+/* the page opens with the emergency line before anything else */
+.crisis-lead {
+  font-size: clamp(1.1rem, 1rem + 0.5vw, 1.3rem);
+  line-height: 1.5;
+  font-weight: 600;
+  margin: 0 0 1.1rem;
+}
+.crisis-country {
+  padding: 1rem 1.1rem 0.4rem;
+  margin: 0 0 1rem;
+  border: 1px solid rgba(47, 48, 50, 0.16);
+  border-radius: 12px;
+  background: #fbf6ec;
+}
+.crisis-country h3 {
+  margin: 0 0 0.6rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.crisis-you {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--brand);
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 0.05rem 0.5rem;
+}
+.policy-prose ul.crisis-lines {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.crisis-lines li {
+  margin: 0 0 0.75rem;
+  line-height: 1.5;
+}
+.crisis-lines .crisis-num {
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(156, 61, 46, 0.35);
+  white-space: nowrap;
+}
+.crisis-lines .crisis-note {
+  display: block;
+  color: var(--ink-soft);
+  font-size: 0.93rem;
+}
+.crisis-emergency {
+  color: var(--ink-soft);
+  font-size: 0.93rem;
+  padding: 0.4rem 0 0.5rem;
+  border-top: 1px solid rgba(47, 48, 50, 0.1);
+  margin-top: 0.4rem;
+}
+.policy-night .crisis-country {
+  border-color: rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.03);
+}
+.policy-night .crisis-you {
+  color: #df9b74;
+}
+.policy-night .crisis-lines .crisis-num {
+  border-bottom-color: rgba(230, 169, 130, 0.4);
+}
+.policy-night .crisis-lines .crisis-note,
+.policy-night .crisis-emergency {
+  color: #c9c1b2;
+}
+.policy-night .crisis-emergency {
+  border-top-color: rgba(255, 255, 255, 0.1);
+}
