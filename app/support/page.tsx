@@ -17,7 +17,7 @@ export default function Support() {
       <p className="policy-meta">Auserene for iOS</p>
 
       <p>
-        Auserene is made by one person, and that person reads every message.
+        Auserene is made by a small team, and we read every message.
         Email{" "}
         <a href={`mailto:${SUPPORT_EMAIL}?subject=Auserene%20support`}>
           <strong>{SUPPORT_EMAIL}</strong>
