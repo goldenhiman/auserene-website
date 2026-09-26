@@ -279,7 +279,7 @@ export default function Home() {
           <p className="eyebrow">Privacy</p>
           <h2 className="h2">Your journal is not a data source</h2>
           <p className="section-sub">
-            Nobody accesses your data but you, ever.
+            No person ever reads your journal. The AI sees it just long enough to reply, and doesn&apos;t keep it.
           </p>
         </Reveal>
         <div className="privacy-grid">
