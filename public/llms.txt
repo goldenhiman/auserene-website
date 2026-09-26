@@ -1,0 +1,29 @@
+# Auserene
+
+> Auserene is an AI journaling app for iPhone that remembers what helps you. You write short notes during the day, talk the day through with Auserene in the evening, and it turns the conversation into a journal entry and a personalized meditation made from your own words. It is currently in beta on iPhone.
+
+Auserene is not therapy and does not diagnose. It is made by Himanshu Pathak, who built it after journaling with a therapist helped him through a year of anxiety.
+
+Key facts:
+- Platform: iPhone (iOS) only, for now
+- Pricing: free tier; Premium is $105.99/year, $11.99/month, or $4.99/week, with a 7-day free trial on the yearly plan
+- Memory: everything Auserene knows about you is listed in plain sentences in the app's You tab, where you can edit or delete it
+- Privacy: entries are encrypted with a key tied to your account; the AI model provider keeps nothing after a reply and nothing is used to train a model; no ads or ad trackers; you can delete your account and all data from inside the app
+
+## Pages
+
+- [Home](https://www.auserene.com/): what the app does, how a day with it works, privacy, pricing, FAQ
+- [Why I built Auserene](https://www.auserene.com/letter): a letter from the founder
+- [Pricing](https://www.auserene.com/pricing.md): Free and Premium plans in Markdown
+- [Crisis resources](https://www.auserene.com/crisis-resources): free, confidential crisis lines by country
+- [Support](https://www.auserene.com/support): help and contact
+
+## Legal
+
+- [Privacy policy](https://www.auserene.com/privacy-policy)
+- [Terms of service](https://www.auserene.com/terms-of-service)
+- [Subprocessors](https://www.auserene.com/subprocessors)
+
+## Optional
+
+- [Full text](https://www.auserene.com/llms-full.txt): the homepage and the founder's letter in one file

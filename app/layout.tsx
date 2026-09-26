@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Averia_Serif_Libre, Hedvig_Letters_Serif, Inter } from "next/font/google";
 import { Agentation } from "agentation";
 import { Analytics } from "@vercel/analytics/next";
-import { SITE_URL } from "./site";
+import { SAME_AS, SITE_URL } from "./site";
 import { HOME_DESCRIPTION, HOME_TITLE, OG_IMAGE } from "./seo";
 import "./globals.css";
 
@@ -78,7 +78,15 @@ export default function RootLayout({
                   name: "Auserene",
                   url: SITE_URL,
                   logo: `${SITE_URL}/auserene-icon.png`,
-                  founder: { "@type": "Person", name: "Himanshu Pathak" },
+                  founder: { "@id": `${SITE_URL}/#founder` },
+                  ...(SAME_AS.length > 0 && { sameAs: SAME_AS }),
+                },
+                {
+                  "@type": "Person",
+                  "@id": `${SITE_URL}/#founder`,
+                  name: "Himanshu Pathak",
+                  jobTitle: "Founder",
+                  worksFor: { "@id": `${SITE_URL}/#org` },
                 },
                 {
                   "@type": "SoftwareApplication",
@@ -88,7 +96,13 @@ export default function RootLayout({
                   applicationCategory: "HealthApplication",
                   operatingSystem: "iOS",
                   publisher: { "@id": `${SITE_URL}/#org` },
-                  offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+                  // keep in step with the pricing section on app/page.tsx and public/pricing.md
+                  offers: [
+                    { "@type": "Offer", name: "Free", price: "0", priceCurrency: "USD" },
+                    { "@type": "Offer", name: "Premium, yearly", price: "105.99", priceCurrency: "USD" },
+                    { "@type": "Offer", name: "Premium, monthly", price: "11.99", priceCurrency: "USD" },
+                    { "@type": "Offer", name: "Premium, weekly", price: "4.99", priceCurrency: "USD" },
+                  ],
                 },
               ],
             }),
