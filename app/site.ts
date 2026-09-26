@@ -13,3 +13,12 @@ export const BETA_URL = "https://forms.gle/qU4BdVrRQWmihnLg8";
 // Set this to the App Store listing once the app is live; the homepage's
 // buttons switch from "Join the beta" to "Download on the App Store".
 export const APP_STORE_URL = "";
+
+// Auserene's profiles elsewhere (App Store, X, LinkedIn, Product Hunt...).
+// They go into the Organization's sameAs so search and AI engines can tell
+// this Auserene apart from anything else with the name.
+export const SAME_AS: string[] = [
+  "https://www.instagram.com/auserene_app/",
+  "https://x.com/ausereneapp",
+  APP_STORE_URL,
+].filter(Boolean);
