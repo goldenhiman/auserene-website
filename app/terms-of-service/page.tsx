@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "../seo";
 import { PolicyShell } from "../policy-shell";
 import { SUPPORT_EMAIL } from "../site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
+  path: "/terms-of-service",
   title: "Terms of Service — Auserene",
   description:
     "The terms that govern your use of Auserene, including subscriptions, disclaimers, and your rights.",
-};
+});
 
 const Mail = () => <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a>;
 

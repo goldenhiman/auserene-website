@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Hedvig_Letters_Serif } from "next/font/google";
+import { Averia_Serif_Libre, Hedvig_Letters_Serif, Inter } from "next/font/google";
 import { Agentation } from "agentation";
 import { Analytics } from "@vercel/analytics/next";
 import { SITE_URL } from "./site";
+import { HOME_DESCRIPTION, HOME_TITLE, OG_IMAGE } from "./seo";
 import "./globals.css";
 
 const hedvig = Hedvig_Letters_Serif({
@@ -11,30 +12,27 @@ const hedvig = Hedvig_Letters_Serif({
   weight: "400",
 });
 
-const title = "Auserene — AI Journaling With Memory and Personalized Meditation";
-const description =
-  "An AI journaling app that listens and remembers what helps you, then gives it back when you need it — in a friendly chat or a personalized meditation.";
+// Averia for headings (the app's heading face); body text is SF Pro Rounded
+// where the browser can reach it (Safari's ui-rounded), Inter elsewhere
+const averia = Averia_Serif_Libre({
+  variable: "--font-display",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title,
-  description,
+  title: HOME_TITLE,
+  description: HOME_DESCRIPTION,
   applicationName: "Auserene",
-  alternates: { canonical: "/" },
-  openGraph: {
-    type: "website",
-    siteName: "Auserene",
-    url: SITE_URL,
-    title,
-    description,
-    images: [{ url: "/background-image.png", width: 1672, height: 941, alt: "Auserene" }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title,
-    description,
-    images: ["/background-image.png"],
-  },
+  // No site-wide canonical or og:url here: each page sets its own through
+  // pageMetadata() (app/seo.ts), or it would claim to be the homepage.
+  openGraph: { type: "website", siteName: "Auserene", images: [OG_IMAGE] },
+  twitter: { card: "summary_large_image", images: [OG_IMAGE.url] },
   robots: {
     index: true,
     follow: true,
@@ -65,7 +63,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${hedvig.variable} h-full antialiased`}
+      className={`${hedvig.variable} ${averia.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="min-h-full">
         <script
@@ -73,14 +71,26 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "SoftwareApplication",
-              name: "Auserene",
-              url: SITE_URL,
-              description,
-              applicationCategory: "HealthApplication",
-              operatingSystem: "iOS",
-              author: { "@type": "Person", name: "Himanshu Pathak" },
-              offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": `${SITE_URL}/#org`,
+                  name: "Auserene",
+                  url: SITE_URL,
+                  logo: `${SITE_URL}/auserene-icon.png`,
+                  founder: { "@type": "Person", name: "Himanshu Pathak" },
+                },
+                {
+                  "@type": "SoftwareApplication",
+                  name: "Auserene",
+                  url: SITE_URL,
+                  description: HOME_DESCRIPTION,
+                  applicationCategory: "HealthApplication",
+                  operatingSystem: "iOS",
+                  publisher: { "@id": `${SITE_URL}/#org` },
+                  offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+                },
+              ],
             }),
           }}
         />

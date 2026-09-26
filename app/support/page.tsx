@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "../seo";
 import { PolicyShell } from "../policy-shell";
 import { SUPPORT_EMAIL } from "../site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
+  path: "/support",
   title: "Support — Auserene",
   description:
     "How to reach Auserene support, what to expect, and where to find help with your account, subscription, or data.",
-};
+});
 
 export default function Support() {
   return (
