@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "../seo";
 import { PolicyShell } from "../policy-shell";
 import { SUPPORT_EMAIL } from "../site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
+  path: "/subprocessors",
   title: "Subprocessors — Auserene",
   description:
     "The third-party companies that process data on Auserene's behalf to operate the app, and what each one receives.",
-};
+});
 
 export default function Subprocessors() {
   return (

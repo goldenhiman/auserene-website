@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "../seo";
 import { PolicyShell } from "../policy-shell";
 import { CountryList } from "./country-list";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
+  path: "/crisis-resources",
   title: "Crisis Resources — Auserene",
   description:
     "Free crisis and emotional-support helplines by country, with numbers you can tap to call. If you are in immediate danger, call your local emergency number.",
-};
+});
 
 export default function CrisisResources() {
   return (

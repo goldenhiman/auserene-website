@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 // shared shell for the legal pages: a mode-aware video cover (day/dark, picked
@@ -42,7 +43,12 @@ export function PolicyShell({
         </div>
       )}
 
-      <article className="policy-prose">{children}</article>
+      <article className="policy-prose">
+        <Link href="/" className="policy-home">
+          ← Auserene
+        </Link>
+        {children}
+      </article>
     </main>
   );
 }

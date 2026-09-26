@@ -177,6 +177,16 @@ body {
   line-height: 1.1;
   margin: 0 0 0.4rem;
 }
+.policy-home {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-size: 0.92rem;
+  color: var(--ink-faint);
+  text-decoration: none;
+}
+.policy-home:hover {
+  color: var(--brand);
+}
 .policy-meta {
   color: var(--ink-faint);
   font-size: 0.9rem;
@@ -386,4 +396,852 @@ body {
 }
 .policy-night .crisis-emergency {
   border-top-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ---- homepage ------------------------------------------------------------- */
+
+.home {
+  --bg: #fbf4ea;
+  --card: #fffaf3;
+  --art: #fbebd9; /* the illustrations' own paper, so they sit flush */
+  --line: rgba(35, 31, 27, 0.1);
+  --ink-h: #231f1b;
+  --ink-b: #4f463e;
+  --ink-m: #8c7f72;
+  --flame: #e0612a;
+  --indigo: #2a3c8f;
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1); /* quint */
+  --font-text: ui-rounded, "SF Pro Rounded", var(--font-inter), system-ui, sans-serif;
+
+  background: var(--bg);
+  color: var(--ink-b);
+  font-family: var(--font-text);
+  font-size: 17px;
+  line-height: 1.6;
+  overflow-x: clip;
+}
+
+.home .display,
+.home .h2,
+.home .h3,
+.home .h4,
+.home .price-amount,
+.home summary,
+.nav-brand {
+  font-family: var(--font-display), Georgia, serif;
+  color: var(--ink-h);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.home .display {
+  font-size: clamp(2.6rem, 1.7rem + 3.4vw, 4.1rem);
+  line-height: 1.02;
+  letter-spacing: -0.05em;
+  margin: 0.5rem 0 1.25rem;
+  text-wrap: balance;
+}
+.home .display-sm {
+  font-size: clamp(2.2rem, 1.6rem + 2.6vw, 3.4rem);
+}
+.home .h2 {
+  font-size: clamp(1.9rem, 1.4rem + 2vw, 2.9rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  margin: 0.4rem 0 1rem;
+  text-wrap: balance;
+}
+.home .h3 {
+  font-size: 1.55rem;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem;
+}
+.home .h4 {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin: 0 0 0.4rem;
+}
+.home .body {
+  margin: 0 0 0.9rem;
+}
+.home .body-lg {
+  font-size: 1.1rem;
+}
+.home .lede {
+  font-size: clamp(1.08rem, 1rem + 0.35vw, 1.22rem);
+  line-height: 1.55;
+  max-width: 34rem;
+  margin: 0 0 2rem;
+}
+.home .eyebrow {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--flame);
+  margin: 0;
+}
+.home .text-link {
+  color: var(--ink-h);
+  text-decoration: underline;
+  text-decoration-color: rgba(224, 97, 42, 0.5);
+  text-underline-offset: 4px;
+  transition: text-decoration-color 150ms ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .home .text-link:hover {
+    text-decoration-color: var(--flame);
+  }
+}
+
+/* the app icon: the daisy on the red squircle */
+.app-icon {
+  border-radius: 22.5%;
+  box-shadow: 0 1px 2px rgba(35, 31, 27, 0.12);
+}
+
+/* call to action: pressed state gives instant feedback, hover only where
+   there is a real pointer */
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 999px;
+  font-family: var(--font-text);
+  font-weight: 600;
+  white-space: nowrap;
+  transition: transform 150ms var(--ease-out, ease-out), background-color 150ms ease;
+}
+.cta:active {
+  transform: scale(0.97);
+}
+.cta-md {
+  padding: 0.85rem 1.6rem;
+  font-size: 1rem;
+}
+.cta-sm {
+  padding: 0.5rem 1.05rem;
+  font-size: 0.9rem;
+}
+.cta-dark {
+  background: #231f1b;
+  color: #fbf4ea;
+}
+.cta-light {
+  background: #fbf4ea;
+  color: #231f1b;
+}
+@media (hover: hover) and (pointer: fine) {
+  .cta-dark:hover {
+    background: #3a322b;
+  }
+  .cta-light:hover {
+    background: #ffffff;
+  }
+}
+
+/* floating nav: glass once the page scrolls under it */
+.nav {
+  position: fixed;
+  z-index: 50;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(calc(100% - 28px), 1080px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 0.55rem 0.5rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-family: ui-rounded, "SF Pro Rounded", var(--font-inter), system-ui, sans-serif;
+  transition: background-color 250ms ease, border-color 250ms ease, box-shadow 250ms ease;
+}
+.nav-scrolled {
+  background: rgba(251, 244, 234, 0.82);
+  backdrop-filter: blur(14px) saturate(1.4);
+  -webkit-backdrop-filter: blur(14px) saturate(1.4);
+  border-color: rgba(35, 31, 27, 0.1);
+  box-shadow: 0 8px 30px rgba(35, 31, 27, 0.06);
+}
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 1.2rem;
+}
+.nav-links {
+  display: flex;
+  gap: 1.75rem;
+  font-size: 0.93rem;
+}
+.nav-links a {
+  color: #4f463e;
+  transition: color 150ms ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .nav-links a:hover {
+    color: #231f1b;
+  }
+}
+@media (max-width: 760px) {
+  .nav-links {
+    display: none;
+  }
+}
+
+/* ---- iPhone frame (home/phone.tsx) ---------------------------------------- */
+
+.phone {
+  position: relative;
+  aspect-ratio: 1206 / 2622;
+  padding: 3.4%;
+  border-radius: 15% / 7%;
+  background: linear-gradient(145deg, #3b3835, #141312 40%, #26231f);
+  box-shadow:
+    inset 0 0 0 1.5px rgba(255, 255, 255, 0.14),
+    0 30px 60px rgba(35, 31, 27, 0.28),
+    0 10px 20px rgba(35, 31, 27, 0.16);
+}
+.phone-screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 12.5% / 5.8%;
+  background: #fbf4ea;
+}
+.phone-screen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.phone-island {
+  position: absolute;
+  top: 1.6%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 31%;
+  height: 3.6%;
+  border-radius: 999px;
+  background: #0b0b0b;
+}
+/* what to capture, until the screenshot exists */
+.shot-ph {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding: 22% 10% 8%;
+  background:
+    repeating-linear-gradient(135deg, rgba(224, 97, 42, 0.05) 0 10px, transparent 10px 20px),
+    #fbf4ea;
+  color: #4f463e;
+  font-family: var(--font-text);
+  font-size: 0.72rem;
+  line-height: 1.45;
+}
+.shot-ph strong {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 400;
+  font-size: 1.05rem;
+  color: #231f1b;
+}
+.shot-ph p {
+  margin: 0;
+}
+.shot-ph code {
+  font-size: 0.66rem;
+  color: #a2471f;
+  word-break: break-all;
+}
+.shot-tag {
+  align-self: flex-start;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #a2471f;
+  border: 1px dashed rgba(224, 97, 42, 0.6);
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+}
+.shot-size {
+  margin-top: auto;
+  color: #8c7f72;
+  font-size: 0.64rem;
+}
+
+/* a finished mockup PNG (frame baked in): the image is the whole phone */
+.phone-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 24px 40px rgba(35, 31, 27, 0.22));
+}
+
+/* light / dark split (home/theme-compare.tsx) */
+.compare {
+  position: relative;
+  touch-action: pan-y;
+}
+.compare img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.compare > img:first-child {
+  filter: drop-shadow(0 24px 40px rgba(35, 31, 27, 0.22));
+}
+.compare-dark {
+  position: absolute;
+  inset: 0;
+}
+.compare-line {
+  position: absolute;
+  top: -34px;
+  bottom: 2%;
+  width: 2px;
+  margin-left: -1px;
+  background: #fbf4ea;
+  box-shadow: 0 0 0 0.5px rgba(35, 31, 27, 0.25);
+  pointer-events: none;
+}
+/* the knob rides above the phone so it never covers the screen */
+.compare-knob {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background: #fbf4ea;
+  color: #231f1b;
+  box-shadow: 0 4px 14px rgba(35, 31, 27, 0.25);
+  transition: transform 150ms var(--ease-out, ease-out);
+}
+.compare:active .compare-knob {
+  transform: translate(-50%, -50%) scale(0.94);
+}
+/* the invisible range input is the whole hit area */
+.compare-range {
+  position: absolute;
+  top: -56px;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 56px);
+  margin: 0;
+  opacity: 0;
+  cursor: ew-resize;
+}
+.compare-range:focus-visible + .compare-line,
+.compare:has(.compare-range:focus-visible) .compare-knob {
+  outline: 2px solid var(--flame, #e0612a);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .compare-knob {
+    transition: none;
+  }
+}
+
+/* 3D icon tile */
+.icon-tile {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  border-radius: 28%;
+  background: linear-gradient(160deg, #fffaf3, #f3e6d6);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.9),
+    0 1px 2px rgba(35, 31, 27, 0.08),
+    0 6px 16px rgba(35, 31, 27, 0.06);
+}
+.icon-tile img {
+  width: 72%;
+  height: 72%;
+  object-fit: contain;
+}
+
+/* ---- hero ----------------------------------------------------------------- */
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(2rem, 4vw, 4rem);
+  align-items: center;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: clamp(7rem, 12vw, 9rem) clamp(1.25rem, 4vw, 2.5rem) clamp(4rem, 8vw, 6rem);
+}
+.hero-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+/* the phones sit on the page itself: the angled evening chat behind, Today
+   standing in front of its right edge */
+/* two portrait phones: the evening chat up and behind on the right, Today
+   in front and a little lower on the left */
+.hero-visual {
+  position: relative;
+  width: min(100%, 580px);
+  justify-self: center;
+  aspect-ratio: 1 / 1.25;
+}
+.hero-phone-main {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 9%;
+  width: 57%;
+}
+.hero-phone-side {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  width: 57%;
+}
+@media (max-width: 860px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---- sections ------------------------------------------------------------- */
+
+.section {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: clamp(4rem, 9vw, 7rem) clamp(1.25rem, 4vw, 2.5rem);
+}
+.section-head {
+  max-width: 40rem;
+  margin: 0 auto clamp(2.5rem, 5vw, 3.5rem);
+  text-align: center;
+}
+.section-sub {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* one day: three cards, each with the top of a phone */
+.day-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+.day-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 1.5rem 1.5rem 0;
+  overflow: hidden;
+}
+.day-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--ink-m);
+  margin-bottom: 1.25rem;
+}
+.day-n {
+  color: var(--flame);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.day-shot {
+  margin-top: auto;
+  padding-top: 1.25rem;
+  height: 330px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.day-shot .phone,
+.day-shot .phone-img {
+  width: 74%;
+  height: max-content;
+  flex: none;
+}
+@media (max-width: 900px) {
+  .day-grid {
+    grid-template-columns: 1fr;
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+}
+
+/* pillars: illustration card, the phone standing in front of it */
+.pillars {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(5rem, 10vw, 8rem);
+}
+.pillar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(2rem, 6vw, 5rem);
+  align-items: center;
+}
+.pillar-flip .pillar-art {
+  order: 2;
+}
+.pillar-art {
+  position: relative;
+  width: min(100%, 500px);
+  justify-self: center;
+  padding-right: 22%;
+  padding-bottom: 10%;
+}
+.pillar-illo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 28px;
+  background: var(--art);
+}
+.pillar-phone {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 44%;
+}
+.pillar-copy {
+  max-width: 32rem;
+}
+@media (max-width: 860px) {
+  .pillar {
+    grid-template-columns: 1fr;
+  }
+  .pillar-flip .pillar-art {
+    order: 0;
+  }
+}
+
+/* also in the app */
+.also-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.also {
+  padding: 1.5rem;
+  border-radius: 22px;
+  background: var(--card);
+  border: 1px solid var(--line);
+}
+.also .icon-tile {
+  margin-bottom: 1.1rem;
+}
+@media (max-width: 860px) {
+  .also-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 520px) {
+  .also-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* privacy: a dark band, the night fold of the app */
+.privacy {
+  max-width: none;
+  background: #1a1714;
+  color: #cfc5b8;
+  border-radius: clamp(0px, 3vw, 36px);
+  margin: 0 clamp(0px, 2vw, 1.5rem);
+}
+.privacy .h2,
+.privacy .h4 {
+  color: #f4ece0;
+}
+.privacy .eyebrow {
+  color: #f0936a;
+}
+.privacy-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.privacy .icon-tile {
+  margin-bottom: 1.1rem;
+  background: linear-gradient(160deg, #3a332d, #26211d);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 8px 20px rgba(0, 0, 0, 0.3);
+}
+.privacy-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.privacy .text-link {
+  color: #f4ece0;
+  text-decoration-color: rgba(240, 147, 106, 0.55);
+}
+@media (max-width: 900px) {
+  .privacy-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 520px) {
+  .privacy-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* pricing */
+.price-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.price {
+  border-radius: 24px;
+  padding: 2rem 1.9rem 1.5rem;
+  border: 1px solid var(--line);
+  background: var(--card);
+}
+.price-premium {
+  background: #231f1b;
+  border-color: #231f1b;
+  color: #d8cfc3;
+}
+.price-premium .h3,
+.price-premium .price-amount {
+  color: #fbf4ea;
+}
+.price-amount {
+  font-size: 2.6rem;
+  line-height: 1;
+  margin: 0.25rem 0 1rem;
+}
+.price-amount span {
+  font-family: var(--font-text);
+  font-size: 0.92rem;
+  color: var(--ink-m);
+  letter-spacing: 0;
+}
+.price-premium .price-amount span {
+  color: #a89b8c;
+}
+.checks {
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0 0;
+  border-top: 1px solid var(--line);
+}
+.price-premium .checks {
+  border-top-color: rgba(255, 255, 255, 0.12);
+}
+.checks li {
+  position: relative;
+  padding: 0.6rem 0 0.6rem 1.75rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.96rem;
+}
+.price-premium .checks li {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+.checks li:last-child {
+  border-bottom: none;
+}
+.checks li::before {
+  content: "";
+  position: absolute;
+  left: 0.15rem;
+  top: 1.05rem;
+  width: 0.7rem;
+  height: 0.38rem;
+  border-left: 1.5px solid var(--flame);
+  border-bottom: 1.5px solid var(--flame);
+  transform: rotate(-45deg);
+}
+.fine {
+  text-align: center;
+  font-size: 0.86rem;
+  color: var(--ink-m);
+  max-width: 36rem;
+  margin: 1.75rem auto 0;
+}
+@media (max-width: 720px) {
+  .price-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* the letter, a taste (keeps the letter's own face) */
+.teaser-paper {
+  position: relative;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: clamp(3.5rem, 8vw, 6rem) clamp(2rem, 8vw, 5.5rem) clamp(4rem, 9vw, 6.5rem);
+}
+.teaser-bg {
+  object-fit: fill;
+  opacity: 0.95;
+  filter: drop-shadow(0 20px 40px rgba(60, 40, 20, 0.18));
+}
+.teaser-body {
+  position: relative;
+  font-family: var(--font-serif), Georgia, serif;
+  color: #2f3032;
+}
+.teaser-text {
+  font-size: clamp(1.05rem, 0.98rem + 0.4vw, 1.2rem);
+  line-height: 1.65;
+  margin: 1rem 0 0;
+}
+.teaser-sign {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.teaser-sig {
+  width: clamp(150px, 24vw, 220px);
+  height: auto;
+  margin-left: -0.5rem;
+}
+@media (max-width: 640px) {
+  .teaser-paper {
+    background: #fbecda;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  .teaser-bg {
+    object-fit: cover;
+    filter: none;
+  }
+}
+
+/* faq */
+.faq-list {
+  max-width: 44rem;
+  margin: 0 auto;
+  border-top: 1px solid var(--line);
+}
+.faq details {
+  border-bottom: 1px solid var(--line);
+}
+.faq summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 0;
+  font-size: 1.25rem;
+}
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+.faq summary::after {
+  content: "+";
+  font-family: var(--font-text);
+  font-size: 1.5rem;
+  color: var(--flame);
+  transition: transform 200ms var(--ease-out);
+}
+.faq details[open] summary::after {
+  transform: rotate(45deg);
+}
+.faq details[open] .body {
+  animation: faq-in 200ms var(--ease-out);
+}
+@keyframes faq-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+.faq details .body {
+  padding-bottom: 0.75rem;
+  max-width: 38rem;
+}
+
+/* closing: the evening landscape colours, one last button */
+.closing {
+  padding: 0 clamp(0px, 2vw, 1.5rem);
+}
+.closing-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: clamp(4.5rem, 10vw, 7rem) 1.5rem;
+  border-radius: clamp(0px, 3vw, 36px);
+  background:
+    radial-gradient(120% 90% at 50% 110%, rgba(224, 97, 42, 0.45), transparent 60%),
+    radial-gradient(90% 70% at 50% 120%, rgba(157, 63, 105, 0.55), transparent 70%),
+    #16141f;
+  color: #d8cfc3;
+}
+.closing .display {
+  color: #fbf4ea;
+  margin-top: 1.5rem;
+}
+.closing .lede {
+  max-width: 30rem;
+}
+
+.footer {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  padding: 2.5rem clamp(1.25rem, 4vw, 2.5rem) 3rem;
+  font-size: 0.88rem;
+  color: var(--ink-m);
+}
+.footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+}
+@media (hover: hover) and (pointer: fine) {
+  .footer a:hover {
+    color: var(--ink-h);
+  }
+}
+
+/* every CSS transition and keyframe on the homepage stops for reduced motion
+   (the scroll reveals check useReducedMotion in home/reveal.tsx) */
+@media (prefers-reduced-motion: reduce) {
+  .cta,
+  .nav,
+  .nav-links a,
+  .home .text-link,
+  .faq summary::after {
+    transition: none;
+  }
+  .cta:active {
+    transform: none;
+  }
+  .faq details[open] .body {
+    animation: none;
+  }
 }
