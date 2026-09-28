@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
     <PolicyShell>
         <h1>Privacy Policy</h1>
         <p className="policy-meta">
-          Last updated: 6 September 2026 &middot; Effective: 6 September 2026
+          Last updated: 29 September 2026 &middot; Effective: 29 September 2026
         </p>
 
         <h2>Who we are</h2>
@@ -61,8 +61,8 @@ export default function PrivacyPolicy() {
             don&rsquo;t track you across apps or websites, and we don&rsquo;t
             collect advertising identifiers. We use one product-analytics tool
             that receives <strong>action events only</strong> (for example
-            &ldquo;a note was saved&rdquo;), never what you wrote, and you can
-            switch it off in Settings.
+            &ldquo;a note was saved&rdquo;), never what you wrote. It is off
+            until you say yes, and you can change your mind in Settings.
           </li>
           <li>
             To generate, transcribe, and voice your sessions, we send the{" "}
@@ -101,6 +101,16 @@ export default function PrivacyPolicy() {
             you provide one.
           </li>
           <li>
+            <strong>Date of birth:</strong> asked once during setup, because
+            Auserene is only for people 17 and older. Kept with your profile and
+            used for nothing else.
+          </li>
+          <li>
+            <strong>Your agreement:</strong> the date and time you accepted the
+            Terms of Service and this Privacy Policy and confirmed you are 17 or
+            older.
+          </li>
+          <li>
             <strong>Onboarding responses:</strong> your stated preferences for
             pace, directness, how you&rsquo;d like to be addressed, and your
             free-text answer to what&rsquo;s on your mind. These shape how the
@@ -125,7 +135,12 @@ export default function PrivacyPolicy() {
           </li>
           <li>
             <strong>Optional uploads:</strong> a profile avatar image, if you add
-            one.
+            one, and photos you add to the people in your life. A person&rsquo;s
+            photo is resized on your phone to a small image and stored in a
+            storage area only your account can read. The image file is not
+            encrypted with your personal key the way your writing is; the link to
+            it is. Removing the photo, forgetting the person, or deleting your
+            account deletes the file.
           </li>
         </ul>
 
@@ -170,7 +185,8 @@ export default function PrivacyPolicy() {
             <strong>Product-analytics events:</strong> the fact that an action
             happened (a note was saved, a session started, a meditation was
             completed), with a timestamp and the app version. Never the content
-            of a note or conversation. Optional; see <em>Your choices</em>.
+            of a note or conversation. Off unless you agree to it during setup or
+            in Settings; see <em>Your choices</em>.
           </li>
           <li>
             <strong>Device attributes for paywall display:</strong> device model,
@@ -268,17 +284,14 @@ export default function PrivacyPolicy() {
         </p>
         <ul>
           <li>
-            <strong>Language-model and embedding providers &mdash; Anthropic,
-            OpenAI, and Fireworks AI.</strong> These receive your journal entries
+            <strong>Language-model and embedding provider &mdash; Fireworks
+            AI.</strong> It receives your journal entries
             and conversations to generate the companion&rsquo;s responses,
-            reflections, and the searchable memory that gives it continuity. All
-            three are contractually prohibited from training on your content.
-            Content sent to <strong>Fireworks AI</strong> for the conversational
-            features is processed under{" "}
+            reflections, meditations, and the searchable memory that gives it
+            continuity. It is contractually prohibited from training on your
+            content, and processes it under{" "}
             <strong>zero-data-retention</strong> terms: it is used to generate the
-            response and is not stored afterwards. Anthropic and OpenAI delete
-            inputs on their standard short retention schedules (approximately 30
-            days or sooner).
+            response and is not stored afterwards.
           </li>
           <li>
             <strong>Speech-to-text providers &mdash; Groq and Together AI.</strong>{" "}
@@ -319,8 +332,8 @@ export default function PrivacyPolicy() {
             &mdash; that a note was saved, a session started, a meditation was
             completed &mdash; tied to your internal user identifier, plus app
             version and device type. Never note or chat content. No advertising
-            identifier and no cross-app tracking. You can switch this off at any
-            time in <em>Settings &rarr; Share anonymous usage</em>.
+            identifier and no cross-app tracking. Only if you opt in; you can
+            switch it off any time in <em>Settings &rarr; Share anonymous usage</em>.
           </li>
           <li>
             <strong>Superwall</strong> (subscription and paywall service).
@@ -446,8 +459,10 @@ export default function PrivacyPolicy() {
           also email <Mail /> to request deletion.
         </p>
         <p>
-          <strong>Turn analytics off.</strong> <em>Settings &rarr; Share anonymous
-          usage</em> switches product-analytics events off. Nothing in the app
+          <strong>Analytics are opt-in.</strong> Product-analytics events are off
+          until you say yes, on a screen during setup that explains what is and
+          isn&rsquo;t collected. You can turn them on or off any time in{" "}
+          <em>Settings &rarr; Share anonymous usage</em>. Nothing in the app
           depends on it.
         </p>
         <p>

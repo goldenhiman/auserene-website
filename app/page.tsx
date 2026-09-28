@@ -53,7 +53,7 @@ const PILLARS: { img: string; kicker: string; title: string; body: string[]; scr
     title: "Meditations made uniquely for you",
     body: [
       "Most meditation apps give everyone the same twelve tracks. Auserene writes a new one from what you talked about, so the part about letting go is about the thing you actually need to let go of.",
-      "There are longer guided journeys too, a day at a time, and quick breathing sessions for the middle of a bad afternoon.",
+      "There are longer guided journeys too, a day at a time.",
     ],
     screen: "journeys",
   },
@@ -134,27 +134,27 @@ const PREMIUM = [
 const FAQ = [
   {
     q: "Is Auserene therapy?",
-    a: "No. It won't diagnose you and it isn't a replacement for a therapist. It helps you do the part of the work that happens between sessions, or before you're ready for them: noticing what's going on and what helps.",
+    a: "No, and it doesn't replace a therapist. It's a quiet place to notice how you're doing and what helps, whether or not you're seeing someone.",
   },
   {
     q: "Who can read what I write?",
-    a: "You, and the AI while it's answering you. Entries are encrypted with a key tied to your account. The model provider keeps nothing after a reply, and no one reads your journal to improve the product.",
+    a: "Only you. The AI reads it just long enough to reply, and doesn't keep it. Your writing is encrypted with a key tied to your account, and no one on our team reads it.",
   },
   {
     q: "Do I have to write every day?",
-    a: "No. There are no streaks and nothing breaks if you disappear for a week. A single line on a hard day is enough for the evening chat to work with.",
+    a: "No. The app shows how many days in a row you've checked in, but missing days is completely okay. Come back whenever you're ready. One line is plenty.",
   },
   {
-    q: "What happens if I stop paying?",
-    a: "Everything you wrote stays yours and stays in the app. Notes, goals and the guided journeys keep working. The chats and the meditations made from your day pause until you come back.",
+    q: "What happens if I stop Premium?",
+    a: "Everything you've written stays yours. Notes, goals and guided journeys keep working. Chats and daily meditations will be waiting if you come back.",
   },
   {
     q: "What does it run on?",
     a: "iPhone, for now.",
   },
   {
-    q: "What if I'm in a really bad place?",
-    a: "Please reach out to a person. If you're in danger, call your local emergency number. Our crisis page lists free, confidential lines by country.",
+    q: "What if things feel like too much?",
+    a: "Please reach out to someone. If you're not safe right now, call your local emergency number. Our crisis page lists free, confidential helplines by country.",
     link: { href: "/crisis-resources", label: "Crisis resources" },
   },
 ];

@@ -17,7 +17,7 @@ export default function TermsOfService() {
     <PolicyShell>
       <h1>Terms of Service</h1>
       <p className="policy-meta">
-        Last updated: 6 September 2026 &middot; Effective: 6 September 2026
+        Last updated: 29 September 2026 &middot; Effective: 29 September 2026
       </p>
 
       <h2>1. Who these terms are between</h2>
@@ -194,8 +194,8 @@ export default function TermsOfService() {
       <h2>7. Dependence on third-party providers</h2>
       <p>
         Auserene relies on third-party providers for AI generation, transcription,
-        voice, payments, analytics, and infrastructure &mdash; including Anthropic,
-        OpenAI, and Fireworks AI (language and embedding processing), Groq and
+        voice, payments, analytics, and infrastructure &mdash; including Fireworks
+        AI (language and embedding processing), Groq and
         Together AI (speech-to-text), ElevenLabs and Inworld AI (voice), Apple and
         Superwall (subscriptions), PostHog (product analytics), and Google Firebase
         and Google Cloud (hosting and security). Their terms and policies may also

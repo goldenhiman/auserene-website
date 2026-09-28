@@ -14,7 +14,7 @@ export default function Subprocessors() {
   return (
     <PolicyShell>
         <h1>Subprocessors</h1>
-        <p className="policy-meta">Last updated: 6 September 2026</p>
+        <p className="policy-meta">Last updated: 29 September 2026</p>
 
         <p>
           This page lists the third-party companies (&ldquo;subprocessors&rdquo;)
@@ -60,30 +60,14 @@ export default function Subprocessors() {
             <tbody>
               <tr>
                 <td>
-                  <strong>Anthropic</strong>
-                </td>
-                <td>
-                  Generates the companion&rsquo;s responses and session reflections
-                </td>
-                <td>Session conversations and derived context</td>
-              </tr>
-              <tr>
-                <td>
-                  <strong>OpenAI</strong>
-                </td>
-                <td>
-                  Generates supporting text and creates embeddings used for
-                  memory/recall
-                </td>
-                <td>Session and journal content; derived context</td>
-              </tr>
-              <tr>
-                <td>
                   <strong>Fireworks AI</strong>
                 </td>
-                <td>Conversational and batch text generation</td>
                 <td>
-                  Same content as above, when this route is used &mdash; under
+                  Generates the companion&rsquo;s responses, reflections and
+                  meditations, and the embeddings used for memory and recall
+                </td>
+                <td>
+                  Session and journal content and derived context &mdash; under
                   zero-data-retention terms: not stored after the response is
                   generated
                 </td>
