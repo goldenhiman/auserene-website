@@ -131,16 +131,19 @@ export default function PrivacyPolicy() {
           </li>
           <li>
             <strong>Preferences and settings:</strong> session length, preferred
-            voice, preferred time, pronouns, and similar in-app choices.
+            time, pronouns, and similar in-app choices.
           </li>
           <li>
             <strong>Optional uploads:</strong> a profile avatar image, if you add
-            one, and photos you add to the people in your life. A person&rsquo;s
-            photo is resized on your phone to a small image and stored in a
-            storage area only your account can read. The image file is not
-            encrypted with your personal key the way your writing is; the link to
-            it is. Removing the photo, forgetting the person, or deleting your
-            account deletes the file.
+            one.
+          </li>
+          <li>
+            <strong>Photos that stay on your phone:</strong> photos you add to the
+            people in your life, and photos you choose as the background of a
+            saved quote, are kept only on your phone. They are never uploaded to
+            us, so they don&rsquo;t move to a new phone. Removing a photo,
+            forgetting the person, deleting the quote, or signing out removes
+            them.
           </li>
         </ul>
 
