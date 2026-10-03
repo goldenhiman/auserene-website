@@ -2,10 +2,8 @@
 // Vercel domain is the apex (auserene.com), change this one line.
 export const SITE_URL = "https://www.auserene.com";
 
-// The mailbox that support and privacy requests go to. auserene.com has no
-// mail routing yet, so this is the operator's own mailbox; change this one
-// line once support@auserene.com is live. Every page reads it from here.
-export const SUPPORT_EMAIL = "hpatsvnit@gmail.com";
+// The mailbox that support and privacy requests go to. Every page reads it from here.
+export const SUPPORT_EMAIL = "support@auserene.com";
 
 // Beta sign-up. Every "Join the beta" button reads it from here.
 export const BETA_URL = "https://forms.gle/qU4BdVrRQWmihnLg8";

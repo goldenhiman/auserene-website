@@ -323,8 +323,7 @@ export default function Home() {
               $8.83 <span>a month, billed yearly</span>
             </p>
             <p className="body">
-              Everything in Free, plus the part that listens and remembers. The first 7 days of the yearly plan are
-              free.
+              Everything in Free, plus the part that listens and remembers. Every plan starts with 7 days free.
             </p>
             <ul className="checks">
               {PREMIUM.map((f) => (
