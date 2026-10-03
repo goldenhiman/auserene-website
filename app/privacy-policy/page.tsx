@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
     <PolicyShell>
         <h1>Privacy Policy</h1>
         <p className="policy-meta">
-          Last updated: 29 September 2026 &middot; Effective: 29 September 2026
+          Last updated: 4 October 2026 &middot; Effective: 4 October 2026
         </p>
 
         <h2>Who we are</h2>
@@ -31,8 +31,8 @@ export default function PrivacyPolicy() {
         </p>
         <p>
           This app is intended for users{" "}
-          <strong>17 years of age or older</strong>. We do not knowingly collect
-          information from anyone under 17.
+          <strong>16 years of age or older</strong>. We do not knowingly collect
+          information from anyone under 16.
         </p>
         <p>
           If you have questions or want to exercise any privacy right, contact us
@@ -102,12 +102,12 @@ export default function PrivacyPolicy() {
           </li>
           <li>
             <strong>Date of birth:</strong> asked once during setup, because
-            Auserene is only for people 17 and older. Kept with your profile and
+            Auserene is only for people 16 and older. Kept with your profile and
             used for nothing else.
           </li>
           <li>
             <strong>Your agreement:</strong> the date and time you accepted the
-            Terms of Service and this Privacy Policy and confirmed you are 17 or
+            Terms of Service and this Privacy Policy and confirmed you are 16 or
             older.
           </li>
           <li>
@@ -528,8 +528,8 @@ export default function PrivacyPolicy() {
 
         <h2>Children</h2>
         <p>
-          Auserene is for users <strong>17 and older</strong>. We do not knowingly
-          collect personal information from anyone under 17. If you believe a minor
+          Auserene is for users <strong>16 and older</strong>. We do not knowingly
+          collect personal information from anyone under 16. If you believe a minor
           has provided us information, contact <Mail /> and we will delete it.
         </p>
 

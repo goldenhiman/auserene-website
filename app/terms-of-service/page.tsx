@@ -17,7 +17,7 @@ export default function TermsOfService() {
     <PolicyShell>
       <h1>Terms of Service</h1>
       <p className="policy-meta">
-        Last updated: 29 September 2026 &middot; Effective: 29 September 2026
+        Last updated: 4 October 2026 &middot; Effective: 4 October 2026
       </p>
 
       <h2>1. Who these terms are between</h2>
@@ -125,14 +125,14 @@ export default function TermsOfService() {
 
       <h2>3. Eligibility, children, and guardians</h2>
       <p>
-        You must be <strong>at least 17 years old</strong> to use Auserene. By
+        You must be <strong>at least 16 years old</strong> to use Auserene. By
         using it, you represent that you meet this requirement and that the
         information you give us is accurate.
       </p>
       <p>
         Auserene is not directed to children. We do not knowingly allow anyone
-        under 17 to create an account or knowingly collect their information. If we
-        learn that someone under 17 has registered, we may terminate that account
+        under 16 to create an account or knowingly collect their information. If we
+        learn that someone under 16 has registered, we may terminate that account
         and delete the associated data. If you are a parent or guardian and believe
         a minor has used Auserene, contact us at <Mail />.
       </p>
