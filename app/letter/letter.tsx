@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import { BETA_URL } from "../site";
 
@@ -15,6 +15,17 @@ const PAPER_DURATION = 5; // total slide-in length; most of the motion is up fro
 const BASE_DELAY = PAPER_DELAY + 1.6; // text starts once the paper has all but landed
 const PER_SENTENCE = 0.12;
 const REVEAL_DURATION = 0.65;
+
+// The parchment keeps its own proportions (1024×1536) instead of stretching to
+// a long letter. It scrolls with the text until its middle covers the window
+// (its torn edges out of view), then holds there — sticky — while the text
+// keeps scrolling, and lets go at the end so its bottom edge arrives with the
+// signature. The page reads as one long sheet.
+const PAPER_ASPECT = 1536 / 1024;
+// How far past the window's top and bottom the paper's edges stay while held.
+const EDGE_HIDE = 72;
+// Phones keep the solid paper card from globals.css.
+const STICKY_MIN_WIDTH = 641;
 
 
 // --- Copy lives here. Edit freely. ---------------------------------------
@@ -96,6 +107,37 @@ export function Letter() {
   const reduce = useReducedMotion();
   const [isNight, setIsNight] = useState(false);
 
+  // The paper's height (natural at the letter's width, but always tall enough
+  // to hide both edges past the window) and the sticky offset that centres it.
+  // null = phone layout: the paper fills the card.
+  const articleRef = useRef<HTMLElement>(null);
+  const [paper, setPaper] = useState<{ h: number; top: number } | null>(null);
+
+  useEffect(() => {
+    const el = articleRef.current;
+    if (!el) return;
+    const measure = () => {
+      if (window.innerWidth < STICKY_MIN_WIDTH) {
+        setPaper(null);
+        el.style.minHeight = "";
+        return;
+      }
+      const vh = window.innerHeight;
+      const h = Math.max(Math.round(el.offsetWidth * PAPER_ASPECT), vh + 2 * EDGE_HIDE);
+      // The letter is never shorter than its paper.
+      el.style.minHeight = `${h}px`;
+      setPaper({ h, top: Math.round((vh - h) / 2) });
+    };
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    window.addEventListener("resize", measure);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener("resize", measure);
+    };
+  }, []);
+
   useEffect(() => {
     // the letter is taller than the viewport, so the page scrolls. stop the
     // browser from restoring (and drifting) the scroll offset across reloads —
@@ -153,17 +195,25 @@ export function Letter() {
                 opacity: { delay: PAPER_DELAY, duration: 1.4, ease: "easeOut" },
               }
         }
+        ref={articleRef}
         style={isNight ? { mixBlendMode: "luminosity" } : undefined}
         className="letter"
       >
-        <Image
-          src="/parchment.png"
-          alt=""
-          fill
-          preload
-          sizes="(max-width: 840px) 100vw, 768px"
-          className="paper"
-        />
+        <div aria-hidden className="paper-track">
+          <div
+            className="paper-sheet"
+            style={paper ? { height: paper.h, top: paper.top } : undefined}
+          >
+            <Image
+              src="/parchment.png"
+              alt=""
+              fill
+              preload
+              sizes="(max-width: 840px) 100vw, 768px"
+              className="paper"
+            />
+          </div>
+        </div>
 
         <h1 className="sr-only">Why I built Auserene</h1>
         <div className="content flex flex-col gap-[1.05em] text-[clamp(0.95rem,0.88rem+0.5vw,1.1rem)] leading-[1.62] text-[var(--ink)]">
@@ -205,25 +255,48 @@ export function Letter() {
             </p>
           ))}
 
-          <motion.div
-            className="signature"
-            initial={reduce ? false : { opacity: 0, y: 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-              delay: reduce ? 0 : BASE_DELAY + totalSentences * PER_SENTENCE,
-              duration: 0.9,
-              ease: "easeOut",
-            }}
-          >
-            <Image
-              src="/himanshu-signatures.png"
-              alt="Himanshu's signature"
-              width={1228}
-              height={498}
-              className="signature-img"
-            />
-            <span className="signature-name">Himanshu</span>
-          </motion.div>
+          {/* Signature on the left, seal on the right — side by side in the
+              flow, so the seal can never sit on top of the text. */}
+          <div className="sign-row">
+            <motion.div
+              className="signature"
+              initial={reduce ? false : { opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                delay: reduce ? 0 : BASE_DELAY + totalSentences * PER_SENTENCE,
+                duration: 0.9,
+                ease: "easeOut",
+              }}
+            >
+              <Image
+                src="/himanshu-signatures.png"
+                alt="Himanshu's signature"
+                width={1228}
+                height={498}
+                className="signature-img"
+              />
+              <span className="signature-name">Himanshu</span>
+            </motion.div>
+            <motion.div
+              aria-hidden
+              className="seal"
+              initial={reduce ? false : { opacity: 0, filter: "blur(8px)", scale: 1.04 }}
+              animate={{ opacity: 1, filter: "blur(0px)", scale: 1 }}
+              transition={{
+                delay: reduce ? 0 : BASE_DELAY + totalSentences * PER_SENTENCE + 0.6,
+                duration: 0.9,
+                ease: [0.22, 0.61, 0.36, 1],
+              }}
+            >
+              <Image
+                src="/wax-seal-monogram.png"
+                alt=""
+                width={220}
+                height={220}
+                className="h-full w-full object-contain"
+              />
+            </motion.div>
+          </div>
 
           <motion.div
             className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-[var(--ink-faint)]"
@@ -246,26 +319,6 @@ export function Letter() {
             <a href="/support" className="hover:text-[var(--ink-soft)] transition-colors underline underline-offset-2">Support</a>
           </motion.div>
         </div>
-
-        <motion.div
-          aria-hidden
-          className="seal"
-          initial={reduce ? false : { opacity: 0, filter: "blur(8px)", scale: 1.04 }}
-          animate={{ opacity: 1, filter: "blur(0px)", scale: 1 }}
-          transition={{
-            delay: reduce ? 0 : BASE_DELAY + totalSentences * PER_SENTENCE + 0.6,
-            duration: 0.9,
-            ease: [0.22, 0.61, 0.36, 1],
-          }}
-        >
-          <Image
-            src="/wax-seal-monogram.png"
-            alt=""
-            width={220}
-            height={220}
-            className="h-full w-full object-contain"
-          />
-        </motion.div>
       </motion.article>
     </div>
   );
