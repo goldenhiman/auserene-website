@@ -25,7 +25,7 @@ export default function LetterPage() {
             image: `${SITE_URL}/og-image.jpg`,
             // dateModified follows /letter's lastModified in app/sitemap.ts
             datePublished: "2026-06-16",
-            dateModified: "2026-09-27",
+            dateModified: "2026-10-04",
             author: { "@id": `${SITE_URL}/#founder` },
             publisher: { "@id": `${SITE_URL}/#org` },
           }),
