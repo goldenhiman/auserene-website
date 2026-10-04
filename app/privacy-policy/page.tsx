@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
     <PolicyShell>
         <h1>Privacy Policy</h1>
         <p className="policy-meta">
-          Last updated: 4 October 2026 &middot; Effective: 4 October 2026
+          Last updated: 5 October 2026 &middot; Effective: 5 October 2026
         </p>
 
         <h2>Who we are</h2>
@@ -385,8 +385,22 @@ export default function PrivacyPolicy() {
             a managed key service.
           </li>
           <li>
+            <strong>Encryption on your device.</strong> The copy of your data the
+            app keeps on your phone (so it opens instantly and works offline) is
+            encrypted with a key held in your device&rsquo;s secure Keychain,
+            which never leaves the device.
+          </li>
+          <li>
             <strong>Encryption in transit.</strong> Data moves between the app, our
             servers, and our providers over encrypted (TLS) connections.
+          </li>
+          <li>
+            <strong>Only the genuine app, only verified accounts.</strong> Our
+            servers accept requests only from the genuine Auserene app, checked
+            with Apple&rsquo;s App Attest (which confirms the request comes from
+            an unmodified copy of the app on a real device, without identifying
+            you), and only from accounts whose email, phone number, or Apple or
+            Google sign-in has been verified.
           </li>
           <li>
             <strong>Important limit &mdash; this is not end-to-end encryption.</strong>{" "}
@@ -415,6 +429,11 @@ export default function PrivacyPolicy() {
           <li>
             <strong>Your account and content</strong> are kept for as long as your
             account is active. You can delete them at any time (see below).
+          </li>
+          <li>
+            <strong>Unverified sign-ups</strong> &mdash; an email account whose
+            address was never verified &mdash; are deleted automatically, with
+            anything attached to them, 48 hours after they were created.
           </li>
           <li>
             <strong>Voice audio</strong> is not stored. It exists only while it is

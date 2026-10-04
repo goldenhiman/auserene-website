@@ -11,8 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }[] = [
     { path: "", priority: 1, changeFrequency: "monthly", lastModified: "2026-10-04" },
     { path: "/letter", priority: 0.7, changeFrequency: "yearly", lastModified: "2026-10-04" },
-    { path: "/privacy-policy", priority: 0.5, changeFrequency: "yearly", lastModified: "2026-10-04" },
-    { path: "/subprocessors", priority: 0.5, changeFrequency: "yearly", lastModified: "2026-09-06" },
+    { path: "/privacy-policy", priority: 0.5, changeFrequency: "yearly", lastModified: "2026-10-05" },
+    { path: "/subprocessors", priority: 0.5, changeFrequency: "yearly", lastModified: "2026-10-05" },
     { path: "/terms-of-service", priority: 0.5, changeFrequency: "yearly", lastModified: "2026-10-04" },
     { path: "/crisis-resources", priority: 0.6, changeFrequency: "monthly", lastModified: "2026-09-06" },
     { path: "/support", priority: 0.5, changeFrequency: "yearly", lastModified: "2026-09-06" },

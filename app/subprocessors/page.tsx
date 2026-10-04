@@ -14,7 +14,7 @@ export default function Subprocessors() {
   return (
     <PolicyShell>
         <h1>Subprocessors</h1>
-        <p className="policy-meta">Last updated: 29 September 2026</p>
+        <p className="policy-meta">Last updated: 5 October 2026</p>
 
         <p>
           This page lists the third-party companies (&ldquo;subprocessors&rdquo;)
@@ -192,10 +192,11 @@ export default function Subprocessors() {
                 <td>
                   <strong>Apple</strong>
                 </td>
-                <td>App Store, StoreKit, Sign in with Apple</td>
+                <td>App Store, StoreKit, Sign in with Apple, App Attest</td>
                 <td>
                   Purchases and subscriptions under Apple&rsquo;s terms; sign-in
-                  identifier if you use Sign in with Apple
+                  identifier if you use Sign in with Apple; a device attestation
+                  that the app is genuine (no personal data)
                 </td>
               </tr>
               <tr>
@@ -228,8 +229,8 @@ export default function Subprocessors() {
                   <strong>Google Firebase</strong> (Google LLC)
                 </td>
                 <td>
-                  Authentication (email, phone, Apple, Google), database, file
-                  storage, and server functions &mdash; our core hosting
+                  Authentication (email, phone, Apple, Google), App Check, database,
+                  file storage, and server functions &mdash; our core hosting
                 </td>
                 <td>All stored app data (encrypted at rest where sensitive)</td>
               </tr>
