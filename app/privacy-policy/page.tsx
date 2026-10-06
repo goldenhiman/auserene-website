@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
     <PolicyShell>
         <h1>Privacy Policy</h1>
         <p className="policy-meta">
-          Last updated: 5 October 2026 &middot; Effective: 5 October 2026
+          Last updated: 6 October 2026 &middot; Effective: 6 October 2026
         </p>
 
         <h2>Who we are</h2>
@@ -161,6 +161,12 @@ export default function PrivacyPolicy() {
           </strong>{" "}
           This derived understanding is visible to you inside the app, and you can
           edit, correct, or remove any part of it.
+        </p>
+        <p>
+          This memory, including the numeric representations (embeddings) the app
+          uses to find related entries, is stored encrypted on our servers. It is
+          sent to our language-model provider only while a reply is being
+          written, under the same zero-data-retention terms described below.
         </p>
 
         <h3>Information collected automatically</h3>

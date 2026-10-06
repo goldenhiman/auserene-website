@@ -62,7 +62,7 @@ const PILLARS: { img: string; kicker: string; title: string; body: string[]; scr
     kicker: "Talk",
     title: "Someone to talk to, day or night",
     body: [
-      "The evening chat is the heart of it, but hard moments don't keep office hours. Open a chat whenever you need one. Auserene remembers everything you've talked about, so you never start from zero.",
+      "The evening chat is the heart of it, but hard moments don't keep office hours. Open a chat whenever you need one. Auserene remembers what you've talked about, so you never start from zero.",
       "If you wish to continue an old chat, it carries a summary into a fresh one, so nothing you said gets dropped.",
     ],
     screen: "talk",
@@ -94,12 +94,12 @@ const PRIVACY = [
   {
     icon: "lock",
     title: "Your key, your words",
-    body: "Your data is protected with world-class security and military-grade AES-256 encryption.",
+    body: "Your entries are encrypted at rest with AES-256, using a key tied to your account.",
   },
   {
     icon: "jar",
     title: "Nothing trains a model",
-    body: "No data is ever stored or used to train any model by the AI provider.",
+    body: "Our AI provider works under a zero-data-retention contract: it keeps nothing after replying, and it's contractually barred from training on your words.",
   },
   {
     icon: "stop",

@@ -2,7 +2,7 @@
 
 > Auserene is an AI journaling app for iPhone that remembers what helps you. This file holds the text of the homepage and the founder's letter. Source: https://www.auserene.com
 
-Last updated: 2026-09-27
+Last updated: 2026-10-06
 
 ## A journal that remembers what helps you
 
@@ -32,7 +32,7 @@ There are longer guided journeys too, a day at a time, and quick breathing sessi
 
 ## Talk: someone to talk to, day or night
 
-The evening chat is the heart of it, but hard moments don't keep office hours. Open a chat whenever you need one. Auserene remembers everything you've talked about, so you never start from zero.
+The evening chat is the heart of it, but hard moments don't keep office hours. Open a chat whenever you need one. Auserene remembers what you've talked about, so you never start from zero.
 
 If you wish to continue an old chat, it carries a summary into a fresh one, so nothing you said gets dropped.
 
@@ -47,8 +47,8 @@ If you wish to continue an old chat, it carries a summary into a fresh one, so n
 
 ## Privacy: your journal is not a data source
 
-- Your key, your words: your data is protected with AES-256 encryption.
-- Nothing trains a model: no data is ever stored or used to train any model by the AI provider.
+- Your key, your words: your entries are encrypted at rest with AES-256, using a key tied to your account.
+- Nothing trains a model: our AI provider works under a zero-data-retention contract: it keeps nothing after replying, and it's contractually barred from training on your words.
 - No ads, ever: no ads, no ad trackers. No crash or usage analytics touches your journal data.
 - Gone when you say so: you can delete your account and everything with it, permanently, from inside the app, any time.
 
@@ -68,7 +68,7 @@ No. It won't diagnose you and it isn't a replacement for a therapist. It helps y
 
 ### Who can read what I write?
 
-You, and the AI while it's answering you. Entries are encrypted with a key tied to your account. The model provider keeps nothing after a reply, and no one reads your journal to improve the product.
+You, and the AI while it's answering you. Entries are encrypted with a key tied to your account. Our model provider works under a zero-data-retention contract and keeps nothing after a reply, and no one reads your journal to improve the product.
 
 ### Do I have to write every day?
 
