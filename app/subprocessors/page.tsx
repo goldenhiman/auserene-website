@@ -14,7 +14,7 @@ export default function Subprocessors() {
   return (
     <PolicyShell>
         <h1>Subprocessors</h1>
-        <p className="policy-meta">Last updated: 5 October 2026</p>
+        <p className="policy-meta">Last updated: 6 October 2026</p>
 
         <p>
           This page lists the third-party companies (&ldquo;subprocessors&rdquo;)
@@ -169,12 +169,16 @@ export default function Subprocessors() {
                 </td>
                 <td>
                   Product analytics &mdash; optional, off via Settings &rarr;
-                  Share anonymous usage
+                  Share anonymous usage. Crash and error reports &mdash; on by
+                  default, off via Settings &rarr; Send crash reports
                 </td>
                 <td>
                   Action events only (note saved, session started, meditation
                   completed), internal user id, app version, device type. No
-                  advertising identifier, no cross-app tracking
+                  advertising identifier, no cross-app tracking. Crash reports:
+                  error type, code location, app version, device model and OS,
+                  internal user id; no error messages, notes, chats, voice, or
+                  screenshots
                 </td>
               </tr>
               <tr>
