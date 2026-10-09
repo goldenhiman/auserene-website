@@ -1,0 +1,16 @@
+{
+  "slug": "journaling-statistics",
+  "title": "Journaling statistics: what the research shows",
+  "seoTitle": "Journaling statistics: 38 numbers, every one sourced",
+  "description": "Journaling, worry, sleep, meditation and habit statistics, each checked against the original study: effect sizes, app retention, and what actually helps.",
+  "dek": "Thirty-eight numbers about writing, worrying, sleeping and starting over, each one traced to the study it came from.",
+  "primaryKeyword": "journaling statistics",
+  "keywords": ["journaling statistics", "expressive writing statistics", "meditation app retention statistics", "worry statistics", "habit formation statistics", "mental health app statistics", "benefits of journaling statistics"],
+  "feature": "Statistics",
+  "faq": [
+    {"q": "What percentage of worries never come true?", "a": "In two trials of worry outcome journals with people who have generalized anxiety disorder, 91.4% and 89.14% of the feared outcomes did not happen. When they did, people usually coped better than they expected."},
+    {"q": "How effective is journaling?", "a": "Across 146 randomized studies, writing about personal experiences had a real but small average effect (r = .075). A 2023 meta-analysis of 31 trials found a small effect on depression, anxiety and stress that tended to show up weeks later."},
+    {"q": "How many people keep using meditation apps?", "a": "Few. The median 30-day retention for mindfulness and meditation apps was 4.7% in one analysis of real usage, and fewer than 20% of new Medito users were still meditating after 14 days."},
+    {"q": "How long does it take to form a habit?", "a": "Between 18 and 254 days in the study behind the famous 66-day average, which came from 39 of 96 volunteers. In a 2021 trial, only 23% of participants reached the threshold for a formed habit within 12 weeks."}
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "name-your-feelings",
+  "title": "Naming emotions: what affect labeling can and can't do",
+  "seoTitle": "Naming emotions: what affect labeling can and can't do",
+  "description": "Naming emotions (affect labeling) lowers distress a little, right away. What the research shows, when it backfires, and how to track moods usefully.",
+  "dek": "One precise word for a feeling turns the volume down a notch. A month of them, each with a cause, can show you what keeps turning it up.",
+  "primaryKeyword": "affect labeling",
+  "keywords": [
+    "naming emotions",
+    "name your feelings",
+    "name it to tame it",
+    "putting feelings into words",
+    "emotional granularity",
+    "emotion differentiation",
+    "mood tracking",
+    "does mood tracking help",
+    "how to identify your emotions"
+  ],
+  "feature": "Mood and patterns",
+  "titleOptions": [
+    "Naming emotions: what affect labeling can and can't do",
+    "Does naming your emotions actually help?",
+    "Affect labeling: why naming a feeling makes it smaller",
+    "Name your feelings: the research on affect labeling",
+    "Why the exact word for a feeling matters",
+    "Name it to tame it: what the studies really found",
+    "Naming emotions and mood tracking, honestly",
+    "Putting feelings into words: a ten-second method",
+    "Emotional granularity: how precise feelings help",
+    "Affect labeling, mood tracking and the limits of both"
+  ],
+  "faq": [
+    {
+      "q": "What is affect labeling?",
+      "a": "Affect labeling is putting a feeling into words, such as \"I feel dread\" or picking \"angry\" from a list. In UCLA studies led by Matthew Lieberman, it reduced amygdala activity and self-reported distress about as much as deliberately reframing the situation."
+    },
+    {
+      "q": "Does naming your emotions really help?",
+      "a": "Yes, modestly and in the short term. Lab studies show lower distress and lower physical arousal after labeling, though people consistently predict it won't work. It also dampens pleasant feelings, and naming a feeling right before trying to reframe it can make reframing less effective."
+    },
+    {
+      "q": "What is emotional granularity?",
+      "a": "Emotional granularity, or emotion differentiation, is how finely you tell feelings apart, for example resentment versus sadness rather than just bad. People who differentiate negative emotions more finely tend to regulate them more effectively and engage in fewer harmful coping behaviors, though most of this research is correlational."
+    },
+    {
+      "q": "Does mood tracking help or make you feel worse?",
+      "a": "The evidence is promising but limited. Trials such as Kauer and colleagues (2012) found mood self-monitoring raised emotional self-awareness, which went with fewer depressive symptoms, but a 2018 systematic review noted few high-quality studies and some signs that mood apps can increase negativity for some adults."
+    },
+    {
+      "q": "How do I name a feeling quickly?",
+      "a": "Place it on two axes (pleasant or unpleasant, high or low energy), pick one specific word, note the cause in a few words, then stop. The stopping matters, because dwelling on the label can turn it into rumination."
+    }
+  ],
+  "informationGain": "Unlike top results that stop at \"name it to tame it\" and the amygdala image, this piece covers the limits (people don't expect labeling to work, it dampens good feelings too, naming can blunt reappraisal, a bigger negative vocabulary tracks with more distress) and the mixed mood-tracking evidence, then turns that into a ten-second label-plus-cause method built for spotting patterns over weeks.",
+  "sourcesCount": 19
+}

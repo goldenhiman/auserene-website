@@ -1,0 +1,55 @@
+{
+  "slug": "personalized-meditation",
+  "title": "Personalized meditation: does it beat generic apps?",
+  "seoTitle": "Personalized meditation: does it beat generic apps?",
+  "description": "Personalized meditation uses your own day and name instead of one recording for everyone. What the research says, why apps lose users, and how to try it.",
+  "dek": "Most meditation apps lose you by day 14. A meditation that knows about the deadline and the unanswered text might be one you keep doing.",
+  "primaryKeyword": "personalized meditation",
+  "keywords": [
+    "AI guided meditation",
+    "personalized guided meditation",
+    "why do people stop using meditation apps",
+    "meditation app retention",
+    "custom meditation script",
+    "meditation with your name",
+    "does personalized meditation work",
+    "bedtime meditation for your day"
+  ],
+  "feature": "Meditation",
+  "titleOptions": [
+    "Personalized meditation: does it beat generic apps?",
+    "Why generic meditation apps don't stick",
+    "What personalized meditation can and can't do",
+    "AI guided meditation: what the research says",
+    "A meditation that knows about your day",
+    "Personalized meditation and the day-14 drop-off",
+    "Does hearing your own name help you meditate?",
+    "Personalized vs generic meditation: the evidence",
+    "How to personalize any meditation in five minutes",
+    "Why you quit meditation apps, and what might help"
+  ],
+  "faq": [
+    {
+      "q": "Does personalized meditation work better than generic meditation?",
+      "a": "Probably a little. Meta-analyses of tailored health programs find small but consistent benefits, but as of October 2026 no published randomized trial has compared AI-written personalized meditations with standard recordings. Its most plausible benefit is helping people keep practicing."
+    },
+    {
+      "q": "Why do people stop using meditation apps?",
+      "a": "Most do. In a 2026 study of the Medito app, fewer than 20% of new users were still meditating after 14 days, and people used about one-nineteenth of the minutes they planned. Engagement was highest when the app matched what people expected, and reviews of digital mental health tools list lack of personalization among the common barriers."
+    },
+    {
+      "q": "Is it good for a meditation to say your name?",
+      "a": "Used once or twice, probably yes. Research by Ethan Kross found that thinking about yourself by name or as \"you\" helps create distance from stress. But the brain responds to its own name even during sleep, so a bedtime meditation should use your name early and sparingly."
+    },
+    {
+      "q": "How can I personalize a meditation without an app?",
+      "a": "Write three lines about your day, circle the one thing your mind keeps returning to, and pick a practice that fits your state, such as slow breathing if you feel wired. Say one sentence to yourself in the second person using your name, then let the breath take over. Keep it short enough that you'll repeat it."
+    },
+    {
+      "q": "Can meditation have side effects?",
+      "a": "Sometimes. A 2020 systematic review found adverse events in 8.3% of meditators overall, most commonly anxiety and depression. If anxiety, low mood or poor sleep has lasted for weeks, talk to a doctor or therapist."
+    }
+  ],
+  "informationGain": "Unlike the top results (mostly app product pages), it pairs real-world retention data with the tailoring and own-name research, states plainly that no head-to-head trial of AI-personalized meditation exists yet, and flags that your name is an alerting cue even in sleep, so bedtime scripts should use it sparingly.",
+  "sourcesCount": 16
+}

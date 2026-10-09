@@ -1,0 +1,55 @@
+{
+  "slug": "paper-vs-digital-journal",
+  "title": "Handwriting vs typing a journal: what research shows",
+  "seoTitle": "Handwriting vs typing a journal (and voice): the research",
+  "description": "Handwriting vs typing a journal: 146 studies found no difference in benefit between pen, keyboard or voice. Here's what matters more and how to choose.",
+  "dek": "The pen, the keyboard and the voice memo all do the same quiet work. What changes the outcome is what you say, and who can read it.",
+  "primaryKeyword": "handwriting vs typing journal",
+  "keywords": [
+    "handwriting vs typing journal",
+    "paper vs digital journal",
+    "voice journaling",
+    "is handwriting better than typing for journaling",
+    "journaling by hand benefits",
+    "typing vs writing journal mental health",
+    "audio journaling",
+    "digital journal vs paper journal"
+  ],
+  "feature": "Scan and voice notes",
+  "titleOptions": [
+    "Handwriting vs typing a journal: what research shows",
+    "Paper or digital journal? What the studies actually tested",
+    "Is handwriting better than typing for journaling?",
+    "Pen, keyboard or voice: which journal format works best",
+    "Paper vs digital journal: the evidence, minus the myths",
+    "Voice journaling vs writing: does the format matter?",
+    "Should you journal by hand? What 146 studies found",
+    "The handwriting myth in journaling, and what matters instead",
+    "Paper, typing or talking: how to choose a journal format",
+    "Handwriting vs typing a journal, and where voice fits"
+  ],
+  "faq": [
+    {
+      "q": "Is handwriting better than typing for journaling?",
+      "a": "Not in any measurable way for mood or health. A 2006 meta-analysis of 146 randomized disclosure studies found handwriting, typing and talking produced similar benefits. Handwriting may suit you better if typing is slow for you or if slowing down calms you."
+    },
+    {
+      "q": "Does voice journaling work as well as writing?",
+      "a": "The studies that compared them found similar effects. In a 2006 study by Sonja Lyubomirsky, students who talked into a tape recorder about a bad experience did as well as those who wrote about it, and both did better than those who only thought about it. Talking aloud can feel awkward at first."
+    },
+    {
+      "q": "Why do people say handwriting is better for the brain?",
+      "a": "Mostly because of studies on lecture notes and short writing tasks, such as Mueller and Oppenheimer in 2014 and a 2024 EEG study. A large 2021 replication of the lecture-notes study did not find a memory advantage for longhand, and the EEG study measured brain connectivity, not mood or learning."
+    },
+    {
+      "q": "Is a paper journal more private than a journal app?",
+      "a": "It depends on who can reach it. A notebook can be read by anyone who finds it, and an app is only as private as its encryption and data policies. In Frattaroli's meta-analysis, writing nobody would read had marginally larger mental health effects, so privacy is worth checking either way."
+    },
+    {
+      "q": "Can you combine a paper journal with a digital one?",
+      "a": "Yes. Many people handwrite at night, dictate on the go and type short notes during the day. The main risk is scattering entries across places, so it helps to photograph or scan paper pages into the same place as the rest."
+    }
+  ],
+  "informationGain": "Where the top results lean on lecture-note and EEG studies and vendor claims, this piece uses the studies that actually compared handwriting, typing and talking for emotional writing (Brewin and Lennard 1999, Sharp and Hargrove 2004, Esterling 1994, Lyubomirsky 2006, and Frattaroli's 146-study moderator analysis), shows that format did not change outcomes, and names the caveats behind the brain studies, such as one-finger typing and a failed replication.",
+  "sourcesCount": 13
+}

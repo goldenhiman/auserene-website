@@ -18,6 +18,25 @@ Key facts:
 - [Crisis resources](https://www.auserene.com/crisis-resources): free, confidential crisis lines by country
 - [Support](https://www.auserene.com/support): help and contact
 
+## Blog
+
+Research-backed articles. Every claim links to its source.
+
+- [Journaling statistics: what the research shows](https://www.auserene.com/blog/journaling-statistics): Journaling, worry, sleep, meditation and habit statistics, each checked against the original study: effect sizes, app retention, and what actually helps.
+- [Does journaling actually help? What the research shows](https://www.auserene.com/blog/does-journaling-work): Journaling actually helps, but modestly: trials show small drops in stress, anxiety and low mood. Here's which kind of writing works and which backfires.
+- [Journaling for anxiety: write it down, then check it](https://www.auserene.com/blog/journaling-for-anxiety): How to journal for anxiety: note each worry in one line, then check it that evening. In trials, about 9 in 10 feared outcomes never happened.
+- [Racing thoughts at night: what actually quiets them](https://www.auserene.com/blog/racing-thoughts-at-night): Racing thoughts at night come in three kinds. What sleep research says works for each: a specific to-do list, an earlier worry hour, and getting up.
+- [Rumination vs reflection: how to stop ruminating](https://www.auserene.com/blog/rumination-vs-reflection): How to stop ruminating: step back before you ask why, ask how when you're close, write it down, and end with one step. What the research on reflection shows.
+- [Naming emotions: what affect labeling can and can't do](https://www.auserene.com/blog/name-your-feelings): Naming emotions (affect labeling) lowers distress a little, right away. What the research shows, when it backfires, and how to track moods usefully.
+- [Evening reflection questions, and the order to ask them](https://www.auserene.com/blog/evening-reflection-questions): Evening reflection questions that settle the day: what happened, how it felt, what went well, what's open, and tomorrow's first step. With the research.
+- [Personalized meditation: does it beat generic apps?](https://www.auserene.com/blog/personalized-meditation): Personalized meditation uses your own day and name instead of one recording for everyone. What the research says, why apps lose users, and how to try it.
+- [Using ChatGPT as a journal: what it keeps and what helps](https://www.auserene.com/blog/chatgpt-as-a-journal): Using ChatGPT as a journal can work if you change a few settings. What OpenAI keeps as of October 2026, why agreeable chatbots backfire, and what to ask.
+- [How to make a habit stick: what habit studies show](https://www.auserene.com/blog/habits-that-stick): To make a habit stick, tie one small action to a moment you already have, write an if-then plan, and give it about two months. Here is what the studies show.
+- [Handwriting vs typing a journal: what research shows](https://www.auserene.com/blog/paper-vs-digital-journal): Handwriting vs typing a journal: 146 studies found no difference in benefit between pen, keyboard or voice. Here's what matters more and how to choose.
+- [Best AI journal apps: an honest comparison for 2026](https://www.auserene.com/blog/best-ai-journal-apps): The best AI journal apps compared from each company's own pages, October 2026: Rosebud, Day One, Mindsera, Stoic, Apple Journal, ChatGPT and more.
+- [30 journal prompts for overthinking, sorted by the loop](https://www.auserene.com/blog/journal-prompts-for-overthinking): Journal prompts for overthinking that end the loop: 30 concrete questions sorted by kind of overthinking, each with a follow-up and the research behind it.
+- [What to write in a journal: 7 simple formats](https://www.auserene.com/blog/what-to-write-in-a-journal): What to write in a journal: one thing that stuck with you, how it felt and why. Seven simple formats with example entries, plus what to write on blank days.
+
 ## Legal
 
 - [Privacy policy](https://www.auserene.com/privacy-policy)
