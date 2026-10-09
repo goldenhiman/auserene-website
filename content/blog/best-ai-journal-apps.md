@@ -83,7 +83,7 @@ Best for people who want one flexible tool and are willing to set it up. Our lon
 
 Read this section knowing we wrote it. You leave quick notes during the day, a line or a mood, and in the evening it holds a short conversation about how the day went. It reads the day's notes first, asks about the parts that seem to matter, and remembers what you said last week. The conversation becomes that day's journal entry. Before bed, it can make a meditation written from that conversation. What it remembers lives in the You tab as plain sentences you can edit or delete.
 
-Our [privacy policy](/privacy-policy) says entries are encrypted at rest with a key unique to you, that our language-model provider, Fireworks AI, works under zero-data-retention terms and is contractually barred from training on your words, that there are no ads or ad trackers, and that you can delete your account and everything in it from inside the app. It also says plainly that this is not end-to-end encryption: our servers and the AI provider process your text in memory to write a reply.
+Our [privacy policy](/privacy-policy) says entries are encrypted at rest with a key unique to you, that our AI provider works under zero-data-retention terms and is contractually barred from training on your words, that there are no ads or ad trackers, and that you can delete your account and everything in it from inside the app. It also says plainly that this is not end-to-end encryption: our servers and the AI provider process your text in memory to write a reply.
 
 Best for people who want the evening conversation and a memory they can read.
 
