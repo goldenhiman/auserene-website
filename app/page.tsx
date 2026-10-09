@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Image from "next/image";
 import { CtaLink } from "./home/cta";
+import { allPosts } from "./blog/posts";
+import { Footer } from "./home/footer";
 import { Nav } from "./home/nav";
 import { IconTile, Phone, type ScreenKey } from "./home/phone";
 import { Reveal } from "./home/reveal";
@@ -364,6 +367,41 @@ export default function Home() {
         </Reveal>
       </section>
 
+      {/* from the blog: the research the app is built on */}
+      <section className="post-more home-blog" aria-labelledby="from-the-blog">
+        <Reveal className="section-head">
+          <p className="eyebrow">From the blog</p>
+          <h2 className="h2" id="from-the-blog">
+            What the research says
+          </h2>
+          <p className="section-sub">
+            Journaling, worry, sleep and meditation, with every claim linked to its study.{" "}
+            <Link href="/blog/journaling-statistics" className="text-link">
+              All the numbers in one place
+            </Link>
+            .
+          </p>
+        </Reveal>
+        <ul>
+          {allPosts()
+            .filter((p) => ["does-journaling-work", "journaling-for-anxiety", "racing-thoughts-at-night"].includes(p.slug))
+            .map((p) => (
+              <li key={p.slug}>
+                <a href={`/blog/${p.slug}`}>
+                  <span className="post-more-kicker">{p.feature}</span>
+                  <span className="post-more-title">{p.title}</span>
+                  <span className="post-more-dek">{p.dek}</span>
+                </a>
+              </li>
+            ))}
+        </ul>
+        <p className="home-blog-all">
+          <Link href="/blog" className="text-link">
+            Read all articles
+          </Link>
+        </p>
+      </section>
+
       {/* questions */}
       <section className="section faq">
         <Reveal className="section-head">
@@ -399,17 +437,7 @@ export default function Home() {
         </Reveal>
       </section>
 
-      <footer className="footer">
-        <span>© {new Date().getFullYear()} Auserene</span>
-        <nav aria-label="Footer">
-          <a href="/letter">Letter</a>
-          <a href="/support">Support</a>
-          <a href="/crisis-resources">Crisis resources</a>
-          <a href="/privacy-policy">Privacy</a>
-          <a href="/terms-of-service">Terms</a>
-          <a href="/subprocessors">Subprocessors</a>
-        </nav>
-      </footer>
+      <Footer />
     </main>
   );
 }

@@ -1,0 +1,55 @@
+{
+  "slug": "habits-that-stick",
+  "title": "How to make a habit stick: what habit studies show",
+  "seoTitle": "How to make a habit stick: what the studies show",
+  "description": "To make a habit stick, tie one small action to a moment you already have, write an if-then plan, and give it about two months. Here is what the studies show.",
+  "dek": "The 66-day rule describes fewer than half the people in the study it came from. The rest of the research is more useful, and kinder about missed days.",
+  "primaryKeyword": "how to make a habit stick",
+  "keywords": [
+    "how to make habits stick",
+    "implementation intentions",
+    "tiny habits",
+    "habit stacking",
+    "how long does it take to form a habit",
+    "if-then planning",
+    "habit formation research",
+    "why habits fail"
+  ],
+  "feature": "Habit goals",
+  "titleOptions": [
+    "How to make a habit stick: what habit studies show",
+    "How to make a habit stick (and why 66 days is misleading)",
+    "Habits that stick: what the research actually found",
+    "How long does it take to make a habit stick?",
+    "Implementation intentions: the habit tool with the best evidence",
+    "Why your new habit faded in week three",
+    "Tiny habits, anchors and if-then plans: what works",
+    "How to build a habit when motivation runs out",
+    "The science of habits that stick, read closely",
+    "Why reminders can stop a habit from forming"
+  ],
+  "faq": [
+    {
+      "q": "How long does it take to make a habit stick?",
+      "a": "Usually about two months, with wide variation. In Lally's 2010 study, time to near-peak automaticity ranged from 18 to 254 days, and a 2024 systematic review concluded that health habits typically take two to five months, not 21 days."
+    },
+    {
+      "q": "What is an implementation intention?",
+      "a": "It is a plan in the form 'When situation X happens, I will do Y.' A 2006 meta-analysis of 94 tests by Gollwitzer and Sheeran found a medium-to-large effect (d = 0.65) on reaching goals, and specific plans work better than vague ones."
+    },
+    {
+      "q": "Does missing a day ruin a new habit?",
+      "a": "No. In Lally's study, missing a single opportunity did not materially affect habit formation. Pick it back up at the next cue rather than doubling up or restarting a count."
+    },
+    {
+      "q": "Is it better to tie a habit to a routine or a time of day?",
+      "a": "A 2021 randomized trial found routine-based and time-based cues formed habits at similar rates. What mattered most was carrying out the plan each time the cue came, so choose whichever cue shows up most reliably in your day."
+    },
+    {
+      "q": "Do reminder apps help build habits?",
+      "a": "They help you repeat a behavior, but a 2015 study by Stawarz and colleagues found reminders hindered the habit becoming automatic, while cues tied to events in your day increased automaticity. Use reminders early, then let the real-life cue take over."
+    }
+  ],
+  "informationGain": "It reads the habit trials closely instead of repeating tips: the 66-day figure covers 39 of 96 volunteers, only 23% reached a habit threshold in a 2021 RCT, routine and clock cues performed the same, and phone reminders helped repetition while hindering automaticity.",
+  "sourcesCount": 17
+}

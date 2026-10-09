@@ -1,0 +1,55 @@
+{
+  "slug": "does-journaling-work",
+  "title": "Does journaling actually help? What the research shows",
+  "seoTitle": "Does journaling actually help? What the research shows",
+  "description": "Journaling actually helps, but modestly: trials show small drops in stress, anxiety and low mood. Here's which kind of writing works and which backfires.",
+  "dek": "Forty years of writing studies say yes, quietly and slowly, and only when the page is used to make sense of a day rather than to relive it.",
+  "primaryKeyword": "does journaling actually help",
+  "keywords": [
+    "does journaling work",
+    "benefits of journaling research",
+    "is journaling good for mental health",
+    "expressive writing research",
+    "journaling for anxiety and depression",
+    "science of journaling",
+    "does journaling help with stress",
+    "why journaling doesn't work for me"
+  ],
+  "feature": "The daily loop",
+  "titleOptions": [
+    "Does journaling actually help? What the research shows",
+    "Does journaling work? An honest look at the evidence",
+    "The science of journaling, without the hype",
+    "Does journaling actually help, or is it just venting?",
+    "What 40 years of journaling research really found",
+    "Journaling benefits: what's proven and what isn't",
+    "Why journaling helps some people and not others",
+    "Does journaling help anxiety and depression?",
+    "The kind of journaling that works, according to research",
+    "Is journaling worth it? What the studies say"
+  ],
+  "faq": [
+    {
+      "q": "Does journaling actually help with mental health?",
+      "a": "Yes, modestly. A 2023 meta-analysis of 31 randomized trials with 4,012 people found expressive writing produced a small but significant reduction in depression, anxiety and stress symptoms, and the benefit appeared at later follow-ups rather than right away."
+    },
+    {
+      "q": "Why do I feel worse after journaling?",
+      "a": "Writing about something painful often raises distress for a short while. A 1998 meta-analysis found this immediate distress was common and unrelated to the later benefits. If it keeps happening day after day, stop and talk to a professional."
+    },
+    {
+      "q": "What kind of journaling is most effective?",
+      "a": "Writing that pairs feelings with an effort to understand them. In a 2002 study, students who wrote about both emotions and their meaning gained more than those who wrote about emotions alone, who reported more illness symptoms. Words like 'because' and 'realize' predicted better outcomes in Pennebaker's data."
+    },
+    {
+      "q": "How often should you journal for it to work?",
+      "a": "Short and frequent seems to beat long and rare. In a 2023 meta-analysis, sessions one to three days apart produced stronger effects than sessions spaced four or more days apart. Most trials used 15 to 20 minutes per session."
+    },
+    {
+      "q": "Can journaling replace therapy?",
+      "a": "No. Reviews of journaling for mental illness describe it as a low-cost add-on to standard care, not a replacement. If anxiety, low mood or poor sleep are getting in the way of your days, talk to a doctor or therapist."
+    }
+  ],
+  "informationGain": "Unlike the top-ranking listicles, it separates the four-day expressive writing exercise the trials actually tested from everyday diary-keeping, puts the shrinking effect sizes side by side (d = 0.47 in 1998 to g = -0.12 in 2023), and uses randomized studies to show which writing helps (feeling plus sense-making, self-distancing) and which backfires (emotion-only venting, dissecting happy days).",
+  "sourcesCount": 18
+}
