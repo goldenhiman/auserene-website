@@ -15,7 +15,7 @@ Last updated: 2026-09-27
 
 ## Premium
 - Price: $105.99/year (works out to $8.83/month), $11.99/month, or $4.99/week
-- Free trial: the first 7 days of the yearly plan are free
+- Free trial: every plan (yearly, monthly and weekly) starts with 7 days free
 - Everything in Free, plus:
   - Evening conversations, and a chat any time of day
   - Memory across every note and chat
