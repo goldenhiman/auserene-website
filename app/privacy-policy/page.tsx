@@ -169,6 +169,30 @@ export default function PrivacyPolicy() {
           written, under the same zero-data-retention terms described below.
         </p>
 
+        <h3>Apple Health</h3>
+        <p>
+          If you turn it on in <em>Settings &rarr; Apple Health</em>, Auserene
+          saves two things to Apple Health on your iPhone: the minutes of
+          meditations and breathing sessions you finish (as Mindful Minutes),
+          and the moods you log (as State of Mind &mdash; how pleasant it felt,
+          plus any feelings and areas of life that match Apple&rsquo;s list).
+          Your note text is never saved there. Auserene{" "}
+          <strong>does not read any data from Apple Health</strong>, and nothing
+          it saves there is sent to us or to anyone else. You can turn it off in
+          Settings, and remove the data or the permission in the Health app at
+          any time.
+        </p>
+
+        <h3>Siri, Shortcuts and the share sheet</h3>
+        <p>
+          You can save a note or log a mood by asking Siri, from the Shortcuts
+          app, or by sharing text or a link to Auserene from another app.
+          Siri&rsquo;s speech recognition is provided by Apple under
+          Apple&rsquo;s privacy terms. What you save waits on your iPhone, in
+          storage only Auserene can open, until you next open the app; then it
+          becomes a note like any other and is handled as described above.
+        </p>
+
         <h3>Information collected automatically</h3>
         <ul>
           <li>
@@ -345,6 +369,17 @@ export default function PrivacyPolicy() {
             switch it off any time in <em>Settings &rarr; Share anonymous usage</em>.
           </li>
           <li>
+            <strong>PostHog</strong> also receives <strong>crash and error
+            reports</strong>. When the app crashes or hits an error, it sends a
+            technical report: the type of error and where in our code it
+            happened, app version, device model and OS version, tied to your
+            internal user identifier. Reports are stripped before they leave
+            your phone: no notes, chats, voice, or screenshots, and no error
+            messages, since a message can contain words you wrote. These are separate from usage analytics and on
+            by default so we can fix crashes; switch them off any time in{" "}
+            <em>Settings &rarr; Send crash reports</em>.
+          </li>
+          <li>
             <strong>Superwall</strong> (subscription and paywall service).
             Receives your internal user identifier, purchase and subscription
             events reported by the App Store (plan, start, renewal, expiry,
@@ -417,10 +452,11 @@ export default function PrivacyPolicy() {
             above during processing.
           </li>
           <li>
-            <strong>No advertising, attribution, session-replay, or
-            crash-reporting SDKs.</strong> The only third-party analytics in the
-            app is the PostHog event tracking described above, which never
-            receives your content and which you can turn off.
+            <strong>No advertising, attribution, or session-replay
+            SDKs.</strong> The only third-party analytics and diagnostics in the
+            app are the event tracking and crash reports described
+            above, both with PostHog. Neither receives your content, and you can turn
+            off both.
           </li>
         </ul>
         <p>
