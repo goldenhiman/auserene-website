@@ -169,6 +169,30 @@ export default function PrivacyPolicy() {
           written, under the same zero-data-retention terms described below.
         </p>
 
+        <h3>Apple Health</h3>
+        <p>
+          If you turn it on in <em>Settings &rarr; Apple Health</em>, Auserene
+          saves two things to Apple Health on your iPhone: the minutes of
+          meditations and breathing sessions you finish (as Mindful Minutes),
+          and the moods you log (as State of Mind &mdash; how pleasant it felt,
+          plus any feelings and areas of life that match Apple&rsquo;s list).
+          Your note text is never saved there. Auserene{" "}
+          <strong>does not read any data from Apple Health</strong>, and nothing
+          it saves there is sent to us or to anyone else. You can turn it off in
+          Settings, and remove the data or the permission in the Health app at
+          any time.
+        </p>
+
+        <h3>Siri, Shortcuts and the share sheet</h3>
+        <p>
+          You can save a note or log a mood by asking Siri, from the Shortcuts
+          app, or by sharing text or a link to Auserene from another app.
+          Siri&rsquo;s speech recognition is provided by Apple under
+          Apple&rsquo;s privacy terms. What you save waits on your iPhone, in
+          storage only Auserene can open, until you next open the app; then it
+          becomes a note like any other and is handled as described above.
+        </p>
+
         <h3>Information collected automatically</h3>
         <ul>
           <li>
