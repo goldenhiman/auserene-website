@@ -138,12 +138,19 @@ export default function PrivacyPolicy() {
             one.
           </li>
           <li>
-            <strong>Photos that stay on your phone:</strong> photos you add to the
-            people in your life, and photos you choose as the background of a
-            saved quote, are kept only on your phone. They are never uploaded to
-            us, so they don&rsquo;t move to a new phone. Removing a photo,
-            forgetting the person, deleting the quote, or signing out removes
-            them.
+            <strong>Photos you add to notes, chats, and people:</strong> the app
+            keeps a small copy on your phone for everyday use. So they come back
+            on a new phone or after reinstalling, each photo is{" "}
+            <strong>encrypted on your phone with your personal key</strong>{" "}
+            before it is backed up to our storage. We store only that encrypted
+            copy and cannot see the photo. Deleting the note, the chat, the
+            person&rsquo;s photo, the person, or your account deletes its backup;
+            signing out removes the copies on that phone.
+          </li>
+          <li>
+            <strong>Photos that stay on your phone:</strong> photos you choose as
+            the background of a saved quote are kept only on your phone and never
+            uploaded. Deleting the quote or signing out removes them.
           </li>
         </ul>
 
