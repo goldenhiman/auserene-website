@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
     <PolicyShell>
         <h1>Privacy Policy</h1>
         <p className="policy-meta">
-          Last updated: 20 October 2026 &middot; Effective: 20 October 2026
+          Last updated: 19 October 2026 &middot; Effective: 19 October 2026
         </p>
 
         <h2>Who we are</h2>
