@@ -14,7 +14,7 @@ export default function Subprocessors() {
   return (
     <PolicyShell>
         <h1>Subprocessors</h1>
-        <p className="policy-meta">Last updated: 6 October 2026</p>
+        <p className="policy-meta">Last updated: 19 October 2026</p>
 
         <p>
           This page lists the third-party companies (&ldquo;subprocessors&rdquo;)
@@ -76,12 +76,12 @@ export default function Subprocessors() {
           </table>
         </div>
 
-        <h2>Speech-to-text providers</h2>
+        <h2>Speech-to-text provider</h2>
         <p>
-          These receive the audio of a voice note, return the transcript, and
-          keep nothing. Both process audio under{" "}
+          This receives the audio of a voice note, returns the transcript, and
+          keeps nothing. It processes audio under{" "}
           <strong>zero-data-retention</strong> terms, and we do not store the
-          audio either. They never receive your written journal or conversation
+          audio either. It never receives your written journal or conversation
           history.
         </p>
         <div className="policy-table-wrap">
@@ -101,12 +101,41 @@ export default function Subprocessors() {
                 <td>Transcribes voice notes</td>
                 <td>Voice-note audio, transiently; zero data retention</td>
               </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>Image provider</h2>
+        <p>
+          For Premium Art of the day, this receives a short scene description
+          written from the feeling of your day, with no names, people, private
+          places, dates, or words, plus the art style you chose, and returns a
+          picture.{" "}
+          <strong>
+            It never receives your journal, notes, conversations, voice, or
+            anything that identifies you.
+          </strong>{" "}
+          Because nothing personal is sent, it is not used under
+          zero-data-retention terms; the description and the image may be kept
+          under the provider&rsquo;s own policies. It may not use them for
+          training.
+        </p>
+        <div className="policy-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Provider</th>
+                <th>Purpose</th>
+                <th>Data received</th>
+              </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>
-                  <strong>Together AI</strong>
+                  <strong>Together AI</strong> (running Black Forest Labs&rsquo; FLUX model)
                 </td>
-                <td>Transcribes voice notes</td>
-                <td>Voice-note audio, transiently; zero data retention</td>
+                <td>Paints Art of the day (Premium)</td>
+                <td>A scene description and the chosen art style; no personal content</td>
               </tr>
             </tbody>
           </table>
