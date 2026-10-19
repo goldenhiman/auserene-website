@@ -326,7 +326,8 @@ export default function PrivacyPolicy() {
           <strong>minimum data it needs</strong>, and we choose providers for our
           most sensitive data based on their data-handling terms. All transmissions
           occur over encrypted connections; content is decrypted in our secure
-          server environment only to build each request.
+          server environment only to build each request (and, to show it to you,
+          on your own device &mdash; see <em>How we protect your information</em>).
         </p>
         <ul>
           <li>
@@ -455,6 +456,17 @@ export default function PrivacyPolicy() {
             a managed key service.
           </li>
           <li>
+            <strong>Your key on your device.</strong> So the app can open your
+            journal quickly and work offline, it decrypts your content on your
+            phone. After you sign in, the genuine app receives a copy of your
+            personal encryption key over an encrypted connection and keeps it in
+            your device&rsquo;s secure Keychain, usable only on that device. The
+            copy is removed when you sign out, and from your other devices when
+            you use <em>Sign out of all other devices</em> in Settings or delete
+            your account. Our servers keep their own protected copy for the parts
+            of Auserene that run there, such as writing your reflections.
+          </li>
+          <li>
             <strong>Encryption on your device.</strong> The copy of your data the
             app keeps on your phone (so it opens instantly and works offline) is
             encrypted with a key held in your device&rsquo;s secure Keychain,
@@ -514,10 +526,11 @@ export default function PrivacyPolicy() {
           <li>
             <strong>Account deletion is immediate and irreversible.</strong> When
             you delete your account, we first destroy your per-user encryption key
-            (so every encrypted record becomes permanently unreadable), then purge
-            your account, journals, conversations, derived understanding, and
-            stored files from our active systems. We cannot restore a deleted
-            account.
+            (so every encrypted record becomes permanently unreadable), sign out
+            every device signed in to your account (which removes the copy of the
+            key each one held), then purge your account, journals, conversations,
+            derived understanding, and stored files from our active systems. We
+            cannot restore a deleted account.
           </li>
           <li>
             <strong>Backups.</strong> Encrypted copies of your data may remain in
@@ -550,6 +563,12 @@ export default function PrivacyPolicy() {
           account, your journals and conversations, your derived understanding,
           your encryption key, and your stored files, as described above. You may
           also email <Mail /> to request deletion.
+        </p>
+        <p>
+          <strong>Sign out of all other devices.</strong> If you lose a phone or
+          signed in somewhere you no longer use, Settings lets you sign out every
+          other device at once. Each one is signed out within minutes, the next
+          time it connects, and forgets your data and your key.
         </p>
         <p>
           <strong>Analytics are opt-in.</strong> Product-analytics events are off
