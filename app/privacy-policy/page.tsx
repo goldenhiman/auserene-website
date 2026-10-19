@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
     <PolicyShell>
         <h1>Privacy Policy</h1>
         <p className="policy-meta">
-          Last updated: 6 October 2026 &middot; Effective: 6 October 2026
+          Last updated: 19 October 2026 &middot; Effective: 19 October 2026
         </p>
 
         <h2>Who we are</h2>
@@ -70,7 +70,7 @@ export default function PrivacyPolicy() {
             providers who are{" "}
             <strong>contractually prohibited from training on your content.</strong>{" "}
             Your raw journal entries reach only our language and embedding
-            providers &mdash; never our voice providers.
+            providers &mdash; never our voice or image providers.
           </li>
           <li>
             Your content is <strong>never sold</strong> and{" "}
@@ -167,6 +167,19 @@ export default function PrivacyPolicy() {
           uses to find related entries, is stored encrypted on our servers. It is
           sent to our language-model provider only while a reply is being
           written, under the same zero-data-retention terms described below.
+        </p>
+        <h3>Art of the day</h3>
+        <p>
+          When Auserene writes your journal entry, it also writes a short scene
+          description for that day&rsquo;s picture: a landscape, a still life, a
+          sky, chosen to echo how the day felt. It is a symbol, not a record. It
+          never contains names, people you mentioned, private places, dates, or
+          any words to show in the picture, and we check every description for
+          these before it is used. The description is stored encrypted with your
+          other content. With Premium, it is turned into an image in the art
+          style you pick; the image is stored with your account and deleted with
+          it. You can choose a pattern drawn on your phone instead, or no art at
+          all, in <em>Settings &rarr; Art of the day</em>.
         </p>
 
         <h3>Apple Health</h3>
@@ -327,13 +340,29 @@ export default function PrivacyPolicy() {
             response and is not stored afterwards.
           </li>
           <li>
-            <strong>Speech-to-text providers &mdash; Groq and Together AI.</strong>{" "}
-            When you record a voice note, the audio is sent to one of these
-            providers for transcription and the text comes back. Both process it
-            under <strong>zero-data-retention</strong> terms: the audio is not
-            stored by them after the transcript is returned, and we do not store
-            the audio either. They never receive your written journal or
-            conversation history.
+            <strong>Speech-to-text provider &mdash; Groq.</strong>{" "}
+            When you record a voice note, the audio is sent to Groq for
+            transcription and the text comes back. It processes it under{" "}
+            <strong>zero-data-retention</strong> terms: the audio is not stored
+            by Groq after the transcript is returned, and we do not store the
+            audio either. It never receives your written journal or conversation
+            history.
+          </li>
+          <li>
+            <strong>Image provider &mdash; Together AI.</strong> For Premium Art
+            of the day, it receives only the day&rsquo;s{" "}
+            <strong>scene description and the art style you chose</strong> (see{" "}
+            <em>Art of the day</em> above), and returns the picture. It runs the
+            image model from Black Forest Labs.{" "}
+            <strong>
+              It never receives your journal, notes, conversations, voice, or
+              anything that identifies you.
+            </strong>{" "}
+            Because the description carries nothing personal, this provider is
+            not used under zero-data-retention terms: Together AI and Black
+            Forest Labs may keep the description and the image under their own
+            policies. Our settings with Together AI do not allow it to be used
+            for training.
           </li>
           <li>
             <strong>Text-to-speech providers &mdash; ElevenLabs and Inworld AI.</strong>{" "}
