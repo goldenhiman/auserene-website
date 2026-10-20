@@ -1,0 +1,35 @@
+# After Vercel finishes a production deploy, tell Bing (IndexNow) about any
+# blog posts that deploy added, changed or removed, plus the /blog index.
+# Deploys that touch no posts send nothing.
+name: IndexNow
+
+on: deployment_status
+
+jobs:
+  ping:
+    if: github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.deployment.sha }}
+          fetch-depth: 2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Ping changed posts
+        run: |
+          # A merge commit's first parent is main before the merge, so this is
+          # everything the merged PR changed.
+          slugs=$(git diff --name-only HEAD^1 HEAD -- content/blog \
+            | sed -n 's#^content/blog/\(.*\)\.\(md\|json\)$#\1#p' | sort -u)
+          if [ -z "$slugs" ]; then
+            echo "No blog posts changed; nothing to send."
+            exit 0
+          fi
+          paths="/blog"
+          for s in $slugs; do paths="$paths /blog/$s"; done
+          echo "Sending: $paths"
+          node scripts/indexnow.mjs $paths
