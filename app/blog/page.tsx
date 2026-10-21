@@ -43,7 +43,7 @@ export default function BlogIndex() {
       />
       <Nav home={false} />
 
-      <header className="blog-head">
+      <header className="blog-head" id="content">
         <h1 className="display">Notes on the inner life</h1>
         <p className="lede">
           What the research says about journaling, worry, sleep, feelings and habits, written to be useful on a hard
@@ -59,7 +59,7 @@ export default function BlogIndex() {
         <section className="blog-list" aria-label="Articles">
           <a href={`/blog/${lead.slug}`} className="blog-lead">
             <span className="blog-kicker">{lead.feature}</span>
-            <span className="blog-lead-title">{lead.title}</span>
+            <h2 className="blog-lead-title">{lead.title}</h2>
             <span className="blog-dek">{lead.dek}</span>
             <span className="blog-meta">{lead.minutes} min read</span>
           </a>
@@ -68,7 +68,7 @@ export default function BlogIndex() {
               <li key={p.slug}>
                 <a href={`/blog/${p.slug}`}>
                   <span className="blog-kicker">{p.feature}</span>
-                  <span className="blog-title">{p.title}</span>
+                  <h2 className="blog-title">{p.title}</h2>
                   <span className="blog-dek">{p.dek}</span>
                   <span className="blog-meta">{p.minutes} min read</span>
                 </a>

@@ -36,22 +36,22 @@ type Para = { runs: Run[]; tone?: "soft" | "faint"; italic?: boolean };
 
 export const STORY: Para[] = [
   { runs: [{ t: "You are here. Thank you." }], tone: "soft" },
-  { runs: [{ t: "Few of us are strangers to the quiet fear of going through life without ever really feeling seen, especially by ourselves. I'm certainly not; it's been an old companion. And if you're still reading, I suspect you might be in the same boat. So let's push the oar a little." }] },
-  { runs: [{ t: "Our younger selves carried a special burden. We had to learn to drive the car while already sitting in it, without knowing what driving was, where we were going, or even that this thing was called a car. I dearly hope you had a wonderful time taking it wherever you pleased: revving it up, off-roading when the mood struck. It was new, and nothing could possibly go wrong with it. So it's no wonder the car strayed from the path many times, picked up dents all over, and the machinery no longer works quite the way we remember. And then, one day, we realised this was the only car we'd ever get." }] },
-  { runs: [{ t: "We do get tools, so it's not all bad. Journaling. Meditation. Breathwork. For some people, they work. But most of us were never taught the prerequisites: how to notice what we're feeling, how to name it without flinching, how to sit beside it without bolting for the exit. So we do what humans do when we're out of our depth." }] },
+  { runs: [{ t: "Few of us are strangers to the quiet fear of going through life without ever really feeling seen, especially by ourselves. I’m certainly not; it’s been an old companion. And if you’re still reading, I suspect you might be in the same boat. So let’s push the oar a little." }] },
+  { runs: [{ t: "Our younger selves carried a special burden. We had to learn to drive the car while already sitting in it, without knowing what driving was, where we were going, or even that this thing was called a car. I dearly hope you had a wonderful time taking it wherever you pleased: revving it up, off-roading when the mood struck. It was new, and nothing could possibly go wrong with it. So it’s no wonder the car strayed from the path many times, picked up dents all over, and the machinery no longer works quite the way we remember. And then, one day, we realised this was the only car we’d ever get." }] },
+  { runs: [{ t: "We do get tools, so it’s not all bad. Journaling. Meditation. Breathwork. For some people, they work. But most of us were never taught the prerequisites: how to notice what we’re feeling, how to name it without flinching, how to sit beside it without bolting for the exit. So we do what humans do when we’re out of our depth." }] },
   { runs: [{ t: "We cope. Badly." }] },
-  { runs: [{ t: "We lean on things we once thought of as mere fuel for getting things done: stress and anxiety. We convince ourselves we're in control of them. Then slowly, right before our eyes, they take the wheel." }] },
+  { runs: [{ t: "We lean on things we once thought of as mere fuel for getting things done: stress and anxiety. We convince ourselves we’re in control of them. Then slowly, right before our eyes, they take the wheel." }] },
   { runs: [{ t: "For me, that takeover happened in my mid-twenties, around COVID." }] },
-  { runs: [{ t: "I started tiptoeing into my parents' room at night, placing my hand on their foreheads to check for the faintest hint of fever. I did it once. Then again. Then again. Every rustle from their bed sent a spike of terror through my body. My chest clenched. My mind sprinted ahead to hospitals, oxygen cylinders, fates I couldn't bear to imagine. I couldn't sleep, and I knew it couldn't go on." }] },
-  { runs: [{ t: "One night, desperate, I tried a twenty-minute guided meditation. I didn't expect much. But for the first time in a long while, my mind felt peaceful. It was like looking at my worries through a pane of glass: the hard stuff was all still there, but it no longer had the same grip on me. I've leaned on it heavily ever since, and preached it to anyone willing to lend me half an ear." }] },
-  { runs: [{ t: "Later, in therapy, I learned to journal in a way that actually helped. Not the \"dear diary, today I had coffee\" kind, but the slow, awkward practice of writing down the mess and then returning to it with someone who could spot the recurring shapes." }] },
-  { runs: [{ t: "Over time, my journal became less of a dumping ground and more of a map. I could trace certain roads: \"Ah, here's the story where I assume I have to fix everyone.\" \"Here's the one where I pretend I don't need help.\" \"Here's the loop where I confuse worry with love.\" The notebook mattered, but what changed me was the steady, skilled attention of someone sitting beside my pages, saying, \"Look, this shows up a lot. What do you think that is?\"" }] },
+  { runs: [{ t: "I started tiptoeing into my parents’ room at night, placing my hand on their foreheads to check for the faintest hint of fever. I did it once. Then again. Then again. Every rustle from their bed sent a spike of terror through my body. My chest clenched. My mind sprinted ahead to hospitals, oxygen cylinders, fates I couldn’t bear to imagine. I couldn’t sleep, and I knew it couldn’t go on." }] },
+  { runs: [{ t: "One night, desperate, I tried a twenty-minute guided meditation. I didn’t expect much. But for the first time in a long while, my mind felt peaceful. It was like looking at my worries through a pane of glass: the hard stuff was all still there, but it no longer had the same grip on me. I’ve leaned on it heavily ever since, and preached it to anyone willing to lend me half an ear." }] },
+  { runs: [{ t: "Later, in therapy, I learned to journal in a way that actually helped. Not the “dear diary, today I had coffee” kind, but the slow, awkward practice of writing down the mess and then returning to it with someone who could spot the recurring shapes." }] },
+  { runs: [{ t: "Over time, my journal became less of a dumping ground and more of a map. I could trace certain roads: “Ah, here’s the story where I assume I have to fix everyone.” “Here’s the one where I pretend I don’t need help.” “Here’s the loop where I confuse worry with love.” The notebook mattered, but what changed me was the steady, skilled attention of someone sitting beside my pages, saying, “Look, this shows up a lot. What do you think that is?”" }] },
   { runs: [{ t: "When therapy ended, I kept journaling. But that guiding hand is what I miss most." }] },
-  { runs: [{ t: "The hopeful discovery for me was that none of this is magic. It's a muscle. With the right kind of gentle, persistent presence, you can learn how to speak to yourself, how to see yourself, and how to stop outsourcing your self-understanding to crises. After a while, it starts to feel like a quiet superpower: walking around with a mind that notices its own storms without immediately becoming them." }] },
+  { runs: [{ t: "The hopeful discovery for me was that none of this is magic. It’s a muscle. With the right kind of gentle, persistent presence, you can learn how to speak to yourself, how to see yourself, and how to stop outsourcing your self-understanding to crises. After a while, it starts to feel like a quiet superpower: walking around with a mind that notices its own storms without immediately becoming them." }] },
   { runs: [{ t: "With all the technology around us today, it feels absurd that this kind of attention is available only once a week, if someone has a free slot and you can afford it." }] },
   {
     runs: [
-      { t: "That's why I'm building " },
+      { t: "That’s why I’m building " },
       { t: "Auserene", em: true },
       { t: "." },
     ],
@@ -59,14 +59,14 @@ export const STORY: Para[] = [
   {
     runs: [
       { t: "Auserene", em: true },
-      { t: " isn't a blank notebook. Throughout the day, you drop little notes into it: a thought after a meeting, a spike of anxiety, a small win, a passing memory. At night, instead of staring at an empty page, you sit down for a conversation. An AI that's been quietly noticing your patterns all along takes everything you've shared and talks it through with you, asking gentle questions, connecting dots, and keeping your goals in mind." },
+      { t: " isn’t a blank notebook. Throughout the day, you drop little notes into it: a thought after a meeting, a spike of anxiety, a small win, a passing memory. At night, instead of staring at an empty page, you sit down for a conversation. An AI that’s been quietly noticing your patterns all along takes everything you’ve shared and talks it through with you, asking gentle questions, connecting dots, and keeping your goals in mind." },
     ],
   },
   { runs: [{ t: "From that conversation, it does the heavy lifting. It turns your day into a clear journal entry, pulls out the themes that keep recurring in your life, and can even create meditations and reflections shaped by how your mind actually works. Because it remembers your patterns and learns what tends to help you, you can talk to it anytime, and it will respond through that same lens: you at your best." }] },
-  { runs: [{ t: "It doesn't diagnose you, and it isn't therapy. It's the steady, patient guiding hand I wish I'd had on all those nights in between." }] },
+  { runs: [{ t: "It doesn’t diagnose you, and it isn’t therapy. It’s the steady, patient guiding hand I wish I’d had on all those nights in between." }] },
   {
     runs: [
-      { t: "I use it every day. It's still small, made by a very small team. But I can see what it could become. If any of this feels uncomfortably familiar, I'd love for you to take the car for a short drive with " },
+      { t: "I use it every day. It’s still small, made by a very small team. But I can see what it could become. If any of this feels uncomfortably familiar, I’d love for you to take the car for a short drive with " },
       { t: "Auserene", em: true },
       { t: " in the passenger seat." },
     ],
@@ -84,13 +84,13 @@ const toneClass: Record<NonNullable<Para["tone"]>, string> = {
 function toSentences(runs: Run[]): Run[][] {
   const sentences: Run[][] = [];
   let cur: Run[] = [];
-  const endsSentence = (s: string) => /[.!?]["'"')\]]?\s*$/.test(s);
+  const endsSentence = (s: string) => /[.!?]["'”’)\]]?\s*$/.test(s);
   for (const run of runs) {
     if (run.em) {
       cur.push(run);
       continue;
     }
-    const pieces = run.t.match(/[^.!?]*[.!?]+["'"')\]]?\s*|[^.!?]+$/g) ?? [run.t];
+    const pieces = run.t.match(/[^.!?]*[.!?]+["'”’)\]]?\s*|[^.!?]+$/g) ?? [run.t];
     for (const piece of pieces) {
       cur.push({ t: piece });
       if (endsSentence(piece)) {
@@ -111,6 +111,7 @@ export function Letter() {
   // to hide both edges past the window) and the sticky offset that centres it.
   // null = phone layout: the paper fills the card.
   const articleRef = useRef<HTMLElement>(null);
+  const video = useRef<HTMLVideoElement>(null);
   const [paper, setPaper] = useState<{ h: number; top: number } | null>(null);
 
   useEffect(() => {
@@ -152,20 +153,26 @@ export function Letter() {
     setIsNight(h >= 20 || h < 6);
   }, []);
 
+  // a decorative loop: under reduced motion, hold on the poster frame
+  useEffect(() => {
+    if (reduce) video.current?.pause();
+  }, [reduce, isNight]);
+
   const paras = STORY.map((p) => ({ ...p, sentences: toSentences(p.runs) }));
   const totalSentences = paras.reduce((n, p) => n + p.sentences.length, 0);
   let sentenceIndex = 0;
 
   return (
-    <div className="relative flex min-h-dvh items-center justify-center px-6 py-12 sm:px-10 sm:py-16">
+    <main id="content" className="relative flex min-h-dvh items-center justify-center px-6 py-12 sm:px-10 sm:py-16">
       {/* fixed to the viewport so it stays put while the letter scrolls;
           the still PNG is the poster for instant first paint + fallback */}
       <div aria-hidden className="fixed inset-0 -z-10">
         <video
+          ref={video}
           key={isNight ? "night" : "day"}
           className="h-full w-full object-cover"
           poster="/background-image.png"
-          autoPlay
+          autoPlay={!reduce}
           loop
           muted
           playsInline
@@ -206,7 +213,7 @@ export function Letter() {
           >
             <Image
               src="/parchment.png"
-              alt=""
+              alt="Parchment paper background"
               fill
               preload
               sizes="(max-width: 840px) 100vw, 768px"
@@ -290,7 +297,7 @@ export function Letter() {
             >
               <Image
                 src="/wax-seal-monogram.png"
-                alt=""
+                alt="Auserene wax seal monogram"
                 width={220}
                 height={220}
                 className="h-full w-full object-contain"
@@ -320,6 +327,6 @@ export function Letter() {
           </motion.div>
         </div>
       </motion.article>
-    </div>
+    </main>
   );
 }

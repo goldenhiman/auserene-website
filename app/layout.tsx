@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Averia_Serif_Libre, Hedvig_Letters_Serif, Inter } from "next/font/google";
 import { Agentation } from "agentation";
 import { Analytics } from "@vercel/analytics/next";
@@ -23,6 +23,10 @@ const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
 });
+
+export const viewport: Viewport = {
+  themeColor: "#fbf4ea",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -66,6 +70,9 @@ export default function RootLayout({
       className={`${hedvig.variable} ${averia.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="min-h-full">
+        <a href="#content" className="skip-link">
+          Skip to content
+        </a>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

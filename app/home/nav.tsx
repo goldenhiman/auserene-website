@@ -26,7 +26,7 @@ export function Nav({ home = true }: { home?: boolean }) {
   return (
     <header className={`nav${scrolled ? " nav-scrolled" : ""}`}>
       <a href={home ? "#top" : "/"} className="nav-brand" aria-label={home ? "Auserene, back to top" : "Auserene home"}>
-        <Image src="/auserene-icon.png" alt="" width={30} height={30} className="app-icon" priority />
+        <Image src="/auserene-icon.png" alt="Auserene app icon" aria-hidden width={30} height={30} className="app-icon" priority />
         <span>Auserene</span>
       </a>
       <nav className="nav-links" aria-label="Sections">
