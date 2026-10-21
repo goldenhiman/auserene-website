@@ -31,7 +31,7 @@ export function Reveal({
       initial={reduce ? false : v.hidden}
       whileInView={v.shown}
       viewport={{ once: true, margin: "0px 0px -10% 0px" }}
-      transition={{ duration: v.duration, delay, ease: EASE_OUT_EXPO }}
+      transition={reduce ? { duration: 0 } : { duration: v.duration, delay, ease: EASE_OUT_EXPO }}
     >
       {children}
     </motion.div>

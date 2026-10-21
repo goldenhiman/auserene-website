@@ -65,9 +65,25 @@ function plain(md: string) {
   return md.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/[*_`]/g, "");
 }
 
+// typographer: straight quotes to curly, "..." to an ellipsis. A quote after
+// a space or opening bracket (or at the start of a text run) opens, any other
+// closes, so apostrophes (and '24) come out right.
+function smarten(t: string) {
+  return t
+    .replace(/\.\.\./g, "\u2026")
+    .replace(/(^|[\s([{\u2014])"(?=\S)/g, "$1\u201c")
+    .replace(/"/g, "\u201d")
+    .replace(/'(?=\d\d\b)/g, "\u2019")
+    .replace(/(^|[\s([{\u2014])'(?=\S)/g, "$1\u2018")
+    .replace(/'/g, "\u2019");
+}
+
 // headings get ids for the table of contents; links leaving the site open in
 // a new tab
 const marked = new Marked({
+  walkTokens(token) {
+    if (token.type === "text" && !("tokens" in token && token.tokens)) token.text = smarten(token.text);
+  },
   renderer: {
     heading({ tokens, depth, text }: Tokens.Heading) {
       return `<h${depth} id="${slugify(plain(text))}">${this.parser.parseInline(tokens)}</h${depth}>\n`;
@@ -132,7 +148,7 @@ export function getPost(slug: string): Post | null {
       const aside = part.match(/^<aside class="app-note"(?: data-screen="([^"]*)")?>([\s\S]*)<\/aside>$/);
       if (aside) {
         const screen = SCREENS.has(aside[1] ?? "") ? (aside[1] as ScreenKey) : null;
-        return { kind: "note", screen, html: aside[2].replace(/<p class="app-note-kicker">[\s\S]*?<\/p>/, "") };
+        return { kind: "note", screen, html: aside[2].replace(/<p class="app-note-kicker">[\s\S]*?<\/p>/, "").replace(/>([^<]+)</g, (_, t) => `>${smarten(t)}<`) };
       }
       return { kind: "html", html: marked.parse(part, { async: false }) };
     });

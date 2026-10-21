@@ -114,7 +114,7 @@ export function Phone({
 export function IconTile({ name, size = 64 }: { name: string; size?: number }) {
   return (
     <span className="icon-tile" style={{ width: size, height: size }} aria-hidden>
-      <Image src={`/icons/${name}.png`} alt="" width={256} height={256} sizes={`${size}px`} />
+      <Image src={`/icons/${name}.png`} alt={`${name} icon`} width={256} height={256} sizes={`${size}px`} />
     </span>
   );
 }

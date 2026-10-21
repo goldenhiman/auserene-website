@@ -99,7 +99,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
       />
       <Nav home={false} />
 
-      <article className="post">
+      <article className="post" id="content">
         <header className="post-head">
           <nav aria-label="Breadcrumb" className="post-crumb">
             <Link href="/blog">Blog</Link>
@@ -109,7 +109,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
           <h1 className="display post-title">{post.title}</h1>
           <p className="post-dek">{post.dek}</p>
           <div className="post-byline">
-            <Image src="/auserene-icon.png" alt="" width={36} height={36} className="app-icon" />
+            <Image src="/auserene-icon.png" alt="Auserene app icon" aria-hidden width={36} height={36} className="app-icon" />
             <p>
               <Link href="/blog" rel="author">
                 The Auserene team
@@ -149,7 +149,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
                 {s.screen && <Phone screen={s.screen} className="app-note-phone" />}
                 <div className="app-note-text">
                   <p className="app-note-kicker">
-                    <Image src="/auserene-icon.png" alt="" width={20} height={20} className="app-icon" />
+                    <Image src="/auserene-icon.png" alt="Auserene app icon" aria-hidden width={20} height={20} className="app-icon" />
                     In Auserene
                   </p>
                   <div dangerouslySetInnerHTML={{ __html: s.html }} />
@@ -178,7 +178,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
         <footer className="post-foot">
           <div className="post-author">
-            <Image src="/auserene-icon.png" alt="" width={48} height={48} className="app-icon" />
+            <Image src="/auserene-icon.png" alt="Auserene app icon" aria-hidden width={48} height={48} className="app-icon" />
             <p>
               <strong>Written by the Auserene team.</strong> Every study cited here was read at the source, and
               each claim links to it. Auserene was founded by Himanshu Pathak, who learned to journal in therapy and
@@ -186,8 +186,8 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             </p>
           </div>
           <p className="post-disclaimer">
-            This article is general information, not medical advice. If you&apos;re struggling, talk to a doctor or a
-            licensed therapist. If you&apos;re not safe right now, call your local emergency number or see our{" "}
+            This article is general information, not medical advice. If you&rsquo;re struggling, talk to a doctor or a
+            licensed therapist. If you&rsquo;re not safe right now, call your local emergency number or see our{" "}
             <a href="/crisis-resources">crisis resources</a>.
           </p>
           {post.sources.trim() && (
@@ -220,10 +220,10 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
       <section className="closing">
         <div className="closing-inner">
-          <Image src="/auserene-icon.png" alt="" width={72} height={72} className="app-icon" />
+          <Image src="/auserene-icon.png" alt="Auserene app icon" aria-hidden width={72} height={72} className="app-icon" />
           <h2 className="display display-sm">Set the day down tonight</h2>
           <p className="lede">
-            Auserene is a journal that listens, remembers what helps you, and turns your day into a meditation. It&apos;s
+            Auserene is a journal that listens, remembers what helps you, and turns your day into a meditation. It&rsquo;s
             in beta on iPhone.
           </p>
           <CtaLink tone="light" />

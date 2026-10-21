@@ -20,6 +20,36 @@
 html {
   background: #0e1a12;
 }
+/* the homepage and blog are light: match the overscroll canvas, and keep
+   focused or jumped-to elements clear of the floating nav */
+html:has(.home) {
+  background: #fbf4ea;
+}
+html:has(.nav) {
+  scroll-padding-top: 5rem;
+}
+
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: fixed;
+  z-index: 100;
+  top: 0.75rem;
+  left: 0.75rem;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  background: #231f1b;
+  color: #fbf4ea;
+  font-family: ui-rounded, "SF Pro Rounded", var(--font-inter), system-ui, sans-serif;
+  font-weight: 600;
+  transform: translateY(-200%);
+}
+.skip-link:focus-visible {
+  transform: none;
+}
 
 body {
   color: var(--ink);
@@ -1489,7 +1519,7 @@ body {
   font-weight: 400;
   color: var(--ink-h);
   text-wrap: balance;
-  scroll-margin-top: 6.5rem;
+  scroll-margin-top: 1.5rem;
 }
 .prose h2 {
   font-size: clamp(1.6rem, 1.35rem + 1vw, 2.05rem);

@@ -34,7 +34,7 @@ const DAY: { n: string; when: string; icon: string; title: string; body: string;
     when: "Before bed",
     icon: "moon",
     title: "Meditate on your day",
-    body: "The conversation becomes the day's journal entry. Then Auserene makes a meditation from it, with your own words woven in and your name said the way you say it.",
+    body: "The conversation becomes the day’s journal entry. Then Auserene makes a meditation from it, with your own words woven in and your name said the way you say it.",
     screen: "meditation",
   },
 ];
@@ -65,7 +65,7 @@ const PILLARS: { img: string; kicker: string; title: string; body: string[]; scr
     kicker: "Talk",
     title: "Someone to talk to, day or night",
     body: [
-      "The evening chat is the heart of it, but hard moments don't keep office hours. Open a chat whenever you need one. Auserene remembers what you've talked about, so you never start from zero.",
+      "The evening chat is the heart of it, but hard moments don’t keep office hours. Open a chat whenever you need one. Auserene remembers what you’ve talked about, so you never start from zero.",
       "If you wish to continue an old chat, it carries a summary into a fresh one, so nothing you said gets dropped.",
     ],
     screen: "talk",
@@ -74,7 +74,7 @@ const PILLARS: { img: string; kicker: string; title: string; body: string[]; scr
 
 const ALSO = [
   { icon: "sprout", title: "Habit goals", body: "Pick one small thing to practice. Auserene brings it up when it fits, never as a nag." },
-  { icon: "couple", title: "People", body: "The people you talk about, with the moments you've shared, in one place." },
+  { icon: "couple", title: "People", body: "The people you talk about, with the moments you’ve shared, in one place." },
   {
     icon: "camera",
     title: "Photos, not just words",
@@ -89,7 +89,7 @@ const ALSO = [
   {
     icon: "compass",
     title: "Guided sessions",
-    body: "Purpose-built guided journaling for the days you're willing to explore your thoughts without any triggers.",
+    body: "Purpose-built guided journaling for the days you’re willing to explore your thoughts without any triggers.",
   },
 ];
 
@@ -102,7 +102,7 @@ const PRIVACY = [
   {
     icon: "jar",
     title: "Nothing trains a model",
-    body: "Our AI provider works under a zero-data-retention contract: it keeps nothing after replying, and it's contractually barred from training on your words.",
+    body: "Our AI provider works under a zero-data-retention contract: it keeps nothing after replying, and it’s contractually barred from training on your words.",
   },
   {
     icon: "stop",
@@ -119,7 +119,7 @@ const PRIVACY = [
 const FREE = [
   "Notes, as many as you like",
   "An evening walk through your notes, on your own",
-  'Three "Help me write" nudges a day',
+  "Three “Help me write” nudges a day",
   "Habit goals and reminders",
   "People you add yourself",
   "Guided meditation journeys",
@@ -137,19 +137,19 @@ const PREMIUM = [
 const FAQ = [
   {
     q: "Is Auserene therapy?",
-    a: "No, and it doesn't replace a therapist. It's a quiet place to notice how you're doing and what helps, whether or not you're seeing someone.",
+    a: "No, and it doesn’t replace a therapist. It’s a quiet place to notice how you’re doing and what helps, whether or not you’re seeing someone.",
   },
   {
     q: "Who can read what I write?",
-    a: "Only you. The AI reads it just long enough to reply, and doesn't keep it. Your writing is encrypted with a key tied to your account, and no one on our team reads it.",
+    a: "Only you. The AI reads it just long enough to reply, and doesn’t keep it. Your writing is encrypted with a key tied to your account, and no one on our team reads it.",
   },
   {
     q: "Do I have to write every day?",
-    a: "No. The app shows how many days in a row you've checked in, but missing days is completely okay. Come back whenever you're ready. One line is plenty.",
+    a: "No. The app shows how many days in a row you’ve checked in, but missing days is completely okay. Come back whenever you’re ready. One line is plenty.",
   },
   {
     q: "What happens if I stop Premium?",
-    a: "Everything you've written stays yours. Notes, goals and guided journeys keep working. Chats and daily meditations will be waiting if you come back.",
+    a: "Everything you’ve written stays yours. Notes, goals and guided journeys keep working. Chats and daily meditations will be waiting if you come back.",
   },
   {
     q: "What does it run on?",
@@ -157,7 +157,7 @@ const FAQ = [
   },
   {
     q: "What if things feel like too much?",
-    a: "Please reach out to someone. If you're not safe right now, call your local emergency number. Our crisis page lists free, confidential helplines by country.",
+    a: "Please reach out to someone. If you’re not safe right now, call your local emergency number. Our crisis page lists free, confidential helplines by country.",
     link: { href: "/crisis-resources", label: "Crisis resources" },
   },
 ];
@@ -183,7 +183,7 @@ export default function Home() {
       <Nav />
 
       {/* hero: the painted landscape in a rounded frame, the app rising out of it */}
-      <section className="hero">
+      <section className="hero" id="content">
         <Reveal className="hero-copy">
           <h1 className="display">A journal that remembers what helps you</h1>
           <p className="lede">
@@ -235,7 +235,7 @@ export default function Home() {
         {PILLARS.map((p, i) => (
           <div key={p.kicker} className={`pillar${i % 2 ? " pillar-flip" : ""}`}>
             <Reveal className="pillar-art" variant="rise">
-              <Image src={p.img} alt="" width={907} height={1300} sizes="(max-width: 860px) 70vw, 360px" className="pillar-illo" />
+              <Image src={p.img} alt={`Illustration for ${p.kicker.toLowerCase()} in Auserene`} width={907} height={1300} sizes="(max-width: 860px) 70vw, 360px" className="pillar-illo" />
               {p.screen === "talk" ? (
                 <ThemeCompare
                   light="/mockups/talk.png"
@@ -282,7 +282,7 @@ export default function Home() {
           <p className="eyebrow">Privacy</p>
           <h2 className="h2">Your journal is not a data source</h2>
           <p className="section-sub">
-            No person ever reads your journal. The AI sees it just long enough to reply, and doesn&apos;t keep it.
+            No person ever reads your journal. The AI sees it just long enough to reply, and doesn&rsquo;t keep it.
           </p>
         </Reveal>
         <div className="privacy-grid">
@@ -337,7 +337,7 @@ export default function Home() {
         </div>
         <Reveal>
           <p className="fine">
-            $105.99 a year, $11.99 a month, or $4.99 a week. Cancel any time in your iPhone&apos;s subscription settings.
+            $105.99 a year, $11.99 a month, or $4.99 a week. Cancel any time in your iPhone&rsquo;s subscription settings.
           </p>
         </Reveal>
       </section>
@@ -345,7 +345,7 @@ export default function Home() {
       {/* the founder's letter, a taste of it */}
       <section className="section letter-teaser">
         <Reveal className="teaser-paper">
-          <Image src="/parchment.png" alt="" fill sizes="(max-width: 760px) 100vw, 720px" className="teaser-bg" />
+          <Image src="/parchment.png" alt="Parchment paper background" aria-hidden fill sizes="(max-width: 760px) 100vw, 720px" className="teaser-bg" />
           <div className="teaser-body">
             <p className="eyebrow">A note from the maker</p>
             <p className="teaser-text">
@@ -430,9 +430,9 @@ export default function Home() {
       {/* last word */}
       <section className="closing">
         <Reveal className="closing-inner">
-          <Image src="/auserene-icon.png" alt="" width={72} height={72} className="app-icon" />
+          <Image src="/auserene-icon.png" alt="Auserene app icon" aria-hidden width={72} height={72} className="app-icon" />
           <h2 className="display display-sm">Set the day down tonight</h2>
-          <p className="lede">Auserene is in beta on iPhone. It&apos;s made by a very small team that cares a lot, and it gets better every week.</p>
+          <p className="lede">Auserene is in beta on iPhone. It&rsquo;s made by a very small team that cares a lot, and it gets better every week.</p>
           <CtaLink tone="light" />
         </Reveal>
       </section>
