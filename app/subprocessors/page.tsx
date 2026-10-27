@@ -14,7 +14,7 @@ export default function Subprocessors() {
   return (
     <PolicyShell>
         <h1>Subprocessors</h1>
-        <p className="policy-meta">Last updated: 19 October 2026</p>
+        <p className="policy-meta">Last updated: 27 October 2026</p>
 
         <p>
           This page lists the third-party companies (&ldquo;subprocessors&rdquo;)
@@ -230,6 +230,16 @@ export default function Subprocessors() {
                   Purchases and subscriptions under Apple&rsquo;s terms; sign-in
                   identifier if you use Sign in with Apple; a device attestation
                   that the app is genuine (no personal data)
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Resend</strong> (Resend, Inc.)
+                </td>
+                <td>Email delivery</td>
+                <td>
+                  Your email address and a one-time sign-in code, if you sign in
+                  with email
                 </td>
               </tr>
               <tr>

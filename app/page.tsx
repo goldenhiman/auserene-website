@@ -102,7 +102,7 @@ const PRIVACY = [
   {
     icon: "jar",
     title: "Nothing trains a model",
-    body: "Our AI provider works under a zero-data-retention contract: it keeps nothing after replying, and it’s contractually barred from training on your words.",
+    body: "Our AI providers work under zero-data-retention contracts: they keep nothing after replying, and they’re contractually barred from training on your words.",
   },
   {
     icon: "stop",
