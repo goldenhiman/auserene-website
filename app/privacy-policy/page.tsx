@@ -324,6 +324,24 @@ export default function PrivacyPolicy() {
           </li>
         </ul>
 
+        <h3>When you report a reply</h3>
+        <p>
+          Under each reply from the companion you can give a thumbs up or down. A
+          rating and the reason you pick stay with your account, and we see them
+          only as counts, never next to what you wrote.
+        </p>
+        <p>
+          With a thumbs down you can also choose to{" "}
+          <strong>let our team read that conversation</strong>. This is the one
+          exception to &ldquo;no one reads your conversations&rdquo;, and it
+          happens only if you tick that box for that report. If you do, we keep the
+          conversation up to the reply you reported, plus any note you add,
+          encrypted with your key. A small team reads it only to understand what
+          went wrong and to improve the companion&rsquo;s replies. It is never used
+          to train an AI model, and we delete it once we have reviewed it, or after
+          90 days at most. Deleting your account deletes it too.
+        </p>
+
         <hr />
 
         <h2>AI providers: how your sessions are generated</h2>
@@ -529,6 +547,10 @@ export default function PrivacyPolicy() {
             <strong>Unverified sign-ups</strong> &mdash; an email account whose
             address was never verified &mdash; are deleted automatically, with
             anything attached to them, 48 hours after they were created.
+          </li>
+          <li>
+            <strong>A conversation you shared with a report</strong> is deleted
+            once we have reviewed it, or after 90 days at most.
           </li>
           <li>
             <strong>Voice audio</strong> is not stored. It exists only while it is
