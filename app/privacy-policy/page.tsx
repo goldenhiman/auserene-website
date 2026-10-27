@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
     <PolicyShell>
         <h1>Privacy Policy</h1>
         <p className="policy-meta">
-          Last updated: 19 October 2026 &middot; Effective: 19 October 2026
+          Last updated: 27 October 2026 &middot; Effective: 27 October 2026
         </p>
 
         <h2>Who we are</h2>
@@ -423,6 +423,11 @@ export default function PrivacyPolicy() {
             trial), and device attributes used to display the paywall (device
             model, OS and app version, locale, screen size). Handles no notes or
             conversation content.
+          </li>
+          <li>
+            <strong>Resend</strong> (email delivery). If you sign in with your
+            email address, Resend sends you the one-time sign-in code. It receives
+            your email address and that code, and nothing else.
           </li>
           <li>
             <strong>Apple</strong> (App Store, StoreKit, and Sign in with Apple).
