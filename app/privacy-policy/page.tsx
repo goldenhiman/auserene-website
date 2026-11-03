@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
     <PolicyShell>
         <h1>Privacy Policy</h1>
         <p className="policy-meta">
-          Last updated: 27 October 2026 &middot; Effective: 27 October 2026
+          Last updated: 3 November 2026 &middot; Effective: 3 November 2026
         </p>
 
         <h2>Who we are</h2>
@@ -191,7 +191,7 @@ export default function PrivacyPolicy() {
 
         <h3>Apple Health</h3>
         <p>
-          If you turn it on in <em>Settings &rarr; Apple Health</em>, Auserene
+          If you turn it on in <em>Settings &rarr; Save to Apple Health</em>, Auserene
           saves two things to Apple Health on your iPhone: the minutes of
           meditations and breathing sessions you finish (as Mindful Minutes),
           and the moods you log (as State of Mind &mdash; how pleasant it felt,
@@ -201,6 +201,23 @@ export default function PrivacyPolicy() {
           it saves there is sent to us or to anyone else. You can turn it off in
           Settings, and remove the data or the permission in the Health app at
           any time.
+        </p>
+
+        <h3>Your town (optional)</h3>
+        <p>
+          If you allow it, Auserene uses your iPhone&rsquo;s location to find
+          the town or city you are in, and sends that name (for example
+          &ldquo;Pune, Maharashtra, India&rdquo;) with the first message of each
+          chat, so the companion understands your day and the places you
+          mention. The town is worked out on your iPhone using Apple&rsquo;s
+          location service; your exact location (coordinates) never leaves your
+          phone and is never sent to us. The town name is stored, encrypted,
+          with that message as part of the conversation and is deleted with it.
+          It is only used to generate replies. Auserene only asks for location
+          while you are using the app, never in the background. You can say no
+          when asked, and turn it off any time in{" "}
+          <em>Settings &rarr; Use my location in chats</em>; with it off, only
+          the time is sent with your messages.
         </p>
 
         <h3>Siri, Shortcuts and the share sheet</h3>
@@ -223,8 +240,9 @@ export default function PrivacyPolicy() {
           </li>
           <li>
             <strong>Basic operational data</strong> such as usage counts and
-            timestamps, your device timezone (so sessions and reminders land at
-            the right local time), and aggregate token/cost counters we use to
+            timestamps, your device timezone and local time (so sessions,
+            reminders and replies match your time of day; the time a message
+            was sent is stored with it), and aggregate token/cost counters we use to
             run and budget the service. These do not contain the content of your
             journals or conversations.
           </li>
@@ -249,7 +267,7 @@ export default function PrivacyPolicy() {
           </li>
           <li>
             We <strong>do not</strong> collect advertising identifiers (IDFA) or
-            precise location, we do <strong>not</strong> use Apple&rsquo;s App
+            precise location (only the optional town name described above), we do <strong>not</strong> use Apple&rsquo;s App
             Tracking Transparency tracking, and we do <strong>not</strong> track
             you across other companies&rsquo; apps or websites.
           </li>
@@ -421,7 +439,7 @@ export default function PrivacyPolicy() {
             completed &mdash; tied to your internal user identifier, plus app
             version and device type. Never note or chat content. No advertising
             identifier and no cross-app tracking. Only if you opt in; you can
-            switch it off any time in <em>Settings &rarr; Share anonymous usage</em>.
+            switch it off any time in <em>Settings &rarr; Share usage data</em>.
           </li>
           <li>
             <strong>PostHog</strong> also receives <strong>crash and error
@@ -608,13 +626,15 @@ export default function PrivacyPolicy() {
           <strong>Analytics are opt-in.</strong> Product-analytics events are off
           until you say yes, on a screen during setup that explains what is and
           isn&rsquo;t collected. You can turn them on or off any time in{" "}
-          <em>Settings &rarr; Share anonymous usage</em>. Nothing in the app
+          <em>Settings &rarr; Share usage data</em>. Nothing in the app
           depends on it.
         </p>
         <p>
           <strong>Permissions are optional.</strong> Notifications are only used
           for reminders you choose. The microphone is only used while you record a
-          voice note. Declining either does not limit any paid feature; you can
+          voice note. Location is only used, while the app is open, to find the
+          town you are in for chats. Declining any of them does not limit any
+          paid feature; you can
           type instead of speaking, and you can use every part of Premium without
           notifications.
         </p>
