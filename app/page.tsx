@@ -432,8 +432,8 @@ export default function Home() {
         <Reveal className="closing-inner">
           <Image src="/auserene-icon.png" alt="Auserene app icon" aria-hidden width={72} height={72} className="app-icon" />
           <h2 className="display display-sm">Set the day down tonight</h2>
-          <p className="lede">Auserene is in beta on iPhone. It&rsquo;s made by a very small team that cares a lot, and it gets better every week.</p>
-          <CtaLink tone="light" />
+          <p className="lede">Auserene is on the App Store for iPhone. It&rsquo;s made by a very small team that cares a lot, and it gets better every week.</p>
+          <CtaLink />
         </Reveal>
       </section>
 

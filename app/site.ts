@@ -5,12 +5,8 @@ export const SITE_URL = "https://www.auserene.com";
 // The mailbox that support and privacy requests go to. Every page reads it from here.
 export const SUPPORT_EMAIL = "support@auserene.com";
 
-// Beta sign-up. Every "Join the beta" button reads it from here.
-export const BETA_URL = "https://forms.gle/qU4BdVrRQWmihnLg8";
-
-// Set this to the App Store listing once the app is live; the homepage's
-// buttons switch from "Join the beta" to "Download on the App Store".
-export const APP_STORE_URL = "";
+// The App Store listing. Every "Download on the App Store" badge links here.
+export const APP_STORE_URL = "https://apps.apple.com/in/app/auserene-ai-journal-habits/id6783458046";
 
 // Auserene's profiles elsewhere (App Store, X, LinkedIn, Product Hunt...).
 // They go into the Organization's sameAs so search and AI engines can tell

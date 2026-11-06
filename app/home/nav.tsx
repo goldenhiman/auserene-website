@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { CtaLink } from "./cta";
+import { APP_STORE_URL } from "../site";
 
 // off the homepage the section links point back to it
 const LINKS = [
@@ -36,7 +36,10 @@ export function Nav({ home = true }: { home?: boolean }) {
           </a>
         ))}
       </nav>
-      <CtaLink size="sm" />
+      {/* text, not the badge: Apple allows one App Store badge per layout, and the hero carries it */}
+      <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" className="nav-cta">
+        Get the app
+      </a>
     </header>
   );
 }

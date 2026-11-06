@@ -224,9 +224,9 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
           <h2 className="display display-sm">Set the day down tonight</h2>
           <p className="lede">
             Auserene is a journal that listens, remembers what helps you, and turns your day into a meditation. It&rsquo;s
-            in beta on iPhone.
+            on the App Store for iPhone.
           </p>
-          <CtaLink tone="light" />
+          <CtaLink />
         </div>
       </section>
 
