@@ -19,7 +19,7 @@ Memory cuts across all of these. It decides whether the app knows on Thursday wh
 | Reflectly | A light daily mood check-in | AI-guided prompts, mood correlations | iPhone, iPad, Android | Not stated | In-app purchases from $4.99 to $59.99; periods not stated | Linked policy is company-wide and doesn't address journal entries or AI; training and encryption not stated |
 | Apple Journal | Free, private journaling on Apple devices | On-device journaling suggestions; no chat | iPhone, iPad, Mac | Free | Free | End-to-end encrypted in iCloud with two-factor authentication and a passcode |
 | ChatGPT | A flexible thinking partner you set up yourself | General chatbot with memory you can review and correct | Web, iOS, Android | Free, with limited memory | Go $8 and Plus $19.99 on the US App Store | May train on your chats unless you opt out; Go plan may include ads |
-| Auserene (ours) | An evening conversation that reads your day's notes | Evening chat, chat any time, editable memory, a meditation from the day, Help me write | iPhone only, in beta | Notes and moods, an evening walk through your notes on your own, 3 Help me write a day, habit goals, guided journeys | $105.99/year, $11.99/month or $4.99/week; 7 days free | Encrypted at rest with a per-user key; AI provider under zero data retention, barred from training; no ads; not end-to-end encrypted |
+| Auserene (ours) | An evening conversation that reads your day's notes | Evening chat, chat any time, editable memory, a meditation from the day, Help me write | iPhone only | Notes and moods, an evening walk through your notes on your own, 3 Help me write a day, habit goals, guided journeys | $105.99/year, $11.99/month or $4.99/week; 7 days free | Encrypted at rest with a per-user key; AI provider under zero data retention, barred from training; no ads; not end-to-end encrypted |
 
 Prices are US list prices as shown on each company's own page or App Store listing in October 2026. They vary by country and change often.
 
@@ -92,10 +92,9 @@ Best for people who want the evening conversation and a memory they can read.
 We'd rather you choose well than choose us. Skip Auserene, for now, if any of these apply:
 
 1. You use Android, or you want to journal on a laptop. Auserene is iPhone only.
-2. You want an app from the App Store today. Auserene is in beta, and you join through the beta form.
-3. You want the talking part free. The evening conversation, chat any time, memory and the meditation from your day are Premium. The free tier covers notes, an evening walk through your notes on your own, three Help me write nudges a day, habit goals, people you add and guided journeys.
-4. You need end-to-end encryption. Apple Journal, or Day One with AI switched off, is the better fit.
-5. You want a long archive with photos and video across many devices. Day One is built for that.
+2. You want the talking part free. The evening conversation, chat any time, memory and the meditation from your day are Premium. The free tier covers notes, an evening walk through your notes on your own, three Help me write nudges a day, habit goals, people you add and guided journeys.
+3. You need end-to-end encryption. Apple Journal, or Day One with AI switched off, is the better fit.
+4. You want a long archive with photos and video across many devices. Day One is built for that.
 6. You want a large company behind the app. Auserene is made by a very small team.
 
 ## Does an AI journal actually help?

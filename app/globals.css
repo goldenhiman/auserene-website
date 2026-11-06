@@ -549,43 +549,39 @@ body {
   box-shadow: 0 1px 2px rgba(35, 31, 27, 0.12);
 }
 
-/* call to action: pressed state gives instant feedback, hover only where
-   there is a real pointer */
-.cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  border-radius: 999px;
-  font-family: var(--font-text);
-  font-weight: 600;
-  white-space: nowrap;
-  transition: transform 150ms var(--ease-out, ease-out), background-color 150ms ease;
+/* the App Store badge: Apple's artwork untouched, only the press feedback */
+.store-badge {
+  display: inline-block;
+  line-height: 0;
+  transition: transform 150ms var(--ease-out, ease-out);
 }
-.cta:active {
+.store-badge img {
+  display: block;
+}
+.store-badge:active {
   transform: scale(0.97);
 }
-.cta-md {
-  padding: 0.85rem 1.6rem;
-  font-size: 1rem;
-}
-.cta-sm {
+
+/* the nav's text call to action (the badge lives in the page itself) */
+.nav-cta {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
   padding: 0.5rem 1.05rem;
+  font-family: var(--font-text);
   font-size: 0.9rem;
-}
-.cta-dark {
+  font-weight: 600;
+  white-space: nowrap;
   background: #231f1b;
   color: #fbf4ea;
+  transition: transform 150ms var(--ease-out, ease-out), background-color 150ms ease;
 }
-.cta-light {
-  background: #fbf4ea;
-  color: #231f1b;
+.nav-cta:active {
+  transform: scale(0.97);
 }
 @media (hover: hover) and (pointer: fine) {
-  .cta-dark:hover {
+  .nav-cta:hover {
     background: #3a322b;
-  }
-  .cta-light:hover {
-    background: #ffffff;
   }
 }
 
@@ -1279,14 +1275,16 @@ body {
 /* every CSS transition and keyframe on the homepage stops for reduced motion
    (the scroll reveals check useReducedMotion in home/reveal.tsx) */
 @media (prefers-reduced-motion: reduce) {
-  .cta,
+  .store-badge,
+  .nav-cta,
   .nav,
   .nav-links a,
   .home .text-link,
   .faq summary::after {
     transition: none;
   }
-  .cta:active {
+  .store-badge:active,
+  .nav-cta:active {
     transform: none;
   }
   .faq details[open] .body {
@@ -1651,7 +1649,7 @@ body {
 .app-note-text p {
   margin: 0 0 0.7rem;
 }
-.app-note .cta {
+.app-note .store-badge {
   margin-top: 0.35rem;
 }
 @media (max-width: 480px) {

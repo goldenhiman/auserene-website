@@ -1,6 +1,6 @@
 # Auserene
 
-> Auserene is an AI journaling app for iPhone that remembers what helps you. You write short notes during the day, talk the day through with Auserene in the evening, and it turns the conversation into a journal entry and a personalized meditation made from your own words. It is currently in beta on iPhone.
+> Auserene is an AI journaling app for iPhone that remembers what helps you. You write short notes during the day, talk the day through with Auserene in the evening, and it turns the conversation into a journal entry and a personalized meditation made from your own words. It is on the App Store for iPhone.
 
 Auserene is not therapy and does not diagnose. It is made by Himanshu Pathak, who built it after journaling with a therapist helped him through a year of anxiety.
 

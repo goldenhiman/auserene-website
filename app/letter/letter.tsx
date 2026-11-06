@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import { motion, useReducedMotion } from "motion/react";
-import { BETA_URL } from "../site";
+import { APP_STORE_URL } from "../site";
 
 // entrance choreography:
 //   1. the background video plays alone for a beat
@@ -317,7 +317,7 @@ export function Letter() {
           >
             <Link href="/" className="hover:text-[var(--ink-soft)] transition-colors underline underline-offset-2">Home</Link>
             <span aria-hidden>·</span>
-            <a href={BETA_URL} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--ink-soft)] transition-colors underline underline-offset-2">Join the beta</a>
+            <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--ink-soft)] transition-colors underline underline-offset-2">App Store</a>
             <span aria-hidden>·</span>
             <a href="/privacy-policy" className="hover:text-[var(--ink-soft)] transition-colors underline underline-offset-2">Privacy policy</a>
             <span aria-hidden>·</span>
