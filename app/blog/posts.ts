@@ -9,6 +9,9 @@ import type { ScreenKey } from "../home/phone";
 const DIR = path.join(process.cwd(), "content", "blog");
 
 const ORDER: { slug: string; published: string; updated?: string }[] = [
+  { slug: "winter-blues", published: "2026-11-10" },
+  { slug: "holiday-stress-family", published: "2026-11-10" },
+  { slug: "ai-chatbot-loneliness", published: "2026-11-10" },
   { slug: "does-journaling-work", published: "2026-10-10" },
   { slug: "journaling-statistics", published: "2026-10-10" },
   { slug: "journaling-for-anxiety", published: "2026-10-10" },
