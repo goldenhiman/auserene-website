@@ -1,0 +1,56 @@
+{
+  "slug": "winter-blues",
+  "title": "Winter blues or SAD? What the research says actually helps",
+  "seoTitle": "Winter blues vs SAD: what the research says helps",
+  "description": "How to tell the winter blues from seasonal depression, and what trials support: morning light, CBT-SAD, planned activities. Vitamin D is the weak link.",
+  "dek": "Most people feel winter in their mood. A few feel it as depression that comes back every year. The help that works is mostly the same, and it starts with morning light and a fuller calendar.",
+  "primaryKeyword": "winter blues",
+  "keywords": [
+    "seasonal depression",
+    "seasonal affective disorder",
+    "SAD vs winter blues",
+    "how to beat the winter blues",
+    "light therapy for SAD",
+    "light box for seasonal depression",
+    "CBT for seasonal affective disorder",
+    "vitamin D seasonal depression",
+    "seasonal depression journaling"
+  ],
+  "feature": "Mood notes",
+  "titleOptions": [
+    "Winter blues or SAD? What the research says actually helps",
+    "Winter blues vs seasonal depression: how to tell, what to do",
+    "How to beat the winter blues, according to the trials",
+    "Seasonal depression: light, CBT and the vitamin D question",
+    "The winter blues, explained: from a dip to SAD",
+    "Light box or therapy? What works for seasonal depression",
+    "Winter blues: why morning light and a fuller calendar help",
+    "SAD vs winter blues: a research guide for the dark months",
+    "Seasonal depression and the case for keeping a winter log",
+    "Does vitamin D help the winter blues? And what does"
+  ],
+  "faq": [
+    {
+      "q": "What is the difference between the winter blues and SAD?",
+      "a": "The winter blues are a common, milder dip in mood and energy in the darker months that doesn't stop you from functioning. Seasonal affective disorder (SAD) is major depression with a seasonal pattern: low mood most of the day for weeks, loss of interest and trouble with work or relationships, returning in the same season for at least two years in a row."
+    },
+    {
+      "q": "Does light therapy work for seasonal depression?",
+      "a": "Yes, for diagnosed SAD. A 2020 meta-analysis of 19 randomized trials found bright light beat dim or sham light, though with a smaller effect than older reviews and in mostly small studies. The usual approach is a 10,000-lux box for about 30 to 45 minutes soon after waking. Check with a doctor first if you have an eye condition, take light-sensitizing medicine or have bipolar disorder."
+    },
+    {
+      "q": "Is CBT or light therapy better for SAD?",
+      "a": "In a 2015 trial of 177 adults with winter depression, six weeks of CBT tailored for SAD and daily light therapy worked about equally well, with remission rates near 47% for both. Two winters later, fewer people in the CBT group had a recurrence (27.3% against 45.6%), which suggests CBT's benefits last longer."
+    },
+    {
+      "q": "Does vitamin D help the winter blues?",
+      "a": "The evidence is weak. A small 2014 Danish trial in people with seasonal symptoms found no difference from placebo, and the VITAL-DEP trial of 18,353 adults aged 50 and over found vitamin D3 didn't lower depression risk over about five years. If a blood test shows you're low, a supplement may make sense for other reasons, but it shouldn't be your main plan for winter mood."
+    },
+    {
+      "q": "When should I see a doctor about seasonal depression?",
+      "a": "See a doctor if low mood or loss of interest lasts most days for two weeks or more, affects work, sleep or relationships, or has come back at the same time of year before. If you have thoughts of harming yourself, contact emergency services or a crisis line right away; in the US you can call or text 988."
+    }
+  ],
+  "informationGain": "It separates the everyday winter blues from SAD using the original NIMH survey data, presents the debate over whether seasonal depression is real, and matches each popular fix to its trial evidence with sizes and limits, including the Rohan finding that CBT-SAD outlasts light therapy by the second winter and the weak case for vitamin D.",
+  "sourcesCount": 19
+}
