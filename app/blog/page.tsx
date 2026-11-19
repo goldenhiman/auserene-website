@@ -4,7 +4,7 @@ import { Footer } from "../home/footer";
 import { Nav } from "../home/nav";
 import { pageMetadata } from "../seo";
 import { SITE_URL } from "../site";
-import { allPosts, type PostMeta } from "./posts";
+import { allPosts, postArt, type PostMeta } from "./posts";
 
 const TITLE = "The Auserene blog: journaling, sleep and a quieter mind";
 const DESCRIPTION =
@@ -56,10 +56,15 @@ const APPS: { name: string; vs?: string; alts?: string }[] = [
 ];
 
 function Card({ post, topic }: { post: PostMeta; topic: string }) {
+  const img = postArt(post.slug);
   return (
     <li>
       <a href={`/blog/${post.slug}`} className="bcard">
-        <span className={`bcard-art art-${topic}`} aria-hidden />
+        <span className={`bcard-art art-${topic}`} aria-hidden>
+          {img && (
+            <img src={img.small} srcSet={img.srcSet} sizes="(max-width: 520px) 72px, (max-width: 960px) 50vw, 280px" alt="" width={800} height={533} loading="lazy" decoding="async" />
+          )}
+        </span>
         <span className="blog-kicker">{post.feature}</span>
         <h3 className="blog-title">{post.title}</h3>
         <span className="blog-dek">{post.dek}</span>

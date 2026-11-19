@@ -7,7 +7,7 @@ import { Footer } from "../../home/footer";
 import { Nav } from "../../home/nav";
 import { Phone } from "../../home/phone";
 import { SITE_URL } from "../../site";
-import { allPosts, formatDate, getPost } from "../posts";
+import { allPosts, formatDate, getPost, postArt } from "../posts";
 
 export const dynamicParams = false;
 
@@ -45,6 +45,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const post = getPost(slug);
   if (!post) notFound();
   const url = `${SITE_URL}/blog/${slug}`;
+  const art = postArt(slug);
   const others = allPosts().filter((p) => p.slug !== slug);
   // the next posts in reading order, wrapping round
   const at = allPosts().findIndex((p) => p.slug === slug);
@@ -58,7 +59,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
       description: post.description,
       url,
       mainEntityOfPage: url,
-      image: `${SITE_URL}/blog/${slug}/opengraph-image`,
+      image: [`${SITE_URL}/blog/${slug}/opengraph-image`, ...(art ? [`${SITE_URL}${art.large}`] : [])],
       datePublished: post.published,
       dateModified: post.updated,
       author: { "@id": `${SITE_URL}/#org` },
@@ -108,6 +109,11 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
           </nav>
           <h1 className="display post-title">{post.title}</h1>
           <p className="post-dek">{post.dek}</p>
+          {art && (
+            <figure className="post-cover">
+              <img src={art.large} srcSet={art.srcSet} sizes="100vw" alt="" width={2400} height={1600} fetchPriority="high" decoding="async" />
+            </figure>
+          )}
           <div className="post-byline">
             <Image src="/auserene-icon.png" alt="Auserene app icon" aria-hidden width={36} height={36} className="app-icon" />
             <p>
@@ -224,7 +230,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
           <h2 className="display display-sm">Set the day down tonight</h2>
           <p className="lede">
             Auserene is a journal that listens, remembers what helps you, and turns your day into a meditation. It&rsquo;s
-            on the App Store for iPhone.
+            on the App Store for iPhone and iPad.
           </p>
           <CtaLink />
         </div>

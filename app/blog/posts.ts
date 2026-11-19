@@ -178,3 +178,11 @@ export function formatDate(iso: string) {
     timeZone: "UTC",
   });
 }
+
+// Illustration for a post: public/blog-art/<slug>-{800,1600,2400}.webp, the
+// cards use the small one and the article cover picks by screen width. Posts without one use a gradient.
+export function postArt(slug: string) {
+  const base = `/blog-art/${slug}`;
+  if (!fs.existsSync(path.join(process.cwd(), "public", `${base}-800.webp`))) return null;
+  return { small: `${base}-800.webp`, large: `${base}-2400.webp`, srcSet: `${base}-800.webp 800w, ${base}-1600.webp 1600w, ${base}-2400.webp 2400w` };
+}
