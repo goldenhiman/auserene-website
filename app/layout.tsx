@@ -102,6 +102,23 @@ export default function RootLayout({
                   description: HOME_DESCRIPTION,
                   applicationCategory: "HealthApplication",
                   operatingSystem: "iOS",
+                  // keep in step with the "Also in the app" list on app/page.tsx and public/llms.txt
+                  featureList: [
+                    "AI journaling: an evening conversation that writes the journal entry from the day's notes",
+                    "Chat any time of day with an AI that remembers the people and context",
+                    "Long-term memory you can read, edit and delete",
+                    "Personalized guided meditation written from your day (5, 15 or 25 minutes)",
+                    "8 guided meditation journeys and 11 ambient sounds",
+                    "13 guided conversations",
+                    "Voice notes transcribed in over 100 languages",
+                    "Handwriting and printed-page scan into notes",
+                    "Mood tracking with a Feelings Wheel",
+                    "Patterns and insights: moods over time, what helps, a weekly review",
+                    "Relationship insights for the people in your life",
+                    "Habit goals with 21, 42 or 64-day finish lines",
+                    "People pages with shared moments and birthday reminders",
+                    "Home Screen widgets and Face ID lock",
+                  ],
                   publisher: { "@id": `${SITE_URL}/#org` },
                   // keep in step with the pricing section on app/page.tsx and public/pricing.md
                   offers: [

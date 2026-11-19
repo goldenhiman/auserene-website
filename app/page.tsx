@@ -73,23 +73,46 @@ const PILLARS: { img: string; kicker: string; title: string; body: string[]; scr
 ];
 
 const ALSO = [
-  { icon: "sprout", title: "Habit goals", body: "Pick one small thing to practice. Auserene brings it up when it fits, never as a nag." },
-  { icon: "couple", title: "People", body: "The people you talk about, with the moments you’ve shared, in one place." },
+  {
+    icon: "sprout",
+    title: "Habit goals",
+    body: "Start with who you want to be, pick a finish line of 21, 42 or 64 days, and tap a dot when you show up. Missed days are never marked red.",
+  },
+  {
+    icon: "couple",
+    title: "People",
+    body: "A page for everyone who matters, with shared moments and birthday reminders. “My sister” always means the right person.",
+  },
+  {
+    icon: "jar",
+    title: "Moods and patterns",
+    body: "Log a mood with a slider and an 82-word Feelings Wheel. See your moods by month, a week in review, and what seems to help.",
+  },
+  { icon: "mic", title: "Write with your voice", body: "Speak a note and Auserene transcribes it, in over 100 languages." },
+  {
+    icon: "note",
+    title: "Scan a page",
+    body: "Turn a handwritten or printed page into a note, right on your phone.",
+  },
   {
     icon: "camera",
     title: "Photos, not just words",
-    body: "Keep a photo with a note as a memory, share one in a chat and talk it through, or scan a handwritten page into a note.",
+    body: "Keep a photo with a note as a memory, or share one in a chat and talk it through.",
   },
-  { icon: "mic", title: "Write with your voice", body: "Speak your notes and Auserene transcribes them for you." },
+  {
+    icon: "compass",
+    title: "Guided conversations",
+    body: "Thirteen ways in for when you don’t know where to start: untangle a thought, loosen a worry, think a decision through, three good things.",
+  },
   {
     icon: "quote",
     title: "Lines worth keeping",
     body: "Save a line from a chat that stayed with you. Your quotes wait on the Home screen for the days you need them.",
   },
   {
-    icon: "compass",
-    title: "Guided sessions",
-    body: "Purpose-built guided journaling for the days you’re willing to explore your thoughts without any triggers.",
+    icon: "moon",
+    title: "Made for iPhone",
+    body: "Home Screen widgets, Face ID lock, replies read aloud, incognito chats, and a look that follows the time of day.",
   },
 ];
 

@@ -23,7 +23,7 @@ const ORDER: { slug: string; published: string; updated?: string }[] = [
   { slug: "chatgpt-as-a-journal", published: "2026-10-10" },
   { slug: "habits-that-stick", published: "2026-10-10" },
   { slug: "paper-vs-digital-journal", published: "2026-10-10" },
-  { slug: "best-ai-journal-apps", published: "2026-10-10" },
+  { slug: "best-ai-journal-apps", published: "2026-10-10", updated: "2026-11-19" },
   { slug: "what-to-write-in-a-journal", published: "2026-10-10" },
   { slug: "journal-prompts-for-overthinking", published: "2026-10-10" },
 ];

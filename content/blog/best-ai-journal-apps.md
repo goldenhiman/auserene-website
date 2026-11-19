@@ -1,4 +1,4 @@
-The best AI journal app depends on what you want the AI to do. As of October 2026, Day One suits a long-term archive with AI as an optional extra, Mindsera suits people who want their writing analyzed, Rosebud suits guided, therapy-informed prompts (its free plan ended on September 30, 2026), Apple's Journal is the free, end-to-end encrypted choice with no chat at all, and ChatGPT works if you change its settings first. Auserene, which we make, is built for one thing: an evening conversation that reads your notes from the day and remembers what you said last week.
+The best AI journal app depends on what you want the AI to do. As of October 2026, Day One suits a long-term archive with AI as an optional extra, Mindsera suits people who want their writing analyzed, Rosebud suits guided, therapy-informed prompts (its free plan ended on September 30, 2026), Apple's Journal is the free, end-to-end encrypted choice with no chat at all, and ChatGPT works if you change its settings first. Auserene, which we make, is built around an evening conversation that reads your notes from the day, remembers what you said last week, and turns the day into a meditation written from it.
 
 This is Auserene's own blog, and Auserene is one of the apps below. We've tried to be fair anyway. Every fact about another company comes from that company's own website, help center, privacy policy or App Store listing, checked in October 2026, and we link to each page so you can check us. Where a company doesn't say something, the table says "not stated" rather than guessing. We've left out star ratings, because we can't verify them.
 
@@ -19,7 +19,7 @@ Memory cuts across all of these. It decides whether the app knows on Thursday wh
 | Reflectly | A light daily mood check-in | AI-guided prompts, mood correlations | iPhone, iPad, Android | Not stated | In-app purchases from $4.99 to $59.99; periods not stated | Linked policy is company-wide and doesn't address journal entries or AI; training and encryption not stated |
 | Apple Journal | Free, private journaling on Apple devices | On-device journaling suggestions; no chat | iPhone, iPad, Mac | Free | Free | End-to-end encrypted in iCloud with two-factor authentication and a passcode |
 | ChatGPT | A flexible thinking partner you set up yourself | General chatbot with memory you can review and correct | Web, iOS, Android | Free, with limited memory | Go $8 and Plus $19.99 on the US App Store | May train on your chats unless you opt out; Go plan may include ads |
-| Auserene (ours) | An evening conversation that reads your day's notes | Evening chat, chat any time, editable memory, a meditation from the day, Help me write | iPhone only | Notes and moods, an evening walk through your notes on your own, 3 Help me write a day, habit goals, guided journeys | $105.99/year, $11.99/month or $4.99/week; 7 days free | Encrypted at rest with a per-user key; AI provider under zero data retention, barred from training; no ads; not end-to-end encrypted |
+| Auserene (ours) | An evening conversation, a meditation from your day, and a memory you can read | Evening chat that writes the entry, chat any time, 13 guided conversations, memory you can read and edit, a meditation written from the day, voice notes, handwriting scan, mood tracking with a Feelings Wheel, patterns and insights (moods over time, what helps, week in review, relationship insights), habit goals, people pages, Help me write | iPhone only | Notes with photos and scanning, mood logging, an evening walk through your notes on your own, 3 Help me write a day, free guided journeys and ambient sounds, habit goals, people, widgets | $105.99/year, $11.99/month or $4.99/week; 7 days free | Encrypted at rest with a per-user key; AI provider under zero data retention, barred from training; no ads; not end-to-end encrypted |
 
 Prices are US list prices as shown on each company's own page or App Store listing in October 2026. They vary by country and change often.
 
@@ -83,6 +83,10 @@ Best for people who want one flexible tool and are willing to set it up. Our lon
 
 Read this section knowing we wrote it. You leave quick notes during the day, a line or a mood, and in the evening it holds a short conversation about how the day went. It reads the day's notes first, asks about the parts that seem to matter, and remembers what you said last week. The conversation becomes that day's journal entry. Before bed, it can make a meditation written from that conversation. What it remembers lives in the You tab as plain sentences you can edit or delete.
 
+It also tracks patterns. Moods you log show up month by month, the You tab lists what seems to help you and what gets to you, a week in review looks back on the last seven days, and each person's page has insights into how things are with them, built from what you've said about them.
+
+Around that: voice notes transcribed in over 100 languages, a handwritten page scanned into a note, a mood slider and a Feelings Wheel, 13 guided conversations for when you need a way in, eight guided meditation journeys with ambient sounds, habit goals with a finish line and no streaks, and a page for each person in your life so "my sister" always means the right one.
+
 Our [privacy policy](/privacy-policy) says entries are encrypted at rest with a key unique to you, that our AI provider works under zero-data-retention terms and is contractually barred from training on your words, that there are no ads or ad trackers, and that you can delete your account and everything in it from inside the app. It also says plainly that this is not end-to-end encryption: our servers and the AI provider process your text in memory to write a reply.
 
 Best for people who want the evening conversation and a memory they can read.
@@ -92,10 +96,10 @@ Best for people who want the evening conversation and a memory they can read.
 We'd rather you choose well than choose us. Skip Auserene, for now, if any of these apply:
 
 1. You use Android, or you want to journal on a laptop. Auserene is iPhone only.
-2. You want the talking part free. The evening conversation, chat any time, memory and the meditation from your day are Premium. The free tier covers notes, an evening walk through your notes on your own, three Help me write nudges a day, habit goals, people you add and guided journeys.
+2. You want the talking part free. The evening conversation, chat any time, memory, voice notes and the meditation from your day are Premium. The free tier covers notes with photos and scanning, mood logging, an evening walk through your notes on your own, three Help me write nudges a day, habit goals, people you add, guided journeys and widgets.
 3. You need end-to-end encryption. Apple Journal, or Day One with AI switched off, is the better fit.
 4. You want a long archive with photos and video across many devices. Day One is built for that.
-6. You want a large company behind the app. Auserene is made by a very small team.
+5. You want a large company behind the app. Auserene is made by a very small team.
 
 ## Does an AI journal actually help?
 
@@ -137,7 +141,7 @@ As of October 2026, Mindsera's Curious plan includes AI prompting, ChatGPT has a
 
 ### What is the best Rosebud alternative?
 
-It depends on what you liked about Rosebud. For a conversation that turns into an entry, look at Day One's Daily Chat or Auserene. For analysis and frameworks, Mindsera. For a free option with no AI chat, Apple Journal.
+It depends on what you liked about Rosebud. For a conversation that turns into an entry, look at Day One's Daily Chat or Auserene, which also writes a meditation from the day. For analysis and frameworks, Mindsera. For a free option with no AI chat, Apple Journal.
 
 ### Are AI journal apps private?
 

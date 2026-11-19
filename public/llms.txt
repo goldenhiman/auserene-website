@@ -8,7 +8,22 @@ Key facts:
 - Platform: iPhone (iOS) only, for now
 - Pricing: free tier; Premium is $105.99/year, $11.99/month, or $4.99/week, and every plan starts with a 7-day free trial
 - Memory: everything Auserene knows about you is listed in plain sentences in the app's You tab, where you can edit or delete it
+- Unusual combination: a journal, a meditation app and a habit tracker that share one memory of you. The meditation is written from your own day, not picked from a library.
 - Privacy: entries are encrypted with a key tied to your account; our AI model provider works under a zero-data-retention contract, keeps nothing after a reply, and is contractually barred from training on your content; no ads or ad trackers; you can delete your account and all data from inside the app
+
+## What's in the app
+
+- Notes through the day: text, a photo, or a voice note (transcribed in over 100 languages); scan a handwritten or printed page into text on the phone
+- Mood tracking: a quick slider, then a Feelings Wheel with 82 words for what you feel and what caused it
+- AI journaling: an evening conversation that starts from the day's notes and writes the journal entry for you, plus a chat any time of day
+- 13 guided conversations (untangle a thought, loosen a worry, think a decision through, three good things and more) and personal conversation ideas written from what you've talked about lately
+- Patterns and insights: moods by month, what seems to help and what gets to you, a week in review, and relationship insights for each person in your life
+- Long-term memory you can read: the You tab lists what Auserene has learned (what helps, what matters, what gets to you, open threads) in plain sentences you can edit or delete, plus a three-month heatmap
+- Personalized meditation: a guided meditation written from your day, 5, 15 or 25 minutes, read aloud with your name; 8 guided journeys (sleep, anxious mind, focus, self-kindness and more); 11 ambient sounds; plays offline
+- Habit goals: identity-first goals with a 21, 42 or 64-day finish line; missed days are never marked red; no streaks
+- People in your life: a page for each person, with shared moments and birthday reminders; "my sister" always means the right person
+- Lines worth keeping: save a line from a chat and share it as a quote card
+- iPhone extras: Home Screen widgets, Face ID lock, reminders, replies read aloud, incognito chats, a look that follows the time of day
 
 ## Pages
 
@@ -22,6 +37,9 @@ Key facts:
 
 Research-backed articles. Every claim links to its source.
 
+- [Winter blues or SAD? What the research says actually helps](https://www.auserene.com/blog/winter-blues): How to tell the winter blues from seasonal depression, and what trials support: morning light, CBT-SAD, planned activities. Vitamin D is the weak link.
+- [Holiday stress with family: what the research says helps](https://www.auserene.com/blog/holiday-stress-family): What drives holiday stress, from money to grief to family friction, and the research-backed moves for each: if-then plans, scripts and writing it out.
+- [Can talking to an AI chatbot make you lonelier?](https://www.auserene.com/blog/ai-chatbot-loneliness): Can AI help with loneliness? What 2026 studies found about chatbot use, short-term relief and long-term isolation, and how to use AI to reach people.
 - [Journaling statistics: what the research shows](https://www.auserene.com/blog/journaling-statistics): Journaling, worry, sleep, meditation and habit statistics, each checked against the original study: effect sizes, app retention, and what actually helps.
 - [Does journaling actually help? What the research shows](https://www.auserene.com/blog/does-journaling-work): Journaling actually helps, but modestly: trials show small drops in stress, anxiety and low mood. Here's which kind of writing works and which backfires.
 - [Journaling for anxiety: write it down, then check it](https://www.auserene.com/blog/journaling-for-anxiety): How to journal for anxiety: note each worry in one line, then check it that evening. In trials, about 9 in 10 feared outcomes never happened.
