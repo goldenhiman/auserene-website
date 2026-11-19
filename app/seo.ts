@@ -7,7 +7,7 @@ export const HOME_DESCRIPTION =
   "An AI journaling app that listens and remembers what helps you, then gives it back when you need it — in a friendly chat or a personalized meditation.";
 
 // The one social preview image (1200 x 630, public/og-image.jpg).
-export const OG_IMAGE = { url: "/og-image.jpg", width: 1200, height: 630, alt: "Auserene, an AI journal for iPhone" };
+export const OG_IMAGE = { url: "/og-image.jpg", width: 1200, height: 630, alt: "Auserene, an AI journal for iPhone and iPad" };
 
 // Per-page metadata. Every page names its own canonical and its own social
 // preview; without this a page inherits the homepage's, and Google reads it

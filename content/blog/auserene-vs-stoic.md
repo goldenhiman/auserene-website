@@ -1,124 +1,163 @@
-Auserene vs Stoic comes down to what you want the app to do at the end of the day. Stoic is a routine app with a large library: morning preparation and evening reflection, mood check-ins, guided journals, more than 20 breathing exercises, guided and unguided meditation, quotes, streaks and badges, plus an optional AI tier with philosopher-style mentors. It runs on nearly every device. Auserene is built around one evening conversation that reads the notes you left during the day, writes the journal entry with you, and then writes a guided meditation from that conversation. It has no streaks, and what it remembers about you sits on a page you can read and edit. It is iPhone only.
+Auserene vs Stoic comes down to one question: do you want a set of routine tools, or one journal where everything connects? Auserene connects it. The line you leave in the morning becomes tonight's conversation, the conversation becomes your entry and a guided meditation made from your day, and everything Auserene learns lands on pages you can read: your patterns, your people, your habit goals. Stoic is the better pick if you want a big library of breathing exercises and meditations, streaks that keep you showing up, or apps for Mac, Android and the web.
 
-We make Auserene, so read this with that in mind. Every fact about Stoic below comes from Stoic's own website, help center, privacy policy or App Store listing, checked on November 19, 2026, and each one links to its source. Where Stoic doesn't say something, we say "not stated" rather than guess. (A search for "Stoic app" also brings up apps about Stoic philosophy itself. This page is about the journaling app from Stoic app inc. at getstoic.com, which borrows from Stoicism but is a general journal.)
+We make Auserene, so we're biased, and we've tried to earn your trust anyway. Every fact about Stoic below links to Stoic's own website, help center, privacy policy or App Store listing, checked on November 19, 2026. Where Stoic doesn't say something, we say "not stated." (This page is about the journaling app at getstoic.com, not apps about Stoic philosophy.)
+
+## Auserene vs Stoic in 30 seconds
+
+- **Everything in Auserene feeds everything else.** A note at lunch becomes tonight's conversation, entry and meditation. Stoic's check-ins, guided journals, meditations and habit tracker sit side by side.
+- **Your meditation is written from your own day.** Stoic's is a library, the same for everyone.
+- **You talk instead of filling in a form.** Leave fragments during the day, talk for ten minutes at night, and the conversation becomes the entry.
+- **You can read everything Auserene remembers about you, and fix it.** Stoic doesn't state whether you can see or edit what its AI keeps.
+- **The people in your life get their own pages**, with shared moments, birthday reminders and insights into how things are going with each of them.
+- **Habit goals with a finish line, not a streak.** 21, 42 or 64 days, and a missed day is never red.
+- **One clear price.** $11.99 a month or $105.99 a year, everything included.
+
+Where Stoic wins: a deep library of breathing and meditation, streaks and badges for people who like them, journal storage only on your devices, and apps for Mac, Android, Apple Vision and the web.
+
+## One day in Auserene: how the pieces connect
+
+Here's an ordinary Tuesday for someone who wants a morning and evening routine.
+
+**7:45 a.m.** Before you're out the door you tap the quick note widget and type "big review at 3, already tense." The mood slider goes a little down. Ten seconds, and that's your morning check-in.
+
+**2:50 p.m.** Ten minutes before the review, you start Breathe on your Apple Watch. Haptic taps lead each breath, and it keeps going with your wrist down and the screen off.
+
+**5:10 p.m.** The review went badly. You log the mood on your watch with the Digital Crown, then pick "disappointed" on the Feelings Wheel and tag work as the cause.
+
+**9:30 p.m.** The evening conversation opens on the review, because that's what you wrote and where your mood dropped. Auserene knows your manager from earlier weeks, so it asks whether this is the same feedback as last month. Ten minutes of talking later, the conversation is your journal entry. You never wrote a paragraph.
+
+**9:45 p.m.** You make tonight's meditation. Fifteen minutes, ocean waves underneath, your name said the way you say it, and the part about setting the day down is about that review, not a script recorded for everyone.
+
+**The next morning.** The You tab has a new line under what gets to you, something like "feedback that arrives without warning." Keep it, edit it or delete it. Your manager's page holds the moment, and over the weeks it builds insights into how things are between you.
+
+**Sunday.** Week in review looks back on all seven days. "Breathing before hard meetings" keeps turning up under what seems to help, so you turn it into a habit goal with a 21-day finish line. You check in by tapping a dot on your phone or your watch. A missed day never turns red.
+
+That's the difference. Stoic gives you a morning prompt, an evening prompt, a meditation library and a habit tracker, each one solid. In Auserene the morning note shapes the evening conversation, the conversation shapes the meditation, and what keeps helping becomes the habit you check in on from your wrist.
+
+<aside class="app-note" data-screen="eveningChat"><p class="app-note-kicker">In Auserene</p><p>The evening conversation starts from what you already wrote. If you logged a low mood at lunch and mentioned the same meeting twice, that's where it asks first. The conversation becomes the day's entry, and the meditation is written from it.</p></aside>
 
 ## Auserene vs Stoic at a glance
 
-| | Stoic | Auserene |
+| | Auserene | Stoic |
 |---|---|---|
-| Best for | Structured morning and evening routines, a big content library, every device | An evening conversation about your day, a meditation made from it, and a memory you can read |
-| How you journal | Mood check-in on launch, daily check-in or morning and evening reflections, blank pages, templates, guided journals | Quick notes during the day, then an evening conversation that writes the entry; a chat any time |
-| AI | Premium AI tier: 10 mentors (Marcus, Seneca, Maya and others), Dig Deeper, pattern analysis, AI notifications; some on-device AI on iOS 26 | Evening conversation, chat any time, 13 guided conversations, personal conversation ideas (Premium) |
-| AI memory | Stores "limited vector data and anonymized user context"; viewing or editing it not stated | Everything it has learned is listed in plain sentences you can edit or delete (Premium) |
-| Meditation | Guided and unguided sessions with background sounds and chimes; 20+ breathing exercises | A guided meditation written from your day (5, 15 or 25 minutes); 8 guided journeys; 11 ambient sounds |
-| Habits and streaks | Habit and mood tracker, streaks and badges (can be turned off) | Habit goals with a 21, 42 or 64-day finish line; no streaks; missed days never marked red |
-| Mood | Mood check-in, Trends for mood, emotions, sleep, health and writing | Mood slider and an 82-word Feelings Wheel, moods by month, week in review |
-| People | Not stated | A page for each person, with shared moments, birthday reminders and relationship insights |
-| Platforms | iPhone, iPad, Mac, Apple Watch, Apple Vision, Android (fewer features), web | iPhone only |
-| Free plan | Yes: prompts, quotes, basic guided journals, a limited set of exercises | Yes: notes, photos, scanning, mood, habits, people, journeys, widgets |
-| Price (US) | Several Premium and AI purchases on the App Store, billing periods not stated; Lifetime Premium $299 | Premium $11.99/month or $105.99/year; 7 days free |
-| Where your writing lives | On your device and, with Premium, your own iCloud; Stoic says it has no access | On Auserene's servers, encrypted with a key tied to your account |
-| Privacy | AI entries go to OpenAI (help center) or "OpenAI, Anthropic or Google Gemini" (privacy policy); not used for training | Encrypted with a per-user key; AI providers under zero data retention, barred from training; no ads; not end-to-end |
+| Best for | One journal where notes, conversation, meditation, memory, people and goals all connect | Structured morning and evening routines, a big content library, every device |
+| How you journal | Quick notes all day, then an evening conversation that writes the entry; chat any time | Mood check-in on launch, daily check-in or morning and evening reflections, blank pages, templates, guided journals |
+| Meditation | A guided meditation written from your day (5, 15 or 25 minutes), 8 journeys, 11 ambient sounds | Guided and unguided sessions with background sounds and chimes; 20+ breathing exercises |
+| AI | Evening conversation, chat any time that knows your people, 13 guided conversations | Premium AI tier with 10 mentors (Marcus, Seneca, Maya and others), Dig Deeper, pattern analysis, AI notifications; some on-device AI on iOS 26 |
+| AI memory | Every memory listed in plain sentences you can edit or delete; knows who's who | Stores "limited vector data and anonymized user context"; viewing or editing it not stated |
+| People | A page for each person, with shared moments, birthday reminders and relationship insights | Not stated |
+| Goals and habits | Habit goals from an insight, 21, 42 or 64-day finish line, check in from your watch; no streaks | Habit and mood tracker, streaks and badges (can be turned off) |
+| Mood and patterns | 120+ word Feelings Wheel with causes, moods by month, week in review, 3-month heatmap | Mood check-in, Trends for mood, emotions, sleep, health and writing |
+| Guided content | 13 guided conversations, personal conversation ideas, 8 guided journeys | Daily prompts with a weekly theme, guided journals, templates, Sleep Better lessons |
+| Voice | Voice notes up to 10 minutes, transcribed in over 100 languages; replies read aloud | Voice notes in entries |
+| Handwriting scan | Yes, on the phone | Not stated |
+| Apple Watch | Breathe, mood with the Digital Crown, habit check-ins, quick notes | Listed on the App Store; features not stated |
+| Platforms | iPhone, iPad, Apple Watch (companion); Android and web in the works | iPhone, iPad, Mac, Apple Watch, Apple Vision, Android (fewer features), web |
+| Free plan | Yes, with no time limit | Yes, with prompts, quotes, basic guided journals and a limited set of exercises |
+| Price (US) | $11.99/month or $105.99/year; 7 days free | Several Premium and AI purchases on the App Store, billing periods not stated; Lifetime Premium $299 |
+| Where your writing lives | On Auserene's servers, AES-256 at rest with a key unique to you, TLS in transit | On your device and, with Premium, your own iCloud; Stoic says it has no access |
+| Privacy | AI that reads your words under zero data retention, barred from training; no ads; not end-to-end | AI entries go to OpenAI (help center) or "OpenAI, Anthropic or Google Gemini" (privacy policy); not used for training |
+
+## What you get with Auserene
+
+Auserene is an AI journal for iPhone and iPad, with a companion app for Apple Watch.
+
+- **Notes your way.** Type a line, snap a photo, record a voice note up to 10 minutes in any of over 100 languages, or scan a handwritten page into text on your phone. Stuck? "Help me write" offers three ways to start.
+- **The evening conversation.** Auserene reads your day and asks about the parts that seem to matter. The conversation becomes your entry.
+- **A meditation from your day.** 5, 15 or 25 minutes, written from tonight's conversation, read with your name, with 11 ambient sounds to mix underneath. It plays offline once you've heard it.
+- **Chat any time.** A conversation that already knows your people and your context. Share a photo, have replies read aloud, or go incognito. Or start from 13 guided conversations (untangle a thought, settle your body, loosen a worry) and personal conversation ideas written from what you've talked about lately.
+- **Memory you can read.** The You tab lists what Auserene has learned: what seems to help, what matters to you, what gets to you, threads still open. Edit or delete any line.
+- **People.** A page for everyone who matters, with shared moments, relationship insights and birthday reminders.
+- **Habit goals.** Start from who you want to be, or from an insight in the You tab. No streaks.
+- **Moods and patterns.** A Feelings Wheel of more than 120 words, with causes, moods by month, a week in review and a three-month heatmap.
+- **Lines worth keeping.** Press and hold any line to keep it, and share it as a quote card.
+- **On your wrist and Home Screen.** The Apple Watch app, widgets, Face ID lock, gentle reminders, and a look that follows the time of day.
+- **Eight guided journeys** for sleep, an anxious mind, focus, pressure, self-kindness and noticing the good.
+
+Our [App Store listing](https://apps.apple.com/us/app/auserene-ai-journal-habits/id6783458046) has the full list.
 
 ## What is Stoic?
 
-Stoic is a journaling app from Stoic app inc. in San Francisco. On the App Store it currently appears as "stoic. journal & mental health," with the subtitle "AI journaling, Gratitude diary," and it had a 4.8 rating from 36K ratings and an Editors' Choice badge when we checked ([App Store listing](https://apps.apple.com/us/app/stoic-ai-journal-diary/id1312926037)). The listing says it has over 4 million downloads.
+Stoic is a journaling app from Stoic app inc. in San Francisco. On the App Store it appears as "stoic. journal & mental health," and it had a 4.8 rating from 36K ratings and an Editors' Choice badge when we checked ([App Store listing](https://apps.apple.com/us/app/stoic-ai-journal-diary/id1312926037)). "At its heart," the listing says, Stoic "helps you prepare for your day in the morning and reflect on your day in the evening."
 
-"At its heart," the listing says, Stoic "helps you prepare for your day in the morning and reflect on your day in the evening." Its [features page](https://www.getstoic.com/features) adds daily prompts with a weekly theme, guided journals, mood tracking, streaks and badges, personalized insights, meditation, breathing, writing goals, quotes and themed events. The listing also mentions a planner, voice notes and photos in entries, Stoic Shield (an app blocker), Sleep Better lessons, Trends charts, export, Siri Shortcuts and Apple Health integration.
-
-The listing also says plainly that Stoic "is a wellbeing tool, not a medical device," and that it doesn't replace a doctor or therapist.
-
-## What is Auserene?
-
-Auserene is an AI journal for iPhone that remembers what helps you. During the day you leave quick notes: a line of text, a photo, a voice note, a scanned page from a paper journal, or a mood on a slider and a Feelings Wheel. In the evening, Auserene reads those notes and holds a short conversation about how the day went, asking about the parts that seem to matter. The conversation becomes the day's journal entry. Then it can write a guided meditation from that conversation, five, 15 or 25 minutes long, read aloud with your name said the way you say it.
-
-Around that loop sit a chat for any time of day, guided conversations and journeys, habit goals, a page for each person in your life, and a You tab that shows what Auserene has learned about you ([App Store listing](https://apps.apple.com/us/app/auserene-ai-journal-habits/id6783458046)).
+Its [features page](https://www.getstoic.com/features) adds daily prompts with a weekly theme, guided journals, mood tracking, streaks and badges, insights, meditation, breathing, writing goals and quotes. The listing adds a planner, Stoic Shield (an app blocker), Sleep Better lessons, Trends charts, export, Siri Shortcuts and Apple Health. It says Stoic "is a wellbeing tool, not a medical device." Neither is Auserene.
 
 ## How do Stoic and Auserene journal differently?
 
-Stoic gives you a daily structure to fill in. Its [help center](https://help.getstoic.com/stoic-user-guide/mooMJC6qGFVeG62FpCwNAw/daily-journaling-flow/6f9eBdDY7m4AnbXtALLGtM) describes opening the app to a mood check-in, then a daily check-in or Morning and Evening Reflections you can personalize. For writing, you choose an empty page, a custom template, or a guided exercise "prepared by specialists." If you like a set of questions waiting for you each morning and night, Stoic does this well.
+Stoic gives you a daily structure to fill in. Its [help center](https://help.getstoic.com/stoic-user-guide/mooMJC6qGFVeG62FpCwNAw/daily-journaling-flow/6f9eBdDY7m4AnbXtALLGtM) describes opening the app to a mood check-in, then a daily check-in or Morning and Evening Reflections, with blank pages, templates or guided exercises "prepared by specialists."
 
-Auserene starts from what already happened. You leave fragments during the day, and the evening conversation starts from them. If you logged a low mood at lunch and mentioned the same meeting twice, that's where it asks first. The 13 guided conversations (untangle a thought, settle your body, loosen a worry, a kinder voice, three good things, think a decision through, put something down) are there when you want a specific exercise, but most days the evening chat is the whole practice.
-
-People who like routines and checklists tend to like Stoic. People who keep meaning to journal and never sit down to it often find it easier to leave a line at 2 p.m. and talk for five minutes at night.
+Auserene starts from what already happened. The evening conversation asks about the meeting you mentioned twice, not a question written for everyone. If you've ever stopped journaling by Thursday, this is what changes.
 
 ## Does Stoic have meditation? How it compares with Auserene's
 
-Yes. This is the biggest difference between the two apps, so it's worth being exact.
+Yes, and this is the biggest difference between the two apps.
 
-Stoic's App Store listing describes "unguided or guided sessions to help you meditate with background sounds and timed chimes," and "science-backed" breathing exercises to relax, focus, sleep and more. Its [Premium page](https://www.getstoic.com/premium) lists "20+ breathing exercises for all occasions" and "guided meditations to deal with every situation." The free plan includes "a limited selection" of breathing practices and meditations, according to its [plans page](https://help.getstoic.com/getting-started/nMb4jABmc8oatYuUUyT5Q5/subscription--plans/6f9eBdDY7ngGS3y5u7kPU6). These are a library. Everyone gets the same sessions and picks one by situation. Stoic can also log mindful minutes to Apple Health.
+Stoic's App Store listing describes "unguided or guided sessions to help you meditate with background sounds and timed chimes," and "science-backed" breathing exercises. Its [Premium page](https://www.getstoic.com/premium) lists "20+ breathing exercises for all occasions" and "guided meditations to deal with every situation," and the free plan includes "a limited selection" ([plans page](https://help.getstoic.com/getting-started/nMb4jABmc8oatYuUUyT5Q5/subscription--plans/6f9eBdDY7ngGS3y5u7kPU6)). It's a library. Everyone gets the same sessions.
 
-Auserene's meditation is written after your evening conversation, from it. If you spent ten minutes talking about a difficult call with your manager and how tired you are of carrying your brother's worries, the meditation is about that call and that tiredness, with your name in it. You choose five, 15 or 25 minutes and one of 11 ambient sounds, and audio plays offline once you've heard it. There are also eight guided journeys for sleep, an anxious mind, focus, pressure and more, and breathing sessions keep running on the Lock Screen.
+Auserene's meditation is written after your evening conversation, from it. If you spent ten minutes on a hard call with your manager and how tired you are of carrying your brother's worries, the meditation is about that call and that tiredness, with your name in it. Five, 15 or 25 minutes, 11 ambient sounds, offline once heard. Add eight guided journeys, breathing that keeps running on the Lock Screen, and haptic breathing on the watch.
 
-If you want a wide menu of breathing techniques and timed meditation, Stoic has more. If you want the meditation to know what your day was about, Auserene is built for that. Our post on [personalized meditation](/blog/personalized-meditation) covers what the research says about meditations made from your own words.
+Stoic has more techniques to pick from. Auserene's meditation knows what your day was about. Our post on [personalized meditation](/blog/personalized-meditation) covers the research.
 
 <aside class="app-note" data-screen="meditation"><p class="app-note-kicker">In Auserene</p><p>The meditation is written from tonight's conversation, so the part about letting go is about the thing you actually talked about. Your name is said the way you say it, and you pick the length and the sound underneath.</p></aside>
 
 ## Streaks vs no streaks
 
-Stoic uses streaks and badges to keep you going; its homepage promises "streak trackers, and rewarding badges." To be fair, it handles them more gently than most. Its [help center](https://help.getstoic.com/stoic-user-guide/mooMJC6qGFVeG62FpCwNAw/daily-journaling-flow/6f9eBdDY7m4AnbXtALLGtM) says you can turn streaks and badges off, and restore a broken streak by filling in missed check-ins. Its plans page lists streaks, badges and the mood and habit tracker under Premium.
+Stoic uses streaks and badges; its homepage promises "streak trackers, and rewarding badges." Its [help center](https://help.getstoic.com/stoic-user-guide/mooMJC6qGFVeG62FpCwNAw/daily-journaling-flow/6f9eBdDY7m4AnbXtALLGtM) says you can turn them off and restore a broken streak by filling in missed check-ins, and its plans page lists them under Premium.
 
-Auserene has no streaks. Habit goals start with who you want to be, then a practice, a time and a finish line of 21, 42 or 64 days. You tap a dot when you show up, and a missed day is never marked red. The idea is that a gap in a journal is usually a hard week, and an app shouldn't make a hard week feel like failure. If streaks motivate you, that's a real point for Stoic. If they've made you quit apps before, Auserene was designed with you in mind.
+Auserene has no streaks. A habit goal has a practice, a time and a finish line of 21, 42 or 64 days. Tap a dot when you show up, on your phone or watch. A missed day is never red, because a gap is usually a hard week, not a failure. The goal can start from an insight in the You tab, so the habit grows out of your own days.
 
 ## Which one has better AI, and what does it remember?
 
-Stoic's AI sits in a separate tier. The [Premium AI help page](https://help.getstoic.com/premium-ai-features/xcBoxz1TZA2bdrEzFsGkhJ/premium-ai-subscription/6f9eBdDY7nj4ZYuAFi7UMj) lists personalized reflections with custom prompts, an AI mentor you choose, reflective analysis of past entries to find patterns, personalized quotes and affirmations, and smart notifications. Its [AI guide](https://help.getstoic.com/premium-ai-features/xcBoxz1TZA2bdrEzFsGkhJ/using-ai-features-in-the-app/6f9eBdDY7mQ224fRxsXxYY) names ten mentors, including Motivating Marcus, Supportive Seneca, Evil Ego, Mindful Maya and Time Traveller, and a Go Deeper button that turns prompts into a short dialogue. You can add personal details (likes, routines, the people close to you) so replies feel more personal.
+Stoic's AI sits in a separate tier. The [Premium AI help page](https://help.getstoic.com/premium-ai-features/xcBoxz1TZA2bdrEzFsGkhJ/premium-ai-subscription/6f9eBdDY7nj4ZYuAFi7UMj) lists personalized reflections, an AI mentor, analysis of past entries and smart notifications. Its [AI guide](https://help.getstoic.com/premium-ai-features/xcBoxz1TZA2bdrEzFsGkhJ/using-ai-features-in-the-app/6f9eBdDY7mQ224fRxsXxYY) names ten mentors, including Motivating Marcus, Supportive Seneca and Mindful Maya, and a Go Deeper button that turns prompts into a short dialogue. Release notes for version 2026.23 let you pick cloud, on-device or no AI per feature, and iOS 26 adds [on-device AI features](https://www.getstoic.com/blog/stoic-foundation-model-ai-features).
 
-Stoic's latest App Store release notes (version 2026.23) add a screen where you pick, per feature, whether AI runs in the cloud, on your device or not at all, see how much of your weekly limit you've used, and check what's sent with each request, which is a good touch. When the limit runs out, AI falls back to Apple Intelligence on the device. On iOS 26, Stoic also has [on-device AI features](https://www.getstoic.com/blog/stoic-foundation-model-ai-features) such as personalized prompts and "Smart History" chapters.
+On memory, Stoic's [privacy policy](https://www.getstoic.com/privacy-policy) says it keeps "limited vector data and anonymized user context (e.g. 'likes dogs,' 'has kids,' 'lives in Warsaw')" to personalize AI. Whether you can view, edit or delete it is not stated.
 
-On memory, Stoic's [privacy policy](https://www.getstoic.com/privacy-policy) says it keeps "limited vector data and anonymized user context (e.g. 'likes dogs,' 'has kids,' 'lives in Warsaw')" to personalize AI. Whether you can view, edit or delete that stored context is not stated.
-
-Auserene's AI is a conversation partner more than a prompt generator. The evening chat reads your day and asks follow-up questions, and the chat any time already knows the people and context. What it has learned sits in the You tab in plain sentences: what seems to help you, what matters to you, what gets to you, and threads still open. You can edit or delete any of it. It keeps track of who's who, so "my sister" always means the same person, and you can turn an insight into a habit goal.
-
-<aside class="app-note" data-screen="you"><p class="app-note-kicker">In Auserene</p><p>Everything Auserene has learned about you is on one page, in sentences you'd recognize. If it got something wrong, or something stopped being true, you change it there and the next conversation reflects it.</p></aside>
+Auserene's AI is a conversation partner, not a prompt generator. What it has learned sits in the You tab in plain sentences you can edit or delete. It knows who's who, so "my brother" always means the same person, and that memory reaches the conversation, the meditation, each person's page and your habit goals.
 
 ## How much does Stoic cost? Is there a Stoic free version?
 
-Stoic has a free version. Its [plans page](https://help.getstoic.com/getting-started/nMb4jABmc8oatYuUUyT5Q5/subscription--plans/6f9eBdDY7ngGS3y5u7kPU6) says the free plan includes daily prompts, quotes and affirmations, basic guided journals, and a limited selection of exercises such as breathing and meditation. Premium adds the full library, custom templates, the mood and habit tracker, streaks and badges, widgets, iCloud sync and Face ID or passcode lock. Premium + AI adds the AI features. The web app is "free to use" ([web app page](https://www.getstoic.com/web-app)).
+Stoic has a free version. Its [plans page](https://help.getstoic.com/getting-started/nMb4jABmc8oatYuUUyT5Q5/subscription--plans/6f9eBdDY7ngGS3y5u7kPU6) lists daily prompts, quotes and affirmations, basic guided journals and a limited selection of exercises. Premium adds the full library, trackers, streaks and iCloud sync, and Premium + AI adds the AI. The web app is "free to use" ([web app page](https://www.getstoic.com/web-app)).
 
-Stoic's price is harder to pin down, because its website shows no prices. The App Store listing shows Premium purchases at $6.99, $17.99, $26.99 and $39.99, AI purchases at $12.99, $69.99 and $99.99, and Stoic Lifetime Premium at $299.00, but doesn't say which are monthly or yearly. The help center says there are monthly and yearly plans, a 7-day free trial for Premium and a 3-day trial for Premium + AI, both only on the annual plan. AI usage limits renew weekly (release notes, version 2026.16), and there is a [student discount](https://help.getstoic.com/faq/3sfUSwpkyPFw22e8F1CRHk/subscriptions-and-payments/6f9eBdDY7mkV4513v268Mn). Check the paywall inside the app for the current price in your country.
+Stoic's website shows no prices. The App Store listing shows Premium purchases at $6.99, $17.99, $26.99 and $39.99, AI purchases at $12.99, $69.99 and $99.99, and Lifetime Premium at $299.00, without saying which are monthly or yearly. Trials are 7 days for Premium and 3 for Premium + AI, annual plans only, AI limits renew weekly, and there's a [student discount](https://help.getstoic.com/faq/3sfUSwpkyPFw22e8F1CRHk/subscriptions-and-payments/6f9eBdDY7mkV4513v268Mn).
 
-Auserene's free plan has no time limit and covers notes, photos, scanning, mood logging, an evening walk through your notes on your own, three "Help me write" nudges a day, free journeys and sounds, habit goals, people and widgets. Premium costs $11.99 a month or $105.99 a year (about $8.83 a month), with seven days free on both, and adds the conversations, memory, voice notes, a meditation from each day and personalized journeys. There's one paid tier.
+Auserene is simpler. Premium is $11.99 a month or $105.99 a year (about $8.83 a month), seven days free, one tier with everything: the conversations, memory, voice notes, the meditation from each day, personalized journeys and people remembered automatically. The free plan has no time limit and covers notes, photos, scanning, mood, habit goals, people, free journeys and widgets.
 
-These are US prices from each company's own pages on November 19, 2026. They vary by country and change often.
+US prices from each company's own pages on November 19, 2026.
 
 ## Is Stoic on Android? Which works on more devices?
 
-Stoic wins here by a distance. The App Store listing covers iPhone, iPad, Mac, Apple Vision and Apple Watch, and Stoic has an Android app and a web app. Two caveats from Stoic's own help center: the [Android app](https://help.getstoic.com/android-app/6f9eBdDY7nBErZqN88hSpP/android-app/6f9eBdDY7jYfqgb9xsw3Gi) "currently includes fewer features" than iOS, and iOS and Android [can't sync with each other](https://help.getstoic.com/faq/3sfUSwpkyPFw22e8F1CRHk/sync-and-devices/6f9eBdDY7kve1PSbjR5nHM) yet. Sync between Apple devices runs through your iCloud and needs Premium.
+Stoic runs on more devices. The App Store listing covers iPhone, iPad, Mac, Apple Vision and Apple Watch, and Stoic has an Android app and a web app. Its help center says the [Android app](https://help.getstoic.com/android-app/6f9eBdDY7nBErZqN88hSpP/android-app/6f9eBdDY7jYfqgb9xsw3Gi) "currently includes fewer features" than iOS, and iOS and Android [can't sync with each other](https://help.getstoic.com/faq/3sfUSwpkyPFw22e8F1CRHk/sync-and-devices/6f9eBdDY7kve1PSbjR5nHM) yet.
 
-Auserene is iPhone only for now. If you write on a Mac, an iPad or an Android phone, Stoic fits and Auserene doesn't.
+Auserene is on iPhone and iPad with an Apple Watch app today, and Android and web versions are in the works. If you write on a Mac, Android or in a browser now, Stoic fits and Auserene doesn't. If your life runs on an iPhone, Auserene goes onto your wrist too.
 
 ## Privacy: Stoic vs Auserene
 
-The two apps take different approaches, and each has a real advantage.
+Auserene's [privacy policy](/privacy-policy) says your journal is encrypted with AES-256 at rest, using a key unique to you, and travels over TLS. Our team doesn't read your journal, unless you choose to share a conversation with us in a feedback report. The AI that reads your journal works under zero-data-retention terms, keeps nothing after a reply and is contractually barred from training on your words. No ads or trackers, and you can delete everything in the app. It's not end-to-end encrypted.
 
-Stoic keeps your journal off its own servers. Its help center says your data is stored "only on your devices" and, with Premium, in your personal iCloud, that Stoic "does not have its own servers," and that no one at Stoic can read your entries ([where your data is kept](https://help.getstoic.com/privacy--security/i65nxnVdxPXQfGZJXynaYu/where-your-data-is-kept/6f9eBdDY7m3fVtcX2B5Mv5)). Stoic doesn't describe encryption of its own. Its help center points to [Apple's iCloud protection](https://help.getstoic.com/privacy--security/i65nxnVdxPXQfGZJXynaYu/apple-data-protection/6f9eBdDY7m66P1EeHUT9Pv), where Apple holds the keys under Standard Data Protection and only your devices do if you turn on Advanced Data Protection. The flip side, which Stoic states itself, is that if you don't back up and lose your phone, your journal goes with it.
+Stoic keeps your journal off its own servers. Its help center says data is stored "only on your devices" and, with Premium, your personal iCloud, and that Stoic "does not have its own servers" ([where your data is kept](https://help.getstoic.com/privacy--security/i65nxnVdxPXQfGZJXynaYu/where-your-data-is-kept/6f9eBdDY7m3fVtcX2B5Mv5)). It points to [Apple's iCloud protection](https://help.getstoic.com/privacy--security/i65nxnVdxPXQfGZJXynaYu/apple-data-protection/6f9eBdDY7m66P1EeHUT9Pv) for encryption.
 
-When you use AI, entries leave the device. Stoic's pages describe this differently. The [AI privacy page](https://help.getstoic.com/privacy--security/i65nxnVdxPXQfGZJXynaYu/privacy-for-ai-features-users/6f9eBdDY7n6xp3yDruS4SW) says only the current entry goes to OpenAI, which may keep it up to 30 days to prevent misuse, and the [privacy FAQ](https://help.getstoic.com/faq/3sfUSwpkyPFw22e8F1CRHk/privacy-data-and-ai/6f9eBdDY7nmUseRBxVxvQV) says it isn't used to train OpenAI's models. The [privacy policy](https://www.getstoic.com/privacy-policy) names "OpenAI, Anthropic or Google Gemini," says that consenting to AI means sharing "your historical journals" (which you can turn off), describes processing "via our secure servers," and says Stoic applies settings so providers don't train on your data. 
+With AI on, Stoic's pages disagree. The [AI privacy page](https://help.getstoic.com/privacy--security/i65nxnVdxPXQfGZJXynaYu/privacy-for-ai-features-users/6f9eBdDY7n6xp3yDruS4SW) says only the current entry goes to OpenAI, which may keep it up to 30 days, and the [privacy FAQ](https://help.getstoic.com/faq/3sfUSwpkyPFw22e8F1CRHk/privacy-data-and-ai/6f9eBdDY7nmUseRBxVxvQV) says it isn't used for training. The [privacy policy](https://www.getstoic.com/privacy-policy) names "OpenAI, Anthropic or Google Gemini" and says consenting to AI means sharing "your historical journals" (you can turn that off).
 
-Auserene's [privacy policy](/privacy-policy) says your writing is encrypted with a key tied to your account and no one on our team reads it. Our AI providers work under zero-data-retention contracts, keep nothing after a reply, and are contractually barred from training on your words. There are no ads, and you can delete your account and everything in it from inside the app. Auserene is not end-to-end encrypted, since our servers and the AI provider process your text in memory to reply.
-
-Stoic's non-AI journaling never touches its servers, which is a strong position. Once AI is on, both apps send your words to a model provider, and what matters is which one, for how long, and under what contract.
+Stoic without AI is a strong privacy position. Once AI is on, both apps send words to a model provider, and the AI that reads your Auserene journal keeps nothing after a reply.
 
 ## Which should you choose?
 
-Choose Stoic if:
-
-1. You want morning and evening routines with prompts waiting for you.
-2. You like a large library of breathing exercises, meditations, quotes and guided journals.
-3. You journal on a Mac, iPad, Apple Watch, Android or the web.
-4. You want your journal stored only on your devices and your own iCloud.
-5. Streaks and badges help you show up.
-
 Choose Auserene if:
 
-1. You want a meditation written from your own day, not picked from a library.
-2. You'd rather leave quick notes and talk for five minutes than fill in a form.
-3. You want to read and edit everything the AI remembers about you.
-4. You want people, habit goals and moods tied to the same memory.
-5. You'd rather not keep a streak.
+1. You want one app where your notes, conversations, meditations, memory, people and habit goals all feed each other.
+2. You want a meditation written from your own day, not picked from a library.
+3. You'd rather talk for ten minutes than fill in a form.
+4. You want to read and edit everything the AI remembers about you.
+5. You want habits with a finish line and no streak to break.
+6. You want it on your iPhone, your iPad and your wrist, with one clear price.
 
-Neither app is therapy, and Stoic says the same about itself. If your nights are mostly worry or low mood, please talk to a doctor or a mental health professional, and if you're in danger now, our [crisis resources page](/crisis-resources) lists free helplines by country.
+Choose Stoic if:
+
+1. You want a large library of breathing exercises, meditations and guided journals.
+2. Streaks and badges help you show up.
+3. You journal on a Mac, Android or the web, or want your journal stored only on your devices.
+
+Neither is therapy, and Stoic says the same about itself. If your nights are mostly worry or low mood, please talk to a doctor or a mental health professional, and if you're in danger now, our [crisis resources page](/crisis-resources) lists free helplines by country.
 
 For the wider field, see our [Stoic app alternatives](/blog/stoic-alternatives) guide and the [best AI journal apps comparison](/blog/best-ai-journal-apps).
 
@@ -126,27 +165,29 @@ For the wider field, see our [Stoic app alternatives](/blog/stoic-alternatives) 
 
 ### Is Auserene better than Stoic?
 
-It depends on what you want. Stoic is stronger on structured morning and evening routines, a big library of breathing exercises and meditations, and platforms, since it runs on Mac, Android and the web. Auserene is stronger if you want a meditation written from your own day, an evening conversation instead of a form, a memory you can read and edit, and no streaks. Auserene is iPhone only.
+If you want one journal that does it all, yes. Auserene connects quick notes, an evening conversation that writes your entry, a meditation made from your day, memory you can edit, people and habit goals. Stoic is the better pick for a big breathing and meditation library, streaks, or Mac, Android and the web.
 
 ### Does Stoic have guided meditation?
 
-Yes. Stoic's App Store listing describes guided and unguided meditation with background sounds and timed chimes, and its Premium page lists 20+ breathing exercises. They're a library, the same for everyone. Auserene writes a new guided meditation from each day's conversation.
+Yes, guided and unguided meditation plus 20+ breathing exercises. They're a library, the same for everyone. Auserene writes a new guided meditation from each day's conversation.
 
 ### Is the Stoic app free?
 
-Stoic has a free plan with daily prompts, quotes, affirmations, basic guided journals and a limited selection of breathing and meditation exercises. Premium and Premium + AI are paid. The App Store lists several Premium and AI prices without billing periods, plus a $299 lifetime option, as of November 2026.
+Stoic has a free plan with daily prompts, quotes, basic guided journals and a limited set of breathing and meditation exercises. Its App Store listing shows several paid prices without billing periods, plus a $299 lifetime option. Auserene has a free plan with no time limit, and Premium is $11.99 a month or $105.99 a year.
 
 ### Does the Stoic app use AI, and which provider?
 
-Yes, in its Premium + AI tier, and some on-device features on iOS 26. Stoic's help center says AI entries go to OpenAI and may be kept for up to 30 days, not for training. Its privacy policy names OpenAI, Anthropic or Google Gemini as providers.
+Yes, in its Premium + AI tier. Stoic's help center says AI entries go to OpenAI and may be kept up to 30 days, not for training, while its privacy policy names OpenAI, Anthropic or Google Gemini. The AI that reads your Auserene journal works under zero-data-retention terms and keeps nothing after a reply.
 
 ### Does Stoic have streaks?
 
-Yes. Stoic has streaks and badges, which its plans page lists under Premium. You can turn them off and restore a missed streak by completing past check-ins. Auserene has no streaks; its habit goals have a 21, 42 or 64-day finish line and never mark a missed day red.
+Yes, under Premium, and you can turn them off. Auserene has no streaks. Its habit goals have a 21, 42 or 64-day finish line and never mark a missed day red.
 
 ### Is Stoic on Android?
 
-Yes. Stoic has an Android app and a web app, but its help center says the Android app has fewer features than iOS and can't sync with the iOS app yet. Auserene is iPhone only.
+Yes, plus a web app, though its help center says the Android app has fewer features and can't sync with iOS yet. Auserene is on iPhone and iPad with an Apple Watch app today, and Android and web versions are in the works.
+
+*Stoic is a trademark of its owner. Auserene isn't affiliated with or endorsed by it.*
 
 ## Sources
 

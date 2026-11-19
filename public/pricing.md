@@ -1,6 +1,6 @@
-# Pricing — Auserene
+# Auserene pricing
 
-Auserene is an AI journaling app for iPhone. Prices are in US dollars; the App Store shows the local price in your country. Subscriptions are managed through Apple and can be cancelled any time in your iPhone's subscription settings.
+Auserene is an AI journaling app for iPhone and iPad. Prices are in US dollars; the App Store shows the local price in your country. Subscriptions are managed through Apple and can be cancelled any time in your App Store subscription settings.
 
 Last updated: 2026-09-27
 

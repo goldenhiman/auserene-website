@@ -1,4 +1,4 @@
-The best AI journal app depends on what you want the AI to do. As of October 2026, Day One suits a long-term archive with AI as an optional extra, Mindsera suits people who want their writing analyzed, Rosebud suits guided, therapy-informed prompts (its free plan ended on September 30, 2026), Apple's Journal is the free, end-to-end encrypted choice with no chat at all, and ChatGPT works if you change its settings first. Auserene, which we make, is built around an evening conversation that reads your notes from the day, remembers what you said last week, and turns the day into a meditation written from it.
+If you want one AI journal where everything connects, Auserene, which we make, is the stronger pick. Most AI journals give you a set of tools side by side. In Auserene the note you leave at lunch becomes tonight's conversation, the conversation becomes your entry and a guided meditation made from your day, and what it learns lands on pages you can read and fix: your patterns, your people, your goals. The others win on specific things. As of October 2026, Day One suits a long-term archive with AI as an optional extra, Mindsera suits people who want their writing analyzed, Rosebud suits guided, therapy-informed prompts (its free plan ended on September 30, 2026), Apple's Journal is the free, end-to-end encrypted choice with no chat at all, and ChatGPT works if you change its settings first.
 
 This is Auserene's own blog, and Auserene is one of the apps below. We've tried to be fair anyway. Every fact about another company comes from that company's own website, help center, privacy policy or App Store listing, checked in October 2026, and we link to each page so you can check us. Where a company doesn't say something, the table says "not stated" rather than guessing. We've left out star ratings, because we can't verify them.
 
@@ -12,6 +12,7 @@ Memory cuts across all of these. It decides whether the app knows on Thursday wh
 
 | App | Best for | AI features | Platforms | Free tier | Price (US) | Privacy notes |
 |---|---|---|---|---|---|---|
+| Auserene (ours) | One journal where notes, conversation, meditation, memory, people and goals all connect | Evening conversation that writes the entry, chat any time, 13 guided conversations, memory you can read and edit, a meditation written from your day, voice notes, handwriting scan, Feelings Wheel, moods by month, what helps, week in review, people pages with relationship insights, habit goals from insights, Help me write | iPhone, iPad, Apple Watch (companion: Breathe, mood, habit check-ins, quick notes); Android and web in the works | Yes, no time limit: notes with photos and scanning, mood logging, an evening walk through your notes on your own, 3 Help me write a day, free guided journeys and ambient sounds, habit goals, people, widgets | $11.99/month or $105.99/year; 7 days free | AES-256 at rest with a key unique to you, TLS in transit; AI that reads your words under zero data retention, barred from training; no ads or ad trackers; not end-to-end encrypted |
 | Rosebud | Guided prompts, weekly reports, phone and web | Chat-style journaling, long-term memory (paid), voice journaling, weekly reports, guided journals | iOS, Android, web | Retired September 30, 2026; free trial offered | $12.99/month or $107.99/year | Encrypted in transit and at rest; AI providers under BAAs and zero-data-retention agreements; data sent to them anonymized; end-to-end encryption not stated |
 | Day One | A long-term archive with optional AI | Gold only: Daily Chat, Go Deeper prompts, summaries, titles, image generation | iPhone, iPad, Mac, Android, Windows, web | Basic: unlimited text entries, 1 photo per entry, 1 device | Silver $49.99/year, Gold $74.99/year; 1-month trial | End-to-end encryption available; AI processing temporarily lifts it; entries not used for training without permission |
 | Mindsera | Analysis of emotions, themes and patterns | Comments from "Minds," voice Call Mode, emotion tracking, Ask Your Journal, summaries | iPhone, Android, web | Curious: basic journaling, habit tracking, AI prompting | $14.99/month or $129/year | Encrypted at rest and in transit; not end-to-end encrypted; journal content not used to train AI models |
@@ -19,7 +20,6 @@ Memory cuts across all of these. It decides whether the app knows on Thursday wh
 | Reflectly | A light daily mood check-in | AI-guided prompts, mood correlations | iPhone, iPad, Android | Not stated | In-app purchases from $4.99 to $59.99; periods not stated | Linked policy is company-wide and doesn't address journal entries or AI; training and encryption not stated |
 | Apple Journal | Free, private journaling on Apple devices | On-device journaling suggestions; no chat | iPhone, iPad, Mac | Free | Free | End-to-end encrypted in iCloud with two-factor authentication and a passcode |
 | ChatGPT | A flexible thinking partner you set up yourself | General chatbot with memory you can review and correct | Web, iOS, Android | Free, with limited memory | Go $8 and Plus $19.99 on the US App Store | May train on your chats unless you opt out; Go plan may include ads |
-| Auserene (ours) | An evening conversation, a meditation from your day, and a memory you can read | Evening chat that writes the entry, chat any time, 13 guided conversations, memory you can read and edit, a meditation written from the day, voice notes, handwriting scan, mood tracking with a Feelings Wheel, patterns and insights (moods over time, what helps, week in review, relationship insights), habit goals, people pages, Help me write | iPhone only | Notes with photos and scanning, mood logging, an evening walk through your notes on your own, 3 Help me write a day, free guided journeys and ambient sounds, habit goals, people, widgets | $105.99/year or $11.99/month; 7 days free | Encrypted at rest with a per-user key; AI provider under zero data retention, barred from training; no ads; not end-to-end encrypted |
 
 Prices are US list prices as shown on each company's own page or App Store listing in October 2026. They vary by country and change often.
 
@@ -81,21 +81,41 @@ Best for people who want one flexible tool and are willing to set it up. Our lon
 
 ### Auserene
 
-Read this section knowing we wrote it. You leave quick notes during the day, a line or a mood, and in the evening it holds a short conversation about how the day went. It reads the day's notes first, asks about the parts that seem to matter, and remembers what you said last week. The conversation becomes that day's journal entry. Before bed, it can make a meditation written from that conversation. What it remembers lives in the You tab as plain sentences you can edit or delete.
+Read this section knowing we wrote it. Auserene is an AI journal for iPhone and iPad, with a companion Apple Watch app, and its point is that every part hands off to the next. Here's an ordinary Tuesday.
 
-It also tracks patterns. Moods you log show up month by month, the You tab lists what seems to help you and what gets to you, a week in review looks back on the last seven days, and each person's page has insights into how things are with them, built from what you've said about them.
+**1:15 p.m.** Your landlord says the rent is going up, and your partner wants to stay put anyway. From the Home Screen widget you type one line, drag the mood slider down, pick "worried" on the Feelings Wheel and tag home as the cause. Ten seconds.
 
-Around that: voice notes transcribed in over 100 languages, a handwritten page scanned into a note, a mood slider and a Feelings Wheel, 13 guided conversations for when you need a way in, eight guided meditation journeys with ambient sounds, habit goals with a finish line and no streaks, and a page for each person in your life so "my sister" always means the right one.
+**6:30 p.m.** On the bus you start Breathe on your Apple Watch. Two minutes of haptic breathing with your wrist down and the screen off.
 
-Our [privacy policy](/privacy-policy) says entries are encrypted at rest with a key unique to you, that our AI provider works under zero-data-retention terms and is contractually barred from training on your words, that there are no ads or ad trackers, and that you can delete your account and everything in it from inside the app. It also says plainly that this is not end-to-end encryption: our servers and the AI provider process your text in memory to write a reply.
+**9:30 p.m.** The evening conversation opens on the rent, because that's what you wrote and where your mood dropped. It remembers you mentioned saving for a move last week, so it asks whether this changes the plan. Ten minutes later, the conversation is your journal entry.
 
-Best for people who want the evening conversation and a memory they can read.
+**9:45 p.m.** You make tonight's meditation, 15 minutes with rain underneath and your name said the way you say it, written from that conversation.
+
+**The next morning.** The You tab has a new line under what gets to you. Keep it, edit it or delete it. Your partner's page holds the moment.
+
+**Sunday.** Week in review looks back on seven days. If "a walk before deciding" keeps showing up under what seems to help, you turn it into a habit goal with a 21-day finish line and check in from your watch. A missed day never turns red.
+
+What you get:
+
+- **Notes your way.** Text, a photo, a voice note up to 10 minutes transcribed in over 100 languages, or a handwritten page scanned into text on your phone. "Help me write" offers three ways to start.
+- **The evening conversation.** It reads your day, asks about what matters, and becomes your entry.
+- **A meditation from your day.** 5, 15 or 25 minutes, with 11 ambient sounds, offline once you've heard it. Plus eight guided journeys for sleep, an anxious mind, focus and more.
+- **Chat any time.** It knows your people and your context. Share a photo, have replies read aloud, or go incognito. Thirteen guided conversations for when you need a way in.
+- **Memory you can read.** The You tab lists what seems to help, what matters to you, what gets to you and threads still open, in plain sentences you can edit or delete.
+- **People.** A page for each person, with shared moments, birthday reminders and relationship insights, so "my sister" always means the right one.
+- **Habit goals.** Start from who you want to be or from an insight. A 21, 42 or 64-day finish line and no streaks.
+- **Moods and patterns.** A Feelings Wheel of more than 120 words, with causes, moods month by month, a week in review and a heatmap of your last three months.
+- **On your wrist and Home Screen.** The Apple Watch app, widgets, Face ID lock, gentle reminders and a look that follows the time of day.
+
+Our [privacy policy](/privacy-policy) says your journal is encrypted with AES-256 at rest, using a key unique to you, and travels over TLS, that our team doesn't read it unless you choose to share a conversation with us in a feedback report, that the AI that reads your journal works under zero-data-retention terms and is contractually barred from training on your words, that there are no ads or ad trackers, and that you can delete your account and everything in it from inside the app. It also says plainly that this is not end-to-end encryption. Our servers and the AI provider process your text in memory to write a reply.
+
+Best for people who want one journal where the day carries through to a conversation, a meditation, their people and their habits. If you've been paying for a journal and a meditation app, that's two subscriptions Auserene can replace with one.
 
 ## Who should not pick Auserene?
 
 We'd rather you choose well than choose us. Skip Auserene, for now, if any of these apply:
 
-1. You use Android, or you want to journal on a laptop. Auserene is iPhone only.
+1. You use Android, or you want to journal on a Mac or in a browser. Auserene is on iPhone and iPad with an Apple Watch app today, and Android and web versions are in the works.
 2. You want the talking part free. The evening conversation, chat any time, memory, voice notes and the meditation from your day are Premium. The free tier covers notes with photos and scanning, mood logging, an evening walk through your notes on your own, three Help me write nudges a day, habit goals, people you add, guided journeys and widgets.
 3. You need end-to-end encryption. Apple Journal, or Day One with AI switched off, is the better fit.
 4. You want a long archive with photos and video across many devices. Day One is built for that.
@@ -125,13 +145,14 @@ None of these apps is therapy, ours included. If your nights are mostly worry or
 
 Start with what you want the AI to do, then check the rest on the company's own pages, not in a roundup (this one included).
 
-1. Decide on the kind of AI. Prompts and summaries suit Day One or Stoic, analysis suits Mindsera, and a conversation that becomes the entry is what Rosebud, Day One's Daily Chat, ChatGPT and Auserene each do in different ways.
-2. Ask whether you can read the memory. An app that remembers you should show you what it remembers in words you recognize, and let you edit or delete it.
-3. Find the training default. Is your writing used to train models, is that on or off by default, and are the app's AI providers barred from it by contract?
-4. Know the encryption you're getting. End-to-end encryption and encryption at rest are different things. Any app that sends your words to an AI model has to process them unencrypted at that moment, and Day One says so in plain words. In the US, the Department of Health and Human Services says HIPAA usually [doesn't protect data you enter into apps for personal use](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/cell-phone-hipaa/index.html), so the privacy policy is what you have.
-5. Check how durable the free tier is. Rosebud's ended this year. Read what a plan includes today and whether you can export your entries.
-6. Match the platform to your life. If you journal on a laptop, an iPhone-only app won't fit.
-7. Try a week of evenings, and notice whether you close the app calmer or more wound up. For help with what to write, our [evening reflection questions](/blog/evening-reflection-questions) work in any app or on paper.
+1. Decide whether you want the pieces connected. Most AI journals keep the diary, the mood tracker, the goals and the reports side by side. In Auserene your notes, conversation, meditation, memory, people and goals feed each other. If that's what you want, start there.
+2. Decide on the kind of AI. Prompts and summaries suit Day One or Stoic, analysis suits Mindsera, and a conversation that becomes the entry is what Rosebud, Day One's Daily Chat, ChatGPT and Auserene each do in different ways.
+3. Ask whether you can read the memory. An app that remembers you should show you what it remembers in words you recognize, and let you edit or delete it.
+4. Find the training default. Is your writing used to train models, is that on or off by default, and are the app's AI providers barred from it by contract?
+5. Know the encryption you're getting. End-to-end encryption and encryption at rest are different things. Any app that sends your words to an AI model has to process them unencrypted at that moment, and Day One says so in plain words. In the US, the Department of Health and Human Services says HIPAA usually [doesn't protect data you enter into apps for personal use](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/cell-phone-hipaa/index.html), so the privacy policy is what you have.
+6. Check how durable the free tier is. Rosebud's ended this year. Read what a plan includes today and whether you can export your entries.
+7. Match the platform to your life. If you journal on a laptop, an app made for phones and tablets won't fit.
+8. Try a week of evenings, and notice whether you close the app calmer or more wound up. For help with what to write, our [evening reflection questions](/blog/evening-reflection-questions) work in any app or on paper.
 
 ## Questions people ask about AI journal apps
 
@@ -158,6 +179,8 @@ A comparison table can tell you who encrypts what and what it costs. It can't te
 Auserene's founder, Himanshu Pathak, learned to journal from a therapist, and the journal worked because someone helped him make sense of it. When the sessions ended, that help went with them, so he built Auserene. [His letter](/letter) tells the rest.
 
 Whichever app you try, give it a week of evenings. By the end you'll know whether you understand your days a little better than before, and that answer counts for more than any row in the table.
+
+*All product names mentioned are trademarks of their respective owners. Auserene isn't affiliated with or endorsed by any of them.*
 
 ## Sources
 
