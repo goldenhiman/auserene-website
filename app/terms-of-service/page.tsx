@@ -17,7 +17,7 @@ export default function TermsOfService() {
     <PolicyShell>
       <h1>Terms of Service</h1>
       <p className="policy-meta">
-        Last updated: 19 October 2026 &middot; Effective: 19 October 2026
+        Last updated: 19 November 2026 &middot; Effective: 19 October 2026
       </p>
 
       <h2>1. Who these terms are between</h2>
@@ -59,8 +59,8 @@ export default function TermsOfService() {
       </p>
       <h3>Plans and prices</h3>
       <p>
-        Premium is offered as a <strong>weekly</strong>, <strong>monthly</strong>,
-        or <strong>yearly</strong> subscription. Current prices are shown in the
+        Premium is offered as a <strong>monthly</strong> or{" "}
+        <strong>yearly</strong> subscription. Current prices are shown in the
         app and on the App Store listing before you subscribe. Prices may vary by
         country and currency, and are set in the App Store in your local currency.
         Payment is charged to your Apple ID account at confirmation of purchase.

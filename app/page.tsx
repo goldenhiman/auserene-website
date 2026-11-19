@@ -360,7 +360,7 @@ export default function Home() {
         </div>
         <Reveal>
           <p className="fine">
-            $105.99 a year, $11.99 a month, or $4.99 a week. Cancel any time in your iPhone&rsquo;s subscription settings.
+            $105.99 a year or $11.99 a month. Cancel any time in your iPhone&rsquo;s subscription settings.
           </p>
         </Reveal>
       </section>

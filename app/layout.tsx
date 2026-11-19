@@ -125,7 +125,6 @@ export default function RootLayout({
                     { "@type": "Offer", name: "Free", price: "0", priceCurrency: "USD" },
                     { "@type": "Offer", name: "Premium, yearly", price: "105.99", priceCurrency: "USD" },
                     { "@type": "Offer", name: "Premium, monthly", price: "11.99", priceCurrency: "USD" },
-                    { "@type": "Offer", name: "Premium, weekly", price: "4.99", priceCurrency: "USD" },
                   ],
                 },
               ],
