@@ -86,7 +86,7 @@ const ALSO = [
   {
     icon: "jar",
     title: "Moods and patterns",
-    body: "Log a mood with a slider and an 82-word Feelings Wheel. See your moods by month, a week in review, and what seems to help.",
+    body: "Log a mood with a slider and a Feelings Wheel of more than 120 words. See your moods by month, a week in review, and what seems to help.",
   },
   { icon: "mic", title: "Write with your voice", body: "Speak a note and Auserene transcribes it, in over 100 languages." },
   {
@@ -102,7 +102,7 @@ const ALSO = [
   {
     icon: "compass",
     title: "Guided conversations",
-    body: "Thirteen ways in for when you don’t know where to start: untangle a thought, loosen a worry, think a decision through, three good things.",
+    body: "Thirteen ways in for when you don’t know where to start: untangle a thought, loosen a worry, think it through, three good things.",
   },
   {
     icon: "quote",
@@ -111,8 +111,8 @@ const ALSO = [
   },
   {
     icon: "moon",
-    title: "Made for iPhone",
-    body: "Home Screen widgets, Face ID lock, replies read aloud, incognito chats, and a look that follows the time of day.",
+    title: "iPhone, iPad and Apple Watch",
+    body: "Home Screen widgets, Face ID lock, replies read aloud, and incognito chats. On your wrist, breathe, log a mood or jot a note.",
   },
 ];
 
@@ -120,12 +120,12 @@ const PRIVACY = [
   {
     icon: "lock",
     title: "Your key, your words",
-    body: "Your entries are encrypted at rest with AES-256, using a key tied to your account.",
+    body: "Your entries are encrypted with AES-256 at rest, using a key unique to you, and travel over TLS.",
   },
   {
     icon: "jar",
     title: "Nothing trains a model",
-    body: "Our AI providers work under zero-data-retention contracts: they keep nothing after replying, and they’re contractually barred from training on your words.",
+    body: "The AI that reads your journal works under zero-data-retention terms. It keeps nothing after replying and is contractually barred from training on your words.",
   },
   {
     icon: "stop",
@@ -164,7 +164,7 @@ const FAQ = [
   },
   {
     q: "Who can read what I write?",
-    a: "Only you. The AI reads it just long enough to reply, and doesn’t keep it. Your writing is encrypted with a key tied to your account, and no one on our team reads it.",
+    a: "Only you. The AI reads it just long enough to reply, and doesn’t keep it. Your writing is encrypted with AES-256 at rest, using a key unique to you. Our team doesn’t read it, unless you choose to share a conversation with us in a feedback report.",
   },
   {
     q: "Do I have to write every day?",
@@ -176,7 +176,7 @@ const FAQ = [
   },
   {
     q: "What does it run on?",
-    a: "iPhone, for now.",
+    a: "iPhone and iPad, with a companion app for Apple Watch. Android and web versions are in the works.",
   },
   {
     q: "What if things feel like too much?",
@@ -360,7 +360,7 @@ export default function Home() {
         </div>
         <Reveal>
           <p className="fine">
-            $105.99 a year or $11.99 a month. Cancel any time in your iPhone&rsquo;s subscription settings.
+            $105.99 a year or $11.99 a month. Cancel any time in your App Store subscription settings.
           </p>
         </Reveal>
       </section>
@@ -455,7 +455,7 @@ export default function Home() {
         <Reveal className="closing-inner">
           <Image src="/auserene-icon.png" alt="Auserene app icon" aria-hidden width={72} height={72} className="app-icon" />
           <h2 className="display display-sm">Set the day down tonight</h2>
-          <p className="lede">Auserene is on the App Store for iPhone. It&rsquo;s made by a very small team that cares a lot, and it gets better every week.</p>
+          <p className="lede">Auserene is on the App Store for iPhone and iPad. It&rsquo;s made by a very small team that cares a lot, and it gets better every week.</p>
           <CtaLink />
         </Reveal>
       </section>

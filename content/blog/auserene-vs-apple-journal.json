@@ -1,9 +1,9 @@
 {
   "slug": "auserene-vs-apple-journal",
-  "title": "Auserene vs Apple Journal: which journal fits you?",
+  "title": "Auserene vs Apple Journal: which journal does more for you?",
   "seoTitle": "Auserene vs Apple Journal (2026): AI, memory, meditation, privacy",
-  "description": "Auserene vs Apple Journal compared from Apple's own pages, November 2026: AI, memory, mood, voice, meditation, price, Mac and iPad, and encryption.",
-  "dek": "One is free, private and quiet. The other talks with you about your day, remembers what matters, and turns it into a meditation. Here's the honest trade.",
+  "description": "Auserene vs Apple Journal, from Apple's own pages (Nov 2026): conversation, memory you can edit, meditation, people, Apple Watch, price and privacy.",
+  "dek": "Apple Journal is a free, private place to write. Auserene turns your day into a conversation, an entry, a meditation, memory you can read, pages for your people and habit goals.",
   "primaryKeyword": "Auserene vs Apple Journal",
   "keywords": [
     "Apple Journal vs Auserene",
@@ -20,7 +20,7 @@
   ],
   "feature": "Comparison",
   "titleOptions": [
-    "Auserene vs Apple Journal: which journal fits you?",
+    "Auserene vs Apple Journal: which journal does more for you?",
     "Apple Journal vs Auserene: free and private, or an AI that talks back?",
     "Auserene or Apple Journal? An honest comparison from one of them",
     "Does Apple Journal have AI? How it compares with Auserene",
@@ -29,29 +29,29 @@
   "faq": [
     {
       "q": "Is Auserene better than Apple Journal?",
-      "a": "It depends on what you want. Apple Journal is better on price (free), privacy (end-to-end encrypted in iCloud) and devices (iPhone, iPad and Mac). Auserene is better if you want an AI that talks with you about your day, remembers what matters to you, and writes a meditation from it. Auserene is iPhone only."
+      "a": "If you want a journal that does more than hold your writing, yes. Auserene connects quick notes, an evening conversation that writes the entry, a meditation made from your day, memory you can read and edit, people and habit goals, and it has a free plan. Apple Journal is the better pick if you want it free, end-to-end encrypted and on the Mac."
     },
     {
       "q": "Does Apple Journal have an AI chat?",
-      "a": "No. Apple Journal offers on-device Journaling Suggestions and, on iOS 27 with Apple Intelligence on an iPhone 15 Pro or later, writing prompts based on what you write. Apple's Journal guide doesn't describe a chat, summaries or memory of past entries."
+      "a": "No. Apple Journal offers on-device Journaling Suggestions and, on iOS 27 with Apple Intelligence on an iPhone 15 Pro or later, writing prompts based on what you write. Apple's Journal guide doesn't describe a chat, summaries or memory of past entries. Auserene has all three."
     },
     {
       "q": "Is Apple Journal really end-to-end encrypted?",
-      "a": "Apple says that with default two-factor authentication and a passcode, all Journal entries are end-to-end encrypted when stored in iCloud, so even Apple can't read them. Auserene is encrypted with a key tied to your account but is not end-to-end encrypted."
+      "a": "Yes. Apple says that with default two-factor authentication and a passcode, all Journal entries are end-to-end encrypted when stored in iCloud, so even Apple can't read them. Auserene is encrypted with AES-256 at rest, using a key unique to you, and travels over TLS, but it is not end-to-end encrypted."
     },
     {
       "q": "Is Apple Journal free?",
-      "a": "Yes. Apple Journal is free on the App Store for iPhone and iPad and Apple's Mac guide covers it on macOS Tahoe 26 and later. Auserene has a free plan, and its Premium plan costs $11.99 a month or $105.99 a year."
+      "a": "Yes. Apple Journal is free on the App Store for iPhone and iPad, and Apple's Mac guide covers it on macOS Tahoe 26 and later. Auserene also has a free plan with no time limit, and Premium costs $11.99 a month or $105.99 a year with seven days free."
     },
     {
       "q": "Does Apple Journal have meditation?",
-      "a": "No. It can log your journaling time as Mindful Minutes in the Health app, but it has no guided meditation or breathing. Auserene writes a guided meditation from each evening conversation and has eight guided journeys."
+      "a": "No. It can log your journaling time as Mindful Minutes in the Health app, but it has no guided meditation or breathing. Auserene writes a guided meditation from each evening conversation, has eight guided journeys, and does haptic breathing on Apple Watch."
     },
     {
       "q": "Is there an Apple Journal alternative with AI?",
-      "a": "Auserene, Day One's Gold plan, Rosebud, Reflection and Mindsera all use AI to respond to your journal. Our Apple Journal alternatives guide compares them."
+      "a": "Auserene, if you want notes, conversation, meditation, memory, people and goals in one connected app on iPhone, iPad and Apple Watch. Day One's Gold plan, Rosebud, Reflection and Mindsera also use AI. Our Apple Journal alternatives guide compares them."
     }
   ],
-  "informationGain": "A disclosed head-to-head built from Apple's own iOS 27 and macOS 27 Journal guides and privacy pages on November 19, 2026, including that Writing Prompts need an iPhone 15 Pro or later, voice transcription is English only and entries skip iCloud backups, and admitting plainly that Apple Journal is more private and cheaper while Auserene adds conversation, readable memory and a meditation from your day.",
+  "informationGain": "A disclosed head-to-head built from Apple's own iOS 27 and macOS 27 Journal guides and privacy pages on November 19, 2026, including that Writing Prompts need an iPhone 15 Pro or later, voice transcription is English only and entries skip iCloud backups, set against a walkthrough of how Auserene's notes, conversation, meditation, memory, people and goals connect, while conceding plainly that Apple Journal is free and more private.",
   "sourcesCount": 10
 }

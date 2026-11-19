@@ -101,7 +101,7 @@ export default function RootLayout({
                   url: SITE_URL,
                   description: HOME_DESCRIPTION,
                   applicationCategory: "HealthApplication",
-                  operatingSystem: "iOS",
+                  operatingSystem: "iOS, iPadOS, watchOS",
                   // keep in step with the "Also in the app" list on app/page.tsx and public/llms.txt
                   featureList: [
                     "AI journaling: an evening conversation that writes the journal entry from the day's notes",
@@ -118,6 +118,7 @@ export default function RootLayout({
                     "Habit goals with 21, 42 or 64-day finish lines",
                     "People pages with shared moments and birthday reminders",
                     "Home Screen widgets and Face ID lock",
+                    "Runs on iPhone and iPad, with an Apple Watch companion app for breathing, habit goals, mood and quick notes",
                   ],
                   publisher: { "@id": `${SITE_URL}/#org` },
                   // keep in step with the pricing section on app/page.tsx and public/pricing.md

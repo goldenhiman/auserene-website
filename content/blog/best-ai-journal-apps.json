@@ -32,19 +32,15 @@
   "faq": [
     {
       "q": "Is there a free AI journal app?",
-      "a": "Yes, with limits. As of October 2026, Mindsera's free Curious plan includes AI prompting, ChatGPT has a free tier with limited memory, and Apple Journal is free with on-device suggestions. Day One's AI features need its Gold plan, and Rosebud retired its free plan on September 30, 2026."
+      "a": "As of October 2026, Mindsera's Curious plan includes AI prompting, ChatGPT has a free tier with limited memory, Apple Journal is free with on-device suggestions, and Auserene's free tier includes three Help me write nudges a day. Day One's AI features need Gold, and Rosebud retired its free plan on September 30, 2026."
     },
     {
       "q": "What is the best Rosebud alternative?",
-      "a": "It depends on what you liked about Rosebud. For a conversation that turns into a journal entry, look at Day One's Daily Chat or Auserene, which also writes a meditation from the day; for analysis and frameworks, Mindsera; for a free option with no AI chat, Apple Journal."
-    },
-    {
-      "q": "Did Rosebud get rid of its free plan?",
-      "a": "Yes. Rosebud's help center says the free plan was retired effective September 30, 2026, because its new memory system costs more to run. Existing entries stay and can be exported."
+      "a": "It depends on what you liked about Rosebud. For a conversation that turns into an entry, look at Day One's Daily Chat or Auserene, which also writes a meditation from the day. For analysis and frameworks, Mindsera. For a free option with no AI chat, Apple Journal."
     },
     {
       "q": "Are AI journal apps private?",
-      "a": "Some are more private than others. An app whose AI runs on a server has to read your words to reply, so end-to-end encryption can't cover that moment. Check whether your writing trains models, which AI providers see it and under what terms, and how deletion works."
+      "a": "Some are more private than others. An app whose AI runs on a server has to read your words to reply, so end-to-end encryption can't cover that moment. Read each app's privacy policy for three things: whether your writing trains models, which AI providers see it and under what terms, and how deletion works."
     },
     {
       "q": "Can an AI journal replace therapy?",

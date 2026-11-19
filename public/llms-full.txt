@@ -1,6 +1,6 @@
-# Auserene — full text
+# Auserene full text
 
-> Auserene is an AI journaling app for iPhone that remembers what helps you. This file holds the text of the homepage and the founder's letter. Source: https://www.auserene.com
+> Auserene is an AI journaling app for iPhone and iPad that remembers what helps you. This file holds the text of the homepage and the founder's letter. Source: https://www.auserene.com
 
 Last updated: 2026-11-19
 
@@ -8,15 +8,15 @@ Last updated: 2026-11-19
 
 Write a line when something happens. Talk the day through in the evening. Auserene, your AI journal, keeps what matters, and the next time a hard day comes around, it knows what helped the last one.
 
-Auserene is on the App Store for iPhone.
+Auserene is on the App Store for iPhone and iPad.
 
 ## How it works: one day with Auserene
 
 A few seconds during the day, a few minutes in the evening.
 
-1. During the day — Write a line as things happen. A thought, a mood, half a sentence. It takes seconds, and skipping a day costs you nothing.
-2. In the evening — Talk it through. A short conversation about how the day actually went. Auserene reads your notes first, asks about the parts that matter, and remembers what you said last week.
-3. Before bed — Meditate on your day. The conversation becomes the day's journal entry. Then Auserene makes a meditation from it, with your own words woven in and your name said the way you say it.
+1. During the day. Write a line as things happen. A thought, a mood, half a sentence. It takes seconds, and skipping a day costs you nothing.
+2. In the evening. Talk it through. A short conversation about how the day actually went. Auserene reads your notes first, asks about the parts that matter, and remembers what you said last week.
+3. Before bed. Meditate on your day. The conversation becomes the day's journal entry. Then Auserene makes a meditation from it, with your own words woven in and your name said the way you say it.
 
 ## Memory: it gets to know you, and shows its work
 
@@ -40,21 +40,21 @@ If you wish to continue an old chat, it carries a summary into a fresh one, so n
 
 - Voice notes: speak a note and Auserene transcribes it, in over 100 languages.
 - Scan a page: turn a handwritten or printed page into a note, right on your phone.
-- Mood: a quick slider, then a Feelings Wheel with 82 words for what you feel and what caused it.
+- Mood: a quick slider, then a Feelings Wheel of more than 120 words for what you feel and what caused it.
 - Patterns and insights: your moods month by month, what seems to help and what gets to you, a week in review, and insights into each relationship from what you've said about that person.
-- Guided conversations: 13 of them for the moments you need a way in (untangle a thought, settle your body, loosen a worry, a kinder voice, three good things, think a decision through, put something down), plus conversation ideas written from what you've talked about lately.
+- Guided conversations: 13 of them for the moments you need a way in (untangle a thought, settle your body, loosen a worry, a kinder voice, three good things, think it through, put something down), plus conversation ideas written from what you've talked about lately.
 - Meditation library: 8 guided journeys a few minutes a day (sleep, an anxious mind, focus, pressure, self-kindness, noticing the good and more), 11 ambient sounds under the voice, and audio that plays offline once you've heard it.
 - Habit goals: start with who you want to be, pick a practice, a time and a finish line of 21, 42 or 64 days, and tap a dot when you show up. Missed days are never marked red. Auserene brings the goal up in chat when it fits, never as a nag.
 - People in your life: a page for everyone who matters, with shared moments and birthday reminders. Auserene remembers who's who, so "my sister" always means the right person.
 - See yourself more clearly: the You tab shows what seems to help, what matters to you, what gets to you, and threads still open, with a heatmap of your last three months. Turn an insight into a goal.
 - Photos, not just words: keep a photo with a note as a memory, or share one in a chat and talk it through.
 - Lines worth keeping: press and hold a line that lands to keep it, and share it as a quote card.
-- Made for iPhone: Home Screen widgets for a quick note and a daily quote, Face ID lock, gentle reminders, replies read aloud, incognito chats, and a look that follows the time of day.
+- iPhone, iPad and Apple Watch: Home Screen widgets for a quick note and a daily quote, Face ID lock, gentle reminders, replies read aloud, incognito chats, and a look that follows the time of day. A companion Apple Watch app (it needs the iPhone app signed in) lets you breathe with haptics that keep going with your wrist down, check in on today's habit goals, log your mood with the Digital Crown, and take a quick note.
 
 ## Privacy: your journal is not a data source
 
-- Your key, your words: your entries are encrypted at rest with AES-256, using a key tied to your account.
-- Nothing trains a model: our AI provider works under a zero-data-retention contract: it keeps nothing after replying, and it's contractually barred from training on your words.
+- Your key, your words: your journal is encrypted with AES-256 at rest, using a key unique to you, and travels over TLS.
+- Nothing trains a model: the AI that reads your journal works under zero-data-retention terms, keeps nothing after a reply and is contractually barred from training on your words.
 - No ads, ever: no ads, no ad trackers. No crash or usage analytics touches your journal data.
 - Gone when you say so: you can delete your account and everything with it, permanently, from inside the app, any time.
 
@@ -64,7 +64,7 @@ Privacy policy: https://www.auserene.com/privacy-policy
 
 Free ($0, forever): notes, as many as you like, with photos and page scanning; mood logging; an evening walk through your notes, on your own; three "Help me write" nudges a day; all free guided journeys and ambient sounds; habit goals and reminders; people you add yourself; widgets.
 
-Premium ($105.99 a year, which works out to $8.83 a month; or $11.99 a month): everything in Free, plus evening conversations and a chat any time of day; memory across every note and chat; a meditation made from each day; journal entries written from your conversations; voice notes; remembers the people you mention, on its own. Every plan starts with 7 days free. Cancel any time in your iPhone's subscription settings.
+Premium ($105.99 a year, which works out to $8.83 a month; or $11.99 a month): everything in Free, plus evening conversations and a chat any time of day; memory across every note and chat; a meditation made from each day; journal entries written from your conversations; voice notes; remembers the people you mention, on its own. Every plan starts with 7 days free. Cancel any time in your App Store subscription settings.
 
 ## Questions
 
@@ -74,7 +74,7 @@ No. It won't diagnose you and it isn't a replacement for a therapist. It helps y
 
 ### Who can read what I write?
 
-You, and the AI while it's answering you. Entries are encrypted with a key tied to your account. Our model provider works under a zero-data-retention contract and keeps nothing after a reply, and no one reads your journal to improve the product.
+You, and the AI while it's answering you. Your journal is encrypted with AES-256 at rest, using a key unique to you, and travels over TLS. The AI that reads your journal works under zero-data-retention terms and keeps nothing after a reply. Our team doesn't read your journal, unless you choose to share a conversation with us in a feedback report.
 
 ### Do I have to write every day?
 
@@ -86,29 +86,29 @@ Everything you wrote stays yours and stays in the app. Notes, goals and the guid
 
 ### What does it run on?
 
-iPhone, for now.
+iPhone and iPad, with a companion app for Apple Watch. Android and web versions are in the works. No Mac version.
 
 ### What if I'm in a really bad place?
 
 Please reach out to a person. If you're in danger, call your local emergency number. Our crisis page lists free, confidential lines by country.
 
-## Why I built Auserene — a letter from Himanshu Pathak, founder
+## Why I built Auserene (a letter from Himanshu Pathak, founder)
 
 Thank you for being here.
 
 Somewhere around my mid-twenties, during COVID, I used to get up in the middle of the night to check whether my parents had a fever. They never did, thankfully. But I couldn't stop checking, and it kept me awake.
 
-I'd always thought of stress and anxiety as tools — the push you call on to perform in the moments that matter. That year they took the wheel, and I couldn't do anything about it.
+I'd always thought of stress and anxiety as tools, the push you call on to perform in the moments that matter. That year they took the wheel, and I couldn't do anything about it.
 
-I got desperate enough to research how people actually cope, and one night I tried a twenty-minute guided meditation. For the first time in those days, my head went quiet. The hard things didn't disappear — but they stopped having power over me. It was like I could see them through glass. Still there, just no longer holding me.
+I got desperate enough to research how people actually cope, and one night I tried a twenty-minute guided meditation. For the first time in those days, my head went quiet. The hard things didn't disappear, but they stopped having power over me. It was like I could see them through glass. Still there, just no longer holding me.
 
-Later I took up therapy, and one of the most useful things I learned there was how to journal. But the journal itself was never the magic. It only worked because someone skilled was helping me make sense of what I'd written — how to write it, what to look for, the patterns I couldn't see myself. When the sessions ended, the journaling continued, but that guiding hand was gone.
+Later I took up therapy, and one of the most useful things I learned there was how to journal. But the journal itself was never the magic. It only worked because someone skilled was helping me make sense of what I'd written (how to write it, what to look for, the patterns I couldn't see myself). When the sessions ended, the journaling continued, but that guiding hand was gone.
 
-The strange part is that it isn't complicated. It's a muscle you build. A caring friend who's wise in the ways of talking to yourself — kindly — can hand you those skills, and with practice you start to see it work. And these days, that kind of attention doesn't have to depend on anyone's schedule.
+The strange part is that it isn't complicated. It's a muscle you build. A caring friend who's wise in the ways of talking to yourself, kindly, can hand you those skills, and with practice you start to see it work. And these days, that kind of attention doesn't have to depend on anyone's schedule.
 
 So I built Auserene. It listens, and it remembers, and over time it comes to know you. It's there in the evening to set the day down, and during the day for a quick note, a hard moment, or just to talk to someone who sees you. It won't diagnose you, and it isn't therapy. It's the guiding hand I wish I'd had on the nights in between.
 
-I use it every day myself. It's still small, and it's mostly just me — but I can see what it could become. If any of this resonates, or sounds like something you've been missing too, I'd love for you to try it.
+I use it every day myself. It's still small, and it's mostly just me, but I can see what it could become. If any of this resonates, or sounds like something you've been missing too, I'd love for you to try it.
 
 Himanshu
 

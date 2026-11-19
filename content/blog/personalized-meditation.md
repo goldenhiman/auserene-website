@@ -99,7 +99,7 @@ Meditation also isn't harmless for everyone. A 2020 systematic review by Miguel 
 
 Personalization runs on personal information, so it's fair to be demanding.
 
-Ask what it actually uses. A meditation written from your day requires the app to read your day. Find out whether entries are encrypted, whether the AI provider keeps or trains on what you write, and whether you can delete everything yourself. (Auserene's answers: encrypted at rest, a zero-data-retention contract that bars the provider from training on your words, and full deletion from inside the app.)
+Ask what it actually uses. A meditation written from your day requires the app to read your day. Find out whether entries are encrypted, whether the AI provider keeps or trains on what you write, and whether you can delete everything yourself. (Auserene's answers: AES-256 encryption at rest with a key unique to you, TLS in transit, zero-data-retention terms that bar the AI that reads your journal from training on your words, and full deletion from inside the app.)
 
 Ask whether you can see what it remembers. If a meditation refers to "your sister", you should be able to see where that came from and correct it.
 
