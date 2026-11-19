@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
     <PolicyShell>
         <h1>Privacy Policy</h1>
         <p className="policy-meta">
-          Last updated: 3 November 2026 &middot; Effective: 3 November 2026
+          Last updated: 19 November 2026 &middot; Effective: 3 November 2026
         </p>
 
         <h2>Who we are</h2>
@@ -499,8 +499,8 @@ export default function PrivacyPolicy() {
             <strong>Encryption at rest.</strong> Your sensitive content &mdash;
             including your journals, mood entries, conversations, derived
             understanding, your own quoted words, and onboarding free-text &mdash;
-            is encrypted at rest using a unique encryption key generated for each
-            user. Each user&rsquo;s key is itself protected by a master key held in
+            is encrypted at rest with AES-256 (AES-256-GCM), using a unique
+            encryption key generated for each user. Each user&rsquo;s key is itself protected by a master key held in
             a managed key service.
           </li>
           <li>

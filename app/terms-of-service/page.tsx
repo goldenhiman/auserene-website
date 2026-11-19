@@ -44,7 +44,7 @@ export default function TermsOfService() {
       <h3>What Premium includes</h3>
       <p>Today, Premium includes:</p>
       <ul>
-        <li>unlimited chat with the companion;</li>
+        <li>chat with the companion, within the usage limits below;</li>
         <li>
           memory &mdash; the companion keeps continuity across your sessions and
           notes;
@@ -56,6 +56,22 @@ export default function TermsOfService() {
         We may improve, add, or change Premium features over time. The features
         included at the time you subscribe are shown in the app before you
         purchase.
+      </p>
+      <h3>Usage limits</h3>
+      <p>
+        Premium includes generous use of the companion, but it is{" "}
+        <strong>not unlimited</strong>. To keep Auserene running well for
+        everyone, features that use AI have a daily and a monthly usage limit.
+        As you get close to a limit, the companion may bring the current
+        conversation to a close. If you reach a limit, conversations pause until
+        it resets. The daily limit resets at midnight in your time zone, and the
+        monthly limit resets on the first day of the next month.
+      </p>
+      <p>
+        Your notes, journal, mood logging, habit goals and the other features that
+        don&rsquo;t use AI keep working while a limit is reached. We set the
+        limits so that everyday journaling stays within them, and we may adjust
+        them over time.
       </p>
       <h3>Plans and prices</h3>
       <p>
