@@ -14,8 +14,8 @@ Last updated: 2026-09-27
 - Guided meditation journeys
 
 ## Premium
-- Price: $105.99/year (works out to $8.83/month), $11.99/month, or $4.99/week
-- Free trial: every plan (yearly, monthly and weekly) starts with 7 days free
+- Price: $105.99/year (works out to $8.83/month) or $11.99/month
+- Free trial: every plan (yearly and monthly) starts with 7 days free
 - Everything in Free, plus:
   - Evening conversations, and a chat any time of day
   - Memory across every note and chat
