@@ -29,9 +29,9 @@ Prices are US list prices as shown on each company's own page or App Store listi
 
 Rosebud is built around guided reflection. Its [homepage](https://www.rosebud.app/) lists voice journaling, weekly reports, guided journals (including one based on Internal Family Systems) and an app that "remembers" past entries. Its [evening reflection](https://help.rosebud.app/daily-journaling/evening-reflection) asks about a highlight, a tension and something you learned, based on the Rose, Bud, Thorn exercise. Rosebud's help center says [long-term memory](https://help.rosebud.app/ai-analysis/long-term-memory) is on for paid Bloom subscribers, and it's candid that the app does better recalling topics than specific dates.
 
-The big change for anyone searching "Rosebud alternatives": Rosebud's help center says that [effective September 30, 2026, the free plan was retired](https://help.rosebud.app/account/changes-to-the-free-plan), because its new memory system costs more to run. Existing entries stay and can be exported. On privacy, Rosebud's [privacy policy](https://help.rosebud.app/about-us/privacy-policy) (updated September 8, 2026) names OpenAI, Anthropic, Google, Amazon Web Services and Groq as AI providers, says it has BAAs and zero-data-retention agreements with them, and says data sent to them is anonymized. It also says authorized staff access journal content only when needed to fix a technical issue.
+The big change for anyone searching "Rosebud alternatives": Rosebud's help center says that [effective September 30, 2026, the free plan was retired](https://help.rosebud.app/account/changes-to-the-free-plan), because its new memory system costs more to run. Existing entries stay and can be exported. Our [Rosebud alternatives](/blog/rosebud-alternatives) guide compares nine apps for anyone leaving, and [Auserene vs Rosebud](/blog/auserene-vs-rosebud) goes head to head. On privacy, Rosebud's [privacy policy](https://help.rosebud.app/about-us/privacy-policy) (updated September 8, 2026) names OpenAI, Anthropic, Google, Amazon Web Services and Groq as AI providers, says it has BAAs and zero-data-retention agreements with them, and says data sent to them is anonymized. It also says authorized staff access journal content only when needed to fix a technical issue.
 
-Best for people who want structured, therapy-informed prompts on phone and laptop.
+Best for people who want structured, therapy-informed prompts on phone and laptop. Compare: [Auserene vs Rosebud](/blog/auserene-vs-rosebud), [Rosebud alternatives](/blog/rosebud-alternatives).
 
 ### Day One
 
@@ -39,7 +39,7 @@ Day One is a journal first, with AI added on top. The [pricing page](https://day
 
 Day One is unusually straight about the trade-off every talking journal makes. Its [AI features guide](https://dayoneapp.com/guides/labs/ai-features/) says content from end-to-end encrypted journals "is temporarily not end-to-end encrypted while being processed with AI." Some processing runs on your device through Apple Intelligence, some on Automattic's infrastructure, and some through OpenAI, and entries aren't used for training unless you've given explicit permission.
 
-Best for people who want a long-running archive with photos across many devices, with AI as an add-on they can leave switched off.
+Best for people who want a long-running archive with photos across many devices, with AI as an add-on they can leave switched off. Compare: [Auserene vs Day One](/blog/auserene-vs-day-one), [Day One alternatives](/blog/day-one-alternatives).
 
 ### Mindsera
 
@@ -47,7 +47,7 @@ Mindsera leans toward analysis. Its [homepage](https://www.mindsera.com/) descri
 
 Its [privacy policy](https://www.mindsera.com/privacy-policy) (effective September 9, 2026) is one of the clearer ones. It says writing is encrypted at rest and in transit, that "Mindsera does not currently use end-to-end encryption," that journal content "is not used to train or improve AI models," and that it uses OpenAI, Anthropic and Google, with zero data retention on eligible Claude requests and retention elsewhere depending on the provider's terms.
 
-Best for people who like frameworks, charts and a thinking partner on the web as well as the phone.
+Best for people who like frameworks, charts and a thinking partner on the web as well as the phone. Compare: [Auserene vs Mindsera](/blog/auserene-vs-mindsera).
 
 ### Stoic
 
@@ -55,7 +55,7 @@ Stoic is a routine app with journaling at its center: morning and evening check-
 
 Stoic's [privacy policy](https://www.getstoic.com/privacy-policy) says it doesn't store full journal texts on its servers, that AI features are optional and need a subscription and consent, and that its providers (OpenAI, Anthropic or Google Gemini) must not train on your data. It doesn't describe encryption.
 
-Best for people who want a daily structure and a wide spread of Apple devices.
+Best for people who want a daily structure and a wide spread of Apple devices. Compare: [Auserene vs Stoic](/blog/auserene-vs-stoic), [Stoic alternatives](/blog/stoic-alternatives).
 
 ### Reflectly
 
@@ -71,7 +71,7 @@ Apple's Journal is free on iPhone and iPad and syncs to the Mac. Its [App Store 
 
 It doesn't talk back. There's no chat and no memory of what you wrote last week. For some people that's the whole appeal.
 
-Best for people who want privacy first and don't need the page to answer.
+Best for people who want privacy first and don't need the page to answer. Compare: [Auserene vs Apple Journal](/blog/auserene-vs-apple-journal), [Apple Journal alternatives](/blog/apple-journal-alternatives).
 
 ### ChatGPT as a journal
 

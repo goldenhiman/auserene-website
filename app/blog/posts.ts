@@ -9,6 +9,16 @@ import type { ScreenKey } from "../home/phone";
 const DIR = path.join(process.cwd(), "content", "blog");
 
 const ORDER: { slug: string; published: string; updated?: string }[] = [
+  { slug: "auserene-vs-day-one", published: "2026-11-19" },
+  { slug: "day-one-alternatives", published: "2026-11-19" },
+  { slug: "auserene-vs-stoic", published: "2026-11-19" },
+  { slug: "stoic-alternatives", published: "2026-11-19" },
+  { slug: "auserene-vs-apple-journal", published: "2026-11-19" },
+  { slug: "apple-journal-alternatives", published: "2026-11-19" },
+  { slug: "auserene-vs-mindsera", published: "2026-11-19" },
+  { slug: "personalized-meditation-app-calm-headspace-alternative", published: "2026-11-19" },
+  { slug: "rosebud-alternatives", published: "2026-11-19" },
+  { slug: "auserene-vs-rosebud", published: "2026-11-19" },
   { slug: "winter-blues", published: "2026-11-10" },
   { slug: "holiday-stress-family", published: "2026-11-10" },
   { slug: "ai-chatbot-loneliness", published: "2026-11-10" },
