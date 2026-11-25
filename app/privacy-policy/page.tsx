@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
     <PolicyShell>
         <h1>Privacy Policy</h1>
         <p className="policy-meta">
-          Last updated: 19 November 2026 &middot; Effective: 3 November 2026
+          Last updated: 26 November 2026 &middot; Effective: 26 November 2026
         </p>
 
         <h2>Who we are</h2>
@@ -109,6 +109,13 @@ export default function PrivacyPolicy() {
             <strong>Your agreement:</strong> the date and time you accepted the
             Terms of Service and this Privacy Policy and confirmed you are 16 or
             older.
+          </li>
+          <li>
+            <strong>Your consent to processing health information:</strong> when
+            you gave it, which version of the consent text you saw (and a
+            fingerprint of that exact text), your device language, and the app
+            version, and, if you withdraw it, when. See{" "}
+            <em>Your consent to processing health information</em> below.
           </li>
           <li>
             <strong>Onboarding responses:</strong> your stated preferences for
@@ -308,6 +315,39 @@ export default function PrivacyPolicy() {
           below).
         </p>
 
+        <h3>Our legal bases</h3>
+        <p>
+          Where data protection law asks us to name a legal basis (for example
+          the UK and EU GDPR), we rely on:
+        </p>
+        <ul>
+          <li>
+            <strong>Your explicit consent</strong> for your mood entries, journal
+            text, voice notes, and conversations, because they can reveal
+            information about your mental health (health data, a special
+            category under GDPR Article 9(2)(a)). We ask for it in the app before
+            any of it is kept, and you can withdraw it at any time.
+          </li>
+          <li>
+            <strong>Our contract with you</strong> for your account, your
+            subscription, and providing the features you use.
+          </li>
+          <li>
+            <strong>Your consent</strong> for product analytics, which are off
+            until you turn them on.
+          </li>
+          <li>
+            <strong>Our legitimate interests</strong> in keeping the service
+            secure and working: preventing abuse, and the crash and error reports
+            described below, which carry no journal or conversation content and
+            which you can switch off.
+          </li>
+          <li>
+            <strong>Legal obligations</strong>, where the law requires us to keep
+            or disclose information.
+          </li>
+        </ul>
+
         <hr />
 
         <h2>Your sensitive personal content</h2>
@@ -341,6 +381,33 @@ export default function PrivacyPolicy() {
             on it.
           </li>
         </ul>
+
+        <h3>Your consent to processing health information</h3>
+        <p>
+          Before Auserene keeps or reads any mood entry, note, conversation, or
+          voice note, it asks for your <strong>explicit consent</strong> on a
+          screen of its own, separate from accepting the Terms. The app
+          can&rsquo;t work without this information, so it can&rsquo;t continue
+          without your consent; if you don&rsquo;t want to give it, you can
+          delete your account from the same screen.
+        </p>
+        <p>
+          We keep a record of your consent: when you gave it, which version of the
+          consent text you saw, a fingerprint of that exact text, your device
+          language, and the app version. Only our servers can write this record,
+          so it can&rsquo;t be changed from a device. If we change the consent
+          text in a way that matters, the app asks you again.
+        </p>
+        <p>
+          <strong>Withdrawing your consent.</strong> You can withdraw it at any
+          time in <em>Settings &rarr; Withdraw health consent</em>, or by emailing{" "}
+          <Mail />. Once you withdraw, Auserene stops reading and processing your
+          health information and sends nothing new to our AI providers, and the
+          app pauses until you agree again or delete your account. What is
+          already saved stays encrypted with your key until you delete it or your
+          account. Withdrawing does not affect processing that happened before
+          you withdrew.
+        </p>
 
         <h3>When you report a reply</h3>
         <p>
@@ -409,12 +476,12 @@ export default function PrivacyPolicy() {
             for training.
           </li>
           <li>
-            <strong>Text-to-speech providers &mdash; ElevenLabs and Inworld AI.</strong>{" "}
-            These receive only the{" "}
+            <strong>Text-to-speech provider &mdash; Inworld AI.</strong>{" "}
+            It receives only the{" "}
             <strong>short, generated meditation script</strong> to turn into
             audio.{" "}
             <strong>
-              They never receive your raw journal text or conversations.
+              It never receives your raw journal text or conversations.
             </strong>
           </li>
         </ul>
@@ -645,9 +712,16 @@ export default function PrivacyPolicy() {
           something up, or delete it.
         </p>
         <p>
+          <strong>Withdraw your consent.</strong> Settings includes{" "}
+          <em>Withdraw health consent</em>. The app then pauses until you agree
+          again or delete your account, as described in{" "}
+          <em>Your consent to processing health information</em>.
+        </p>
+        <p>
           <strong>Access, correction, and portability.</strong> You may request a
           copy of your personal information or ask us to correct it by emailing{" "}
-          <Mail />.
+          <Mail />. The consent screen and the withdrawal screen in the app also
+          link to this.
         </p>
         <p>
           <strong>Manage your subscription.</strong> Subscriptions are managed
@@ -674,16 +748,18 @@ export default function PrivacyPolicy() {
           <strong>For users in the EU, EEA, and UK:</strong> You have the right to
           access, correct, delete, and receive a copy of your personal information,
           to ask us to restrict or stop certain processing, and to withdraw any
-          consent you have given. You can use the in-app controls or email{" "}
-          <Mail />. You also have the right to lodge a complaint with your local
-          data protection authority.
+          consent you have given. You can withdraw your consent and delete your
+          account in the app&rsquo;s Settings; for anything else, including a
+          copy of your data, email <Mail />. You also have the right to lodge a
+          complaint with your local data protection authority.
         </p>
         <p>
           <strong>For users in India:</strong> Under India&rsquo;s Digital Personal
           Data Protection Act, 2023, you have the right to access and correct your
-          personal data, to have it erased, and to grievance redressal. You can use
-          the in-app controls or email <Mail />, which is also our contact for any
-          grievance.
+          personal data, to have it erased, to withdraw your consent as easily as
+          you gave it, and to grievance redressal. You can withdraw your consent
+          and delete your account in the app&rsquo;s Settings, or email{" "}
+          <Mail />, which is also our contact for any grievance.
         </p>
         <p>We honor these requests regardless of where you live.</p>
 
