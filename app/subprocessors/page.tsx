@@ -14,7 +14,7 @@ export default function Subprocessors() {
   return (
     <PolicyShell>
         <h1>Subprocessors</h1>
-        <p className="policy-meta">Last updated: 27 October 2026</p>
+        <p className="policy-meta">Last updated: 26 November 2026</p>
 
         <p>
           This page lists the third-party companies (&ldquo;subprocessors&rdquo;)
@@ -159,13 +159,6 @@ export default function Subprocessors() {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>
-                  <strong>ElevenLabs</strong>
-                </td>
-                <td>Voices generated meditation scripts</td>
-                <td>Short generated script text only</td>
-              </tr>
               <tr>
                 <td>
                   <strong>Inworld AI</strong>

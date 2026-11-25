@@ -17,7 +17,7 @@ export default function TermsOfService() {
     <PolicyShell>
       <h1>Terms of Service</h1>
       <p className="policy-meta">
-        Last updated: 19 November 2026 &middot; Effective: 19 October 2026
+        Last updated: 26 November 2026 &middot; Effective: 19 October 2026
       </p>
 
       <h2>1. Who these terms are between</h2>
@@ -212,7 +212,7 @@ export default function TermsOfService() {
         Auserene relies on third-party providers for AI generation, transcription,
         voice, payments, analytics, and infrastructure &mdash; including Fireworks
         AI (language and embedding processing), Groq
-        (speech-to-text), Together AI (image generation), ElevenLabs and Inworld AI (voice), Apple and
+        (speech-to-text), Together AI (image generation), Inworld AI (voice), Apple and
         Superwall (subscriptions), PostHog (product analytics), and Google Firebase
         and Google Cloud (hosting and security). Their terms and policies may also
         apply to your use of Auserene.
